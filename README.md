@@ -118,3 +118,25 @@
     "DFIntDebugSimPrimalStiffness": "0"
 }
 ```
+### Backwards SpeedHax
+
+ \[!WARNING\] **Bugginess and speed depend on the value of
+`DFIntDebugSimPrimalWarmstartForce`. Recommended values are `775` and
+the value I put.**
+
+\[!TIP\] **For `DFIntDebugSimPrimalWarmstartVelocity`, it's
+recommended to use a value of `150`. However, it might be difficult to
+ control.**
+
+
+``` json
+{
+  "DFIntDebugSimPrimalNewtonIts": "1",
+  "DFIntDebugSimPrimalPreconditioner": "69",
+  "DFIntDebugSimPrimalPreconditionerMinExp": "69",
+  "DFIntDebugSimPrimalToleranceInv": "1",
+  "DFIntDebugSimPrimalWarmstartForce": "-885",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-350",
+  "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
