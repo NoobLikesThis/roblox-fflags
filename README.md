@@ -193,3 +193,31 @@ poor man's fly mode (not really usable). \
         "FFlagDebugSimDefaultPrimalSolver": "True"
     }
 ```
+
+### Dont Touch The Walls!!! 2
+
+``` json
+{
+    "DFIntDebugSimPrimalPreconditionerMinExp": "20",
+    "DFIntDebugSimPrimalWarmstartVelocity": "-101",
+    "DFIntDebugSimPrimalPreconditioner": "1000",
+    "DFIntDebugSimPrimalWarmstartForce": "1",
+    "DFIntDebugSimPrimalNewtonIts": "4000",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalToleranceInv": "6",
+    "DFIntDebugSimPrimalLineSearch": "1"
+}
+```
+### omg i cant believe roblox is that dumb to do this...
+###### why do i see this everywhere?
+
+``` json
+{
+    "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
+    "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
+    "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
+    "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
+}
+```
