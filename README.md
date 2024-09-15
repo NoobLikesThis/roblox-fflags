@@ -30,3 +30,39 @@ all fflags ive found
   "DFIntDebugFRMQualityLevelOverride": "2"
 }
 ```
+
+### lil bro tweakin (BUGGY)
+
+``` json
+ { 
+"FFlagDebugSimDefaultPrimalSolver": "True",
+"DFIntDebugSimPrimalLineSearch": "50",
+"DFIntDebugSimPrimalWarmstartVelocity": "45",
+"DFIntDebugSimPrimalWarmstartForce": "200",
+"DFIntDebugSimPrimalStiffness": "50",
+"DFIntDebugSimPrimalToleranceInv": "1",
+"DFIntDebugSimPrimalNewtonIts": "2",
+"DFIntDebugSimPrimalToleranceInv": "1",
+"DFIntDebugSimPrimalPreconditioner": "1100",
+"DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+ }
+
+```
+### Esp..?
+
+``` json
+{
+    "FFlagDebugAvatarChatVisualization": "True",
+    "FFlagEnableInGameMenuChromeABTest2": "False"
+}
+
+### Vehicle Speed#Hack
+
+``` json
+{
+    "DFIntDebugSimPrimalWarmstartForce": "40",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "41"
+}
+```
