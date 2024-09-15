@@ -1,5 +1,6 @@
 
 # RANDOM FFLAGS      
+###### at least these aint gatekepted because these are sick
 
 ### BEST OPTIMIZATION FFLAG
 
