@@ -1,0 +1,84 @@
+### BEST OPTIMIZATION FFLAG
+``` json
+{
+  "FFlagDebugGraphicsPreferD3D11FL10": "True",
+  "FFlagGameBasicSettingsFramerateCap5": "False",
+  "DFIntTaskSchedulerTargetFps": "5588562",
+  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "DFIntMaxFrameBufferSize": "4",
+  "FIntDebugForceMSAASamples": "0",
+  "DFFlagDebugPerfMode": "True",
+  "FFlagFixGraphicsQuality": "True",
+  "DFFlagDisableDPIScale": "True",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "DFFlagDebugRenderForceTechnologyVoxel": "True",
+  "DFFlagVoxelizerDisableTerrainSIMD": "True",
+  "DFFlagDebugSkipMeshVoxelizer": "True",
+  "FIntRenderShadowIntensity": "0",
+  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+  "FIntRenderLocalLightUpdatesMax": "1",
+  "FIntRenderLocalLightUpdatesMin": "1",
+  "FFlagDebugRenderingSetDeterministic": "True",
+  "FIntTerrainArraySliceSize": "8",
+  "FIntFRMMinGrassDistance": "0",
+  "FIntFRMMaxGrassDistance": "0",
+  "FIntRenderGrassDetailStrands": "0"
+}
+```
+
+
+### thanks to fishe for these
+Physics Changing Flags
+1. Uncap FPS
+"DFIntTaskSchedulerTargetFps": "9999"
+2. Causes some character collision from jumping physics breakdown, making model ragdoll
+"DFIntLandedBalanceD": "-2000"
+3. All type of wallhops, longjumps, headhitters and probably more stop working
+"DFFlagSimHumanoidPhysics": "True"
+4. Break legs collision from 2 to -inf, kinda break camera on values over 3
+"DFIntRaycastMaxDistance": "0"
+5. Kinda breaks movement and some other stuff on higher negative values
+"FIntPGSAngularDampingPermilPersecond": "-10000"
+6. Default is for the first one is "True". Basically with False, and True. It allows you to fall quicker and ignore certain block designs. For example if you're playing phantom forces and normally if you go up a slanted hill that goes upward it makes you slower. But, this makes you pretty much have no slowdowns.
+"FFlagHumanoidOnlySetCollisionsOnStateChangeDefaultIsEnabled": "False"
+"FFlagHumanoidParallelFasterSetCollision": "True"
+7. Gear desync just by dropping it
+"DFIntDataSenderRate": "-1"
+8. Another noclip fflag but acts differently
+"DFIntAssemblyExtentsExpansionStudHundredth": "-150"
+9. Freezes character in any state, can cause crashes, basically stacks input data
+"FFlagSimIslandizerManager": "false"
+10. Spins character when moving
+"DFIntRunningBaseOrientationP": "-14"
+11. Makes character upside down
+"DFIntFreeFallBalanceP": "-9999"
+12. Makes character ragdoll forever
+"DFIntGettingUpBalanceP": "0"
+13. Lags the player
+"DFIntS2PhysicsSenderRate": "10000000"
+14. Spins character while they are in falling/jumping state
+"DFIntFreeFallOrientationP": "-14"
+15. Noclip FFlags, require to be used in combo
+"FIntPGSPenetrationMarginMax": "2147483647",
+"FIntPGSPenetrationMarginMin": "2147483647"
+16. Allows you to bounce high from flicks
+"DFIntNewRunningBaseAltitudeP": "49534"
+17. Character gets into a ragdoll loop (only when you're in a ragdoll state already)
+"DFIntGettingUpBalanceD": "-10000"
+18. Bounces character constantly at 0. Jump to randomly bounce yourself high or just fall through the map at 500
+"DFIntNewRunningBaseAltitudeD": "0"
+19. Very limited speed fflag that works only in a few games, one of them being Phantom Forces, and it makes you only slightly faster
+"DFIntDebugSimPhysicsSteppingMethodOverride": 10000000
+20. Makes it so your gravity is reduced by a factor of Int value you put in when on the ground, weird trigger + very sensitive (2000 makes you fling like 100 studs up everytime u touch the floor) 1500 makes you "hop" very quickly on the ground, if u hold jump sometimes you are able to jump with the gravity reduction meaning a super jump
+"DFIntNewRunningBaseGravityReductionFactorHundredth": "1000"
+21. Very controllable bounce, only works with negative values, 0 allows you to hover
+"DFIntMaxAltitudePDStickHipHeightPercent": "-200"
+22. Adds head colission to r15 
+"FFlagMeshPartHeadsDefaultIsEnabled": false
+23. World speed flag based on player's fps, boosts the physics fps basically
+"FFlagDebugSimIntegrationStabilityTesting": "True"
+24. noclip, but like complete noclip, you will fall through the floor
+"DFIntSHCellMinSizeAsBitShift": "4"
+25. Wallglide
+"DFIntUnstickForceAttackInTenths": "-1"
