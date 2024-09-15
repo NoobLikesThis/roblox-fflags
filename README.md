@@ -147,12 +147,12 @@ recommended to use a value of `150`. However, it might be difficult to
 > \[!NOTE\] `'FFlagDebugSimDefaultPrimalSolver' : True`\
 > This flag enables the new simulation engine or whatever it is.
 
-> \[!CAUTION\] `'DFIntDebugSimPrimalLineSearch' : 1`\
-> This setting is a poor man's gravity/flight. The default value is
-> 100: - **Above 0:** Low gravity. - **Below 1 to -1:** Will make
-> gameplay weird, especially with physics. - **Below -1:** Acts as a
-> poor man's fly mode (not really usable). \######
-> [@Amity](https://www.youtube.com/watch?v=5M411LL17B0)
+\[!CAUTION\] `'DFIntDebugSimPrimalLineSearch' : 1`\
+This setting is a poor man's gravity/flight. The default value is
+100: - **Above 0:** Low gravity. - **Below 1 to -1:** Will make
+gameplay weird, especially with physics. - **Below -1:** Acts as a
+poor man's fly mode (not really usable). \
+###### [@Amity](https://www.youtube.com/watch?v=5M411LL17B0)
 
 ``` json
 {
@@ -171,8 +171,7 @@ recommended to use a value of `150`. However, it might be difficult to
 ```
 
 ### Low Gravity 2
-
-> \[!CAUTION\] This is more buggy
+\[!CAUTION\] This is more buggy
 
 ``` json
 {
