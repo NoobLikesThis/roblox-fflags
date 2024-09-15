@@ -31,9 +31,8 @@
 }
 ```
 
-
 ### thanks to fishe for these
-
+###### some may not work.
 
 Physics Changing Flags
 1. Uncap FPS
