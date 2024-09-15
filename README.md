@@ -185,3 +185,11 @@ poor man's fly mode (not really usable). \
   "DFIntDebugSimPrimalToleranceInv": "1"
 }
 ```
+### Don't touch walls!!!
+``` json
+    {
+        "DFIntDebugSimPrimalNewtonIts": "-2147483647",
+        "DFIntDebugSimPrimalToleranceInv": "-2147483647",
+        "FFlagDebugSimDefaultPrimalSolver": "True"
+    }
+```
