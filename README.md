@@ -18,7 +18,9 @@
     "DFIntDebugSimPrimalToleranceInv": "1"
 }
 ```
-### Xray v2 (MAY MAKE FLOOR INVISIBLE SOMETIMES)
+### Xray v2
+
+###### MAY MAKE FLOOR INVISIBLE SOMETIMES
 
 ``` json
 {
@@ -30,7 +32,9 @@
 }
 ```
 
-### lil bro tweakin (BUGGY)
+### lil bro tweakin 
+
+###### BUGGY   
 
 ``` json
  { 
@@ -64,7 +68,9 @@
     "DFIntDebugSimPrimalLineSearch": "41"
 }
 ```
-### Tool Fly (BY LUAFV)
+### Tool Fly
+
+###### by luafv on github
 
 ``` json
 {
@@ -99,5 +105,16 @@
   "DFIntDebugSimPrimalWarmstartVelocity": "-250",
   "DFIntMaximumFreefallMoveTimeInTenths": "1000",
   "DFIntDebugSimPrimalStiffness": "0"
+}
+```
+### BEST NOCLIP
+
+###### @burgerboxer & @dis_spencer
+
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntMaximumFreefallMoveTimeInTenths": "1000",
+    "DFIntDebugSimPrimalStiffness": "0"
 }
 ```
