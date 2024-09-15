@@ -47,8 +47,8 @@ Physics Changing Flags
 5. Kinda breaks movement and some other stuff on higher negative values
 "FIntPGSAngularDampingPermilPersecond": "-10000"
 6. Default is for the first one is "True". Basically with False, and True. It allows you to fall quicker and ignore certain block designs. For example if you're playing phantom forces and normally if you go up a slanted hill that goes upward it makes you slower. But, this makes you pretty much have no slowdowns.
-"FFlagHumanoidOnlySetCollisionsOnStateChangeDefaultIsEnabled": "False"
-"FFlagHumanoidParallelFasterSetCollision": "True"
+{ "FFlagHumanoidOnlySetCollisionsOnStateChangeDefaultIsEnabled": "False",
+"FFlagHumanoidParallelFasterSetCollision": "True" }
 7. Gear desync just by dropping it
 "DFIntDataSenderRate": "-1"
 8. Another noclip fflag but acts differently
