@@ -140,3 +140,49 @@ recommended to use a value of `150`. However, it might be difficult to
   "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
+
+### Low Gravity 1
+###### all by luafv between low gravity 1 and low gravity 2
+
+> \[!NOTE\] `'FFlagDebugSimDefaultPrimalSolver' : True`\
+> This flag enables the new simulation engine or whatever it is.
+
+> \[!CAUTION\] `'DFIntDebugSimPrimalLineSearch' : 1`\
+> This setting is a poor man's gravity/flight. The default value is
+> 100: - **Above 0:** Low gravity. - **Below 1 to -1:** Will make
+> gameplay weird, especially with physics. - **Below -1:** Acts as a
+> poor man's fly mode (not really usable). \######
+> [@Amity](https://www.youtube.com/watch?v=5M411LL17B0)
+
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "3"
+}
+```
+
+### Void Unanchored Parts
+
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "222"
+}
+```
+
+### Low Gravity 2
+
+> \[!CAUTION\] This is more buggy
+
+``` json
+{
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalPreconditioner": "100",
+  "DFIntDebugSimPrimalPreconditionerMinExp": "100",
+  "DFIntDebugSimPrimalNewtonIts": "1",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-150",
+  "DFIntDebugSimPrimalWarmstartForce": "-775",
+  "DFIntDebugSimPrimalToleranceInv": "1"
+}
+```
