@@ -221,3 +221,11 @@ poor man's fly mode (not really usable). \
     "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
 }
 ```
+### Glossy thingy
+###### not tested
+
+``` json
+{
+    "FFlagLuaAppSystemBar": "true"
+}
+```
