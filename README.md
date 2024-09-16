@@ -222,10 +222,10 @@ poor man's fly mode (not really usable). \
 }
 ```
 ### Glossy thingy
-###### not tested
 
 ``` json
 {
-    "FFlagLuaAppSystemBar": "true"
+    "DFIntRenderClampRoughnessMax": "-1000000000",
+    "DFIntDebugFRMQualityLevelOverride": "6"
 }
 ```
