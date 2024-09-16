@@ -229,3 +229,113 @@ poor man's fly mode (not really usable). \
     "DFIntDebugFRMQualityLevelOverride": "6"
 }
 ```
+
+
+### Random High Jumps
+``` json
+    {
+        "FFlagSimAdaptiveTimesteppingDefault2": "True",
+        "DFFlagSimHumanoidTimestepModelUpdate": "True"
+    }
+```
+
+
+
+### Possible Super Jump
+``` json
+    {
+        "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
+    }
+```
+### N/A
+``` json
+    {
+        "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
+        "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
+        "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
+        "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
+    }
+```
+### Crash Roblox
+``` json
+
+    {
+        "DFIntTimestepArbiterThresholdCFLThou": "0"
+    }
+```
+### Stuttery Animation Fix
+``` json
+
+    {
+        "DFIntTimestepArbiterThresholdCFLThou": "300"
+    }
+```
+
+### Remap R6 to R15 Rigs/Weird Movement
+``` json
+
+    {
+        "FFlagRemapAnimationR6ToR15Rig": "True"
+    }
+
+```
+### Weird Leg Movement
+``` json
+
+    {
+        "DFFlagAnimatorPostProcessIK": "True"
+    }
+
+```
+
+### Adjust Hip Height Clamps
+
+###### https://www.roblox.com/bundles/63/Mage-Animation-Package
+``` json
+
+    {
+        "DFIntHipHeightClamp": "-48"
+    }
+
+```
+### Hip Height
+
+###### Very controllable bounce, only works with negative values, 0 allows you to hover
+``` json
+    {
+        "DFIntMaxAltitudePDStickHipHeightPercent": "-200"
+    }
+```
+### Network Ownership
+
+###### Better network ownership of parts. This might get you banned in some games with anticheats (Limbobbia)
+``` json
+    {
+        "DFIntMinClientSimulationRadius": "2147000000",
+        "DFIntMinimalSimRadiusBuffer": "2147000000",
+        "DFIntMaxClientSimulationRadius": "2147000000"
+    }
+```
+
+### Freeze
+``` json
+    {
+        "FFlagDebugSimDefaultPrimalSolver": "True",
+        "DFIntDebugSimPrimalLineSearch": "0"
+    }
+```
+
+### Drunk
+``` json
+    {
+        "FFlagSimAdaptiveTimesteppingDefault2": "True",
+        "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+        "DFFlagSimHumanoidTimestepModelUpdate": "True"
+    }
+```
+### Tool Desyncs
+``` json
+    {
+        "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
+    }
+```
