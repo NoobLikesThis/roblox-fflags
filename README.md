@@ -339,3 +339,36 @@ poor man's fly mode (not really usable). \
         "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
     }
 ```
+## Good Anti KB
+This combination works with every game that uses Ragdolls (the Anti KB is always active). You can change the NewtonIts Flag to stop being stuck on walls or objects (anything below 0 Crashes your game)
+
+```Json
+{
+  "DFIntDebugSimPrimalPreconditionerMinExp": "1",
+  "DFIntDebugSimPrimalNewtonIts": "2",
+  "DFIntDebugSimPrimalWarmstartForce": "0",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalWarmstartVelocity": "0",
+  "DFIntDebugSimPrimalToleranceInv": "1",
+  "DFIntDebugSimPrimalPreconditioner": "1"
+}
+```
+## Anti Kb (for all the Slap Battles/Ability Wars players)
+This automatically teleports all ragdolled players limbs (except torso) to the games 0,0,0 (very unreliable, only drags your torso to the 0,0,0)
+Default: Unknown
+
+```Json
+{
+  "DFIntGameNetLocalSpaceMaxSendIndex":100000
+}
+```
+## Hip Height modifier
+makes you go bounce, on 0 you float a little bit above the ground, always needs to be below zero for bouncing
+
+```Json
+{
+  "DFIntMaxAltitudePDStickHipHeightPercent":-2147483648
+}
+```
+
+Games: Blade ball (at high values even the anti fling can't do anything -> ball can't kill you unless you don't parry it within like 40 secs or so)
