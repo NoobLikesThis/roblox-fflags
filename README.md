@@ -359,6 +359,15 @@ poor man's fly mode (not really usable). \
         "DFIntDebugSimPrimalLineSearch": "100"
     }
 ```
+### Hip Height modifier
+###### This one is a percentage for smth
+makes you go bounce, on 0 you float a little bit above the ground, always needs to be below zero for bouncing
+
+```Json
+{
+  "DFIntMaxAltitudePDStickHipHeightPercent":-2147483648
+}
+```
 
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
