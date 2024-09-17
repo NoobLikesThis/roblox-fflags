@@ -222,7 +222,7 @@ poor man's fly mode (not really usable). \
     "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
 }
 ```
-### Glossy thingy
+### make players a bit shiny
 
 ``` json
 {
@@ -340,6 +340,82 @@ poor man's fly mode (not really usable). \
         "DFIntSimBlockLargeLocalToolWeldManipulationsThreshold": "-1"
     }
 ```
+
+
+### Speed 2
+\[!NOTE\] **Not backwards but more buggy**
+``` json
+    {
+        "DFIntDebugSimPrimalWarmstartForce": "-285",
+        "DFIntDebugSimPrimalWarmstartVelocity": "750",
+        "FIntDebugSimPrimalGSLumpAlpha": "-2147483647",
+        "FFlagDebugSimDefaultPrimalSolver": "True",
+        "DFIntDebugSimPrimalPreconditioner": "100",
+        "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+        "DFIntDebugSimPrimalNewtonIts": "1",
+        "DFIntDebugSimPrimalToleranceInv": "10",
+        "DFFlagSimHumanoidTimestepModelUpdate": "True",
+        "FFlagSimAdaptiveTimesteppingDefault2": "True",
+        "DFIntDebugSimPrimalLineSearch": "100"
+    }
+```
+
+### Abusive Game Specific Presets
+###### this is stolen from luafv
+
+#### You can contribute by making an issue.
+
+## Fling Things and People
+
+### Send people to hell 😈😈
+
+``` json
+{
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntDebugSimPrimalWarmstartVelocity": "-10",
+    "DFIntDebugSimPrimalWarmstartForce": "1750",
+    "DFIntDebugSimPrimalPreconditioner": "-20",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalToleranceInv": "2"
+}
+```
+
+### Send people to hell V2
+
+> \[!TIP\] Modify warmstart to change speed
+
+``` json
+{
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalPreconditioner": "1100",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+    "DFIntDebugSimPrimalToleranceInv": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "-800",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FIntDebugSimPrimalGSLumpAlpha": "-2147483647"
+}
+```
+
+### Send people to heaven
+
+``` json
+{
+    "DFIntDebugSimPrimalNewtonIts": "1",
+    "DFIntDebugSimPrimalPreconditioner": "15",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "10",
+    "DFIntDebugSimPrimalToleranceInv": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "-150",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+}
+```
+## slap battles and ability wars
+
 ## Good Anti KB
 This combination works with every game that uses Ragdolls (the Anti KB is always active). You can change the NewtonIts Flag to stop being stuck on walls or objects (anything below 0 Crashes your game)
 
@@ -354,7 +430,7 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
   "DFIntDebugSimPrimalPreconditioner": "1"
 }
 ```
-## Anti Kb (for all the Slap Battles/Ability Wars players)
+## Anti Kb 
 This automatically teleports all ragdolled players limbs (except torso) to the games 0,0,0 (very unreliable, only drags your torso to the 0,0,0)
 Default: Unknown
 
@@ -363,14 +439,3 @@ Default: Unknown
   "DFIntGameNetLocalSpaceMaxSendIndex":100000
 }
 ```
-### Hip Height modifier
-###### This one is a percentage for smth
-makes you go bounce, on 0 you float a little bit above the ground, always needs to be below zero for bouncing
-
-```Json
-{
-  "DFIntMaxAltitudePDStickHipHeightPercent":-2147483648
-}
-```
-
-Games: Blade ball (at high values even the anti fling can't do anything -> ball can't kill you unless you don't parry it within like 40 secs or so)
