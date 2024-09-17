@@ -1,6 +1,7 @@
 # roblox-fflags
 
 ### THANKS TO LUAFV AND MORE FOR FINDING THESE
+###### rare ones have a bit bigger text than usual
 
 ### Spin 1
 
@@ -362,7 +363,8 @@ Default: Unknown
   "DFIntGameNetLocalSpaceMaxSendIndex":100000
 }
 ```
-## Hip Height modifier
+### Hip Height modifier
+###### This one is a percentage for smth
 makes you go bounce, on 0 you float a little bit above the ground, always needs to be below zero for bouncing
 
 ```Json
