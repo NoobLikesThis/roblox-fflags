@@ -62,7 +62,7 @@ Sets your clients simulation radius ( as far as i know )
 }
 ```
 
-```
+
 ### Esp..?
 
 ``` json
@@ -379,7 +379,18 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
   "DFIntMaxAltitudePDStickHipHeightPercent":-2147483648
 }
 ```
-
+### Desync FFlag
+``` json
+    {
+        "DFFlagPhysicsSkipNonRealTimeHumanoidForceCalc2": "False",
+        "DFIntS2PhysicsSenderRate": "3",
+        "DFIntTaskSchedulerTargetFps": 5588562
+    }
+```
+### Ultimate desync
+``` json
+{ "DFIntS2PhysicsSenderRate": "1", "FIntPGSAngularDampingPermilPersecond": "0" }
+```
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
 
