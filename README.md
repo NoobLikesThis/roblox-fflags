@@ -50,6 +50,17 @@
     "DFIntDebugSimPrimalPreconditioner": "1100",
     "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
  }
+```
+
+### Client Simulation Radius
+Sets your clients simulation radius ( as far as i know )
+
+```Json
+{
+  "DFIntMaxClientSimulationRadius":10000,
+  "DFIntMinClientSimulationRadius":10000
+}
+```
 
 ```
 ### Esp..?
