@@ -409,7 +409,7 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 > the server and other clients, not you. server-sided things that rely
 > on your position, like clicking to get tools, will not function. In
 > some games these can be abusable. Here is a list of them:
-> [Link](assets/lists/experiences/specific.md)**
+> [Link](https://github.com/luafv/rbxflags/assets/lists/experiences/specific.md)**
 
 ``` json
 {
