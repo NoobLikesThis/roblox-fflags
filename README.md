@@ -391,6 +391,51 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ``` json
 { "DFIntS2PhysicsSenderRate": "1", "FIntPGSAngularDampingPermilPersecond": "0" }
 ```
+### Invisible 1
+
+> \[!NOTE\] **Restricts the client from sending any physics-related
+> information. This means other people can topple you over.**
+
+``` json
+{
+    "DFIntPhysicsSenderMaxBandwidthBps": "1",
+    "DFIntPhysicsSenderMaxBandwidthBpsScaling": "0"
+}
+```
+### Invisible 2
+
+> \[!NOTE\] **Locks your character's position on the server to (0, 0,
+> 0), having the side effect of turning you invisible. This only affects
+> the server and other clients, not you. server-sided things that rely
+> on your position, like clicking to get tools, will not function. In
+> some games these can be abusable. Here is a list of them:
+> [Link](assets/lists/experiences/specific.md)**
+
+``` json
+{
+    "DFIntGameNetPVHeaderTranslationZeroCutoffExponent": "10"
+}
+```
+### Invisible 3
+
+###### Stops the physics on your character froms sending to the server so your character doesn't move for the server. You can move on your client.
+``` json
+    {
+        "DFIntS2PhysicsSenderRate": "-30"
+    }
+```
+### Invisible 4
+
+###### Restricts the client from sending any physics-related information. This means other people can topple you over.
+``` json
+    {
+        "FFlagDebugSimDefaultPrimalSolver": "True",
+        "DFFlagDebugSimPrimalFeedback": "True",
+        "DFIntDebugSimPrimalStiffnessMax": "0",
+        "DFIntDebugSimPrimalStiffnessMin": "0",
+        "DFIntMaximumFreefallMoveTimeInTenths": "1000"
+    }
+```
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
 
