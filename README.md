@@ -436,6 +436,17 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
         "DFIntMaximumFreefallMoveTimeInTenths": "1000"
     }
 ```
+### Invisible 5
+###### Restricts the client from sending any physics-related information. This means other people can topple you over.
+``` json
+{
+    "DFIntTaskSchedulerTargetFps": 360,
+    "FFlagSimIslandizerManager": "false",
+    "FFlagDebugSimIntegrationStabilityTesting": "True",
+    "DFIntDebugSimPhysicsSteppingMethodOverride": "10000000",
+    "DFIntS2PhysicsSenderRate": "10000000"
+}
+```
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
 
