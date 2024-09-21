@@ -10,7 +10,7 @@
 "FStringPartTexturePackTablePre2022": "{\"foil\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://13576561565\"],\"color\":[0,0,0]},\"asphalt\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://13576561565\"],\"color\":[0,0,0]},\"basalt\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://13576561565\"],\"color\":[0,0,0]},\"brick\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"cobblestone\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"concrete\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"crackedlava\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"diamondplate\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"fabric\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"glacier\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"glass\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"granite\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"grass\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"ground\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"ice\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"leafygrass\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"limestone\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"marble\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"metal\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"mud\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"pavement\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"pebble\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"plastic\":{\"ids\":[\"\",\"rbxassetid://13576561565\"],\"color\":[0,0,0]},\"rock\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"corrodedmetal\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9439557520\"],\"color\":[0,0,0]},\"salt\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"sand\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"sandstone\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"slate\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9439613006\"],\"color\":[0,0,0]},\"snow\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"wood\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9439649548\"],\"color\":[0,0,0]},\"woodplanks\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]}}"
 }
 ```
-### BEST OPTIMIZATION FFLAG
+### OPTIMIZATION FFLAG
 
 ``` json
 {
@@ -37,6 +37,44 @@
   "FIntFRMMinGrassDistance": "0",
   "FIntFRMMaxGrassDistance": "0",
   "FIntRenderGrassDetailStrands": "0"
+}
+```
+### BEST OPTIMIZATION FFLAG (CAN CRASH DUE TO VULKAN)
+``` json
+{
+  "FLogNetwork": "7",
+  "FFlagDisableNewIGMinDUA": "True",
+  "FFlagEnableInGameMenuControls": "True",
+  "FFlagEnableInGameMenuModernization": "True",
+  "FFlagEnableMenuControlsABTest": "False",
+  "FFlagEnableV3MenuABTest3": "False",
+  "FFlagFixGraphicsQuality": "True",
+  "FFlagEnableInGameMenuChrome": "False",
+  "FFlagEnableInGameMenuChromeABTest3": "False",
+  "DFIntTextureQualityOverride": "3",
+  "DFFlagTextureQualityOverrideEnabled": "True",
+  "FIntPGSPenetrationMarginMax": "-100000000",
+  "FIntPGSPenetrationMarginMin": "-100000000",
+  "FFlagDebugDisableTelemetryEphemeralStat": "True",
+  "FFlagDebugDisableTelemetryEventIngest": "True",
+  "FFlagDebugDisableTelemetryPoint": "True",
+  "FFlagDebugDisableTelemetryV2Counter": "True",
+  "FFlagDebugDisableTelemetryV2Event": "True",
+  "FFlagDebugDisableTelemetryV2Stat": "True",
+  "DFIntCSGLevelOfDetailSwitchingDistance": "500",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL12": "1000",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL23": "2000",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL34": "4000",
+  "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+  "FFlagDebugGraphicsDisableDirect3D11": "True",
+  "FFlagDebugGraphicsPreferVulkan": "True",
+  "DFFlagDebugRenderForceTechnologyVoxel": "True",
+  "DFIntDebugFRMQualityLevelOverride": "2",
+  "DFIntCanHideGuiGroupId": "32380007",
+  "FIntRenderShadowIntensity": "0",
+  "FFlagCoreGuiTypeSelfViewPresent": "False",
+  "FFlagInGameMenuV1FullScreenTitleBar": "False",
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
 }
 ```
 
