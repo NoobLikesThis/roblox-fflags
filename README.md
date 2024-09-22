@@ -447,6 +447,28 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "DFIntS2PhysicsSenderRate": "10000000"
 }
 ```
+## Physics Slowdown
+This fast flag sets the current physics "FPS", this slows down all the physics related stuff aka falling, walking
+Default: 16
+
+```Json
+{
+  "DFIntMaxMissedWorldStepsRemembered":1
+}
+```
+## Active Physics FPS Change
+Go into settings  and change your FPS to 240 (if you can reach that amount of FPS) and you will have full Physics speed, at 30 fps its around 7,5/s. Any Part you have network Ownershipship over is also slowed down, as well as shot projectiles.
+
+```Json
+{
+  "FFlagGameBasicSettingsFramerateCap": "True",
+  "DFIntTaskSchedulerTargetFps": 0,
+  "DFIntMaxMissedWorldStepsRemembered":"1"
+}
+```
+
+##### Games: any game (obbys are easier to do with slow Physics)
+
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
 
