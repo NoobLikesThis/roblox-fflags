@@ -6,6 +6,7 @@
 ### Spin 1
 
 ###### @bloodraven
+###### spin + fly
 
 ``` json
 {
