@@ -470,6 +470,22 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 
 ##### Games: any game (obbys are easier to do with slow Physics)
 
+### Slow motion
+###### aka physics slow down
+###### change for diffrent effects
+
+``` json
+{
+    "DFIntMaxMissedWorldStepsRemembered": "1"
+}
+```
+### warp
+``` json
+{
+    "DFIntMaxMissedWorldStepsRemembered": "1000"
+}
+```
+
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
 
