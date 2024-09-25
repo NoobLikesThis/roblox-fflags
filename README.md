@@ -485,7 +485,28 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "DFIntMaxMissedWorldStepsRemembered": "1000"
 }
 ```
-
+### real hitbox 🤑
+``` json
+{
+	"FFlagHumanoidParallelFixTickleFloor2": "true",
+	"FFlagFixMemoryPriorizationCrash": "True",
+	"FIntUGCValidationTorsoThresholdFront": "100",
+	"FIntUGCValidationTorsoThresholdSide": "100",
+	"FIntUGCValidationTorsoThresholdBack": "100",
+	"FIntUGCValidationLeftArmThresholdBack": "23",
+	"FIntUGCValidationLeftArmThresholdFront": "25",
+	"FIntUGCValidationLeftArmThresholdSide": "40",
+	"FIntUGCValidationLeftLegThresholdBack": "40",
+	"FIntUGCValidationLeftLegThresholdFront": "40",
+	"FIntUGCValidationLeftLegThresholdSide": "36",
+	"FIntUGCValidationRightArmThresholdBack": "23",
+	"FIntUGCValidationRightArmThresholdFront": "25",
+	"FIntUGCValidationRightArmThresholdSide": "40",
+	"FIntUGCValidationRightLegThresholdBack": "40",
+	"FIntUGCValidationRightLegThresholdFront": "40",
+	"FIntUGCValidationRightLegThresholdSide": "38"
+}
+```
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
 
