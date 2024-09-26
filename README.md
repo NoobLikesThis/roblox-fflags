@@ -507,6 +507,186 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 	"FIntUGCValidationRightLegThresholdSide": "38"
 }
 ```
+### Remap R6 to R15 Rigs/Weird Movement
+```json
+{
+    "FFlagRemapAnimationR6ToR15Rig": "True"
+}
+```
+# visuals
+### Humanoid Outline
+> [!NOTE]
+> **Draws an outline around every part and every humanoid**
+```json
+{
+    "DFFlagDebugDrawBroadPhaseAABBs": "True"
+}
+```
+### fflag above but more complex
+> [!NOTE]
+> **Draws an outline around every body part**
+```json
+{
+    "DFFlagDebugDrawBvhNodes": "True"
+}
+```
+### Buggy ZPlane Camera
+```json
+{
+    "FIntCameraFarZPlane": "1"
+}
+```
+### Adds an UI in game, which highlights any part player touches (like ground, Meshes etc.). It's a non-functioning UI too. Also adds a blue circle to your humanoid.
+```json
+{
+    "FFlagDebugHumanoidRendering": "True"
+}
+```
+### Crash Roblox 1
+```json
+{
+    "DFIntTimestepArbiterThresholdCFLThou": "0"
+}
+```
+### Crash Roblox 2
+```json
+{
+    "DFFlagVideoCaptureServiceEnabled": "False"
+}
+```
+### Increase Ping 
+```json
+{
+    "DFIntDataSenderMaxBandwidthBps": "150"
+}
+```
+### Shows the state of a flag
+```json
+{
+    "FStringDebugShowFlagState": "FLAG_HERE"
+}
+```
+> [!TIP]
+> 
+```json
+{
+    "FStringDebugShowFlagState": "DFIntTaskSchedulerTargetFps, ChannelName"
+}
+```
+### Show Outlined Chunks
+```json
+{
+    "FFlagDebugLightGridShowChunks": "True"
+}
+```
+### Show Outlined Chunks that are being interacted
+```json
+{
+    "DFFlagDebugEnableStreamingSolverVisualization": "True"
+}
+```
+### Prevents Remote Events from running
+###### @spectroscopic
+```json
+{
+    "DFIntRemoteEventSingleInvocationSizeLimit": "1"
+}
+```
+### logs stuff in dev console
+```json
+{
+    "FStringDebugLuaLogLevel": "debug",
+    "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
+}
+```
+### Octree Validation
+```json
+{
+    "FFlagDebugEnableOctreeValidation": "True"
+}
+```
+### Self Explanatory 1
+```json
+{
+    "DFFlagDebugPrintDataPingBreakDown": "True"
+}
+```
+### Self Explanatory 2
+```json
+{
+    "DFFlagDebugAudioLogging": "True"
+}
+```
+### Duplicate of Above
+```json
+{
+    "DFFlagDebugAudioLogging2": "True"
+}
+```
+### Self Explanatory 3
+```json
+{
+    "FFlagTrackerLodControllerDebugUI": "True"
+}
+```
+### Self Explanatory 4
+> [!NOTE]
+> **Disable Drag Detectors**
+```json
+{
+    "FFlagDragDetectors1": "False"
+}
+```
+### Self Explanatory 5
+> [!NOTE]
+> **Disable CTM Climbing**
+```json
+{
+    "FFlagUserClickToMoveSupportAgentCanClimb2": "False"
+}
+```
+### Self Explanatory 6
+> [!NOTE]
+> **Disable Feedback Button in ESC**
+```json
+{
+    "FFlagDisableFeedbackSoothsayerCheck": "False"
+}
+```
+### Self Explanatory 7
+###### @thefrenchguy4
+```
+{
+    "FFlagRenamePassesAndGearToSubscriptionsAndPasses": "False"
+}
+```
+
+#
+
+###### We are accepting performance Fast Flags that aren't listed or known.
+
+### absolutely kill your game quality with fflags known to me
+##### @dynamitebumblemouth
+```json
+{
+    "FFlagDisablePostFx": "True",
+    "FIntDebugTextureManagerSkipMips": "-1",
+    "DFIntTextureCompositorActiveJobs": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FFlagGlobalWindRendering": "False",
+    "FIntRenderShadowIntensity": "0",
+    "FIntRenderShadowmapBias": "1",
+    "FIntDebugForceMSAASamples": "-1",
+    "FIntFRMMinGrassDistance": "0",
+    "DFIntTextureQualityOverride": "1"
+}
+```
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
 
