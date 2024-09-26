@@ -688,6 +688,74 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "DFIntTextureQualityOverride": "1"
 }
 ```
+
+### OPTIMIZATION FFLAG
+
+``` json
+{
+  "FFlagDebugGraphicsPreferD3D11FL10": "True",
+  "FFlagGameBasicSettingsFramerateCap5": "False",
+  "DFIntTaskSchedulerTargetFps": "5588562",
+  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "DFIntMaxFrameBufferSize": "4",
+  "FIntDebugForceMSAASamples": "0",
+  "DFFlagDebugPerfMode": "True",
+  "FFlagFixGraphicsQuality": "True",
+  "DFFlagDisableDPIScale": "True",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "DFFlagDebugRenderForceTechnologyVoxel": "True",
+  "DFFlagVoxelizerDisableTerrainSIMD": "True",
+  "DFFlagDebugSkipMeshVoxelizer": "True",
+  "FIntRenderShadowIntensity": "0",
+  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+  "FIntRenderLocalLightUpdatesMax": "1",
+  "FIntRenderLocalLightUpdatesMin": "1",
+  "FFlagDebugRenderingSetDeterministic": "True",
+  "FIntTerrainArraySliceSize": "8",
+  "FIntFRMMinGrassDistance": "0",
+  "FIntFRMMaxGrassDistance": "0",
+  "FIntRenderGrassDetailStrands": "0"
+}
+```
+### BEST OPTIMIZATION FFLAG (CAN CRASH DUE TO VULKAN)
+``` json
+{
+  "FLogNetwork": "7",
+  "FFlagDisableNewIGMinDUA": "True",
+  "FFlagEnableInGameMenuControls": "True",
+  "FFlagEnableInGameMenuModernization": "True",
+  "FFlagEnableMenuControlsABTest": "False",
+  "FFlagEnableV3MenuABTest3": "False",
+  "FFlagFixGraphicsQuality": "True",
+  "FFlagEnableInGameMenuChrome": "False",
+  "FFlagEnableInGameMenuChromeABTest3": "False",
+  "DFIntTextureQualityOverride": "3",
+  "DFFlagTextureQualityOverrideEnabled": "True",
+  "FIntPGSPenetrationMarginMax": "-100000000",
+  "FIntPGSPenetrationMarginMin": "-100000000",
+  "FFlagDebugDisableTelemetryEphemeralStat": "True",
+  "FFlagDebugDisableTelemetryEventIngest": "True",
+  "FFlagDebugDisableTelemetryPoint": "True",
+  "FFlagDebugDisableTelemetryV2Counter": "True",
+  "FFlagDebugDisableTelemetryV2Event": "True",
+  "FFlagDebugDisableTelemetryV2Stat": "True",
+  "DFIntCSGLevelOfDetailSwitchingDistance": "500",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL12": "1000",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL23": "2000",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL34": "4000",
+  "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+  "FFlagDebugGraphicsDisableDirect3D11": "True",
+  "FFlagDebugGraphicsPreferVulkan": "True",
+  "DFFlagDebugRenderForceTechnologyVoxel": "True",
+  "DFIntDebugFRMQualityLevelOverride": "2",
+  "DFIntCanHideGuiGroupId": "32380007",
+  "FIntRenderShadowIntensity": "0",
+  "FFlagCoreGuiTypeSelfViewPresent": "False",
+  "FFlagInGameMenuV1FullScreenTitleBar": "False",
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
+}
+```
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
 
