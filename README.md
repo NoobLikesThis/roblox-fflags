@@ -513,7 +513,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagRemapAnimationR6ToR15Rig": "True"
 }
 ```
-# visuals
+# Visuals ig
 ### Humanoid Outline
 > [!NOTE]
 > **Draws an outline around every part and every humanoid**
