@@ -64,14 +64,6 @@ Sets your clients simulation radius ( as far as i know )
 ```
 
 
-### Esp..?
-
-``` json
-{
-    "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest2": "False"
-}
-```
 ### Vehicle SpeedHack
 ``` json
 {
@@ -514,6 +506,15 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 }
 ```
 # Visuals ig
+### Esp..?
+###### adds red circle under avatar and a grey thing above
+
+``` json
+{
+    "FFlagDebugAvatarChatVisualization": "True",
+    "FFlagEnableInGameMenuChromeABTest2": "False"
+}
+```
 ### Humanoid Outline
 > [!NOTE]
 > **Draws an outline around every part and every humanoid**
