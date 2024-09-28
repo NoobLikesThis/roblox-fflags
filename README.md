@@ -673,6 +673,88 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 
 #
 
+### Abusive Game Specific Presets
+###### this is stolen from luafv
+
+#### You can contribute by making an issue.
+
+## Fling Things and People
+
+### Send people to hell 😈😈
+
+``` json
+{
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+    "DFFlagSimHumanoidTimestepModelUpdate": "True",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagSimAdaptiveTimesteppingDefault2": "True",
+    "DFIntDebugSimPrimalWarmstartVelocity": "-10",
+    "DFIntDebugSimPrimalWarmstartForce": "1750",
+    "DFIntDebugSimPrimalPreconditioner": "-20",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalToleranceInv": "2"
+}
+```
+
+### Send people to hell V2
+
+> \[!TIP\] Modify warmstart to change speed
+
+``` json
+{
+    "DFIntDebugSimPrimalNewtonIts": "2",
+    "DFIntDebugSimPrimalPreconditioner": "1100",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
+    "DFIntDebugSimPrimalToleranceInv": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "-800",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FIntDebugSimPrimalGSLumpAlpha": "-2147483647"
+}
+```
+
+### Send people to heaven
+
+``` json
+{
+    "DFIntDebugSimPrimalNewtonIts": "1",
+    "DFIntDebugSimPrimalPreconditioner": "15",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "10",
+    "DFIntDebugSimPrimalToleranceInv": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "-150",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100",
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+}
+```
+## slap battles and ability wars
+
+## Good Anti KB
+This combination works with every game that uses Ragdolls (the Anti KB is always active). You can change the NewtonIts Flag to stop being stuck on walls or objects (anything below 0 Crashes your game)
+
+```Json
+{
+  "DFIntDebugSimPrimalPreconditionerMinExp": "1",
+  "DFIntDebugSimPrimalNewtonIts": "2",
+  "DFIntDebugSimPrimalWarmstartForce": "0",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalWarmstartVelocity": "0",
+  "DFIntDebugSimPrimalToleranceInv": "1",
+  "DFIntDebugSimPrimalPreconditioner": "1"
+}
+```
+## Anti Kb 
+This automatically teleports all ragdolled players limbs (except torso) to the games 0,0,0 (very unreliable, only drags your torso to the 0,0,0)
+Default: Unknown
+
+```Json
+{
+  "DFIntGameNetLocalSpaceMaxSendIndex":100000
+}
+```
+
+
+
 ###### We are accepting performance Fast Flags that aren't listed or known.
 
 ### absolutely kill your game quality with fflags known to me
@@ -762,85 +844,9 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
   "FIntRenderShadowIntensity": "0",
   "FFlagCoreGuiTypeSelfViewPresent": "False",
   "FFlagInGameMenuV1FullScreenTitleBar": "False",
-  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
-}
-```
-### Abusive Game Specific Presets
-###### this is stolen from luafv
-
-#### You can contribute by making an issue.
-
-## Fling Things and People
-
-### Send people to hell 😈😈
-
-``` json
-{
-    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
-    "DFFlagSimHumanoidTimestepModelUpdate": "True",
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "FFlagSimAdaptiveTimesteppingDefault2": "True",
-    "DFIntDebugSimPrimalWarmstartVelocity": "-10",
-    "DFIntDebugSimPrimalWarmstartForce": "1750",
-    "DFIntDebugSimPrimalPreconditioner": "-20",
-    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
-    "DFIntDebugSimPrimalNewtonIts": "2",
-    "DFIntDebugSimPrimalToleranceInv": "2"
-}
-```
-
-### Send people to hell V2
-
-> \[!TIP\] Modify warmstart to change speed
-
-``` json
-{
-    "DFIntDebugSimPrimalNewtonIts": "2",
-    "DFIntDebugSimPrimalPreconditioner": "1100",
-    "DFIntDebugSimPrimalPreconditionerMinExp": "1000",
-    "DFIntDebugSimPrimalToleranceInv": "1",
-    "DFIntDebugSimPrimalWarmstartForce": "-800",
-    "DFIntDebugSimPrimalWarmstartVelocity": "102",
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-    "FIntDebugSimPrimalGSLumpAlpha": "-2147483647"
-}
-```
-
-### Send people to heaven
-
-``` json
-{
-    "DFIntDebugSimPrimalNewtonIts": "1",
-    "DFIntDebugSimPrimalPreconditioner": "15",
-    "DFIntDebugSimPrimalPreconditionerMinExp": "10",
-    "DFIntDebugSimPrimalToleranceInv": "1",
-    "DFIntDebugSimPrimalWarmstartForce": "-150",
-    "DFIntDebugSimPrimalWarmstartVelocity": "100",
-    "FFlagDebugSimDefaultPrimalSolver": "True",
-}
-```
-## slap battles and ability wars
-
-## Good Anti KB
-This combination works with every game that uses Ragdolls (the Anti KB is always active). You can change the NewtonIts Flag to stop being stuck on walls or objects (anything below 0 Crashes your game)
-
-```Json
-{
-  "DFIntDebugSimPrimalPreconditionerMinExp": "1",
-  "DFIntDebugSimPrimalNewtonIts": "2",
-  "DFIntDebugSimPrimalWarmstartForce": "0",
-  "FFlagDebugSimDefaultPrimalSolver": "True",
-  "DFIntDebugSimPrimalWarmstartVelocity": "0",
-  "DFIntDebugSimPrimalToleranceInv": "1",
-  "DFIntDebugSimPrimalPreconditioner": "1"
-}
-```
-## Anti Kb 
-This automatically teleports all ragdolled players limbs (except torso) to the games 0,0,0 (very unreliable, only drags your torso to the 0,0,0)
-Default: Unknown
-
-```Json
-{
-  "DFIntGameNetLocalSpaceMaxSendIndex":100000
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+  "FFlagDisablePostFx": "True",
+  "DFFlagDisableDPIScale": "True",
+  "DFIntMaxMissedWorldStepsRemembered": "1000",
 }
 ```
