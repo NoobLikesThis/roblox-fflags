@@ -380,6 +380,23 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
         "DFIntTaskSchedulerTargetFps": 5588562
     }
 ```
+### Desnyc again
+``` json
+{
+  "FFlagFixGraphicsQuality": "True",
+  "DFIntTaskSchedulerTargetFps": "0",
+  "DFIntS2PhysicsSenderRate": "1",
+  "FIntPGSAngularDampingPermilPersecond": "0",
+  "DFIntS2NumPhysicsPacketsPerStep": "2",
+  "DFIntPhysicsSenderMaxBandwidthBps": "10",
+  "DFIntPhysicsSenderMaxBandwidthBpsScaling": "10",
+  "DFIntDataSenderRate": "2",
+  "DFIntDataSenderMaxBandwidthBps": "555",
+  "DFIntDataSenderMaxJoinBandwidthBps": "222",
+  "DFIntDebugSimPhysicsSteppingMethodOverride": "777",
+  "DFFlagPhysicsSkipNonRealTimeHumanoidForceCalc2": "False"
+}
+```
 ### Ultimate desync
 ``` json
 { "DFIntS2PhysicsSenderRate": "1", "FIntPGSAngularDampingPermilPersecond": "0" }
