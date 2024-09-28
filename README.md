@@ -1,7 +1,5 @@
-# roblox-fflags
+### roblox-fflags
 
-### THANKS TO LUAFV AND MORE FOR FINDING THESE
-###### rare ones have a bit bigger text than usual
 
 ### Spin 1
 
