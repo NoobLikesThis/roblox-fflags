@@ -77,6 +77,7 @@ Physics Changing Flags
 ``` json
 {
 "DFIntGettingUpBalanceP": "0"
+}
 ```
 ### Lags the player
 ``` json
