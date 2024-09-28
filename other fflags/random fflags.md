@@ -1,6 +1,7 @@
 # RANDOM FFLAGS      
 ###### at least these aint gatekepted because these are sick
 
+
 ### thanks to fishe for these
 ###### some may not work.
 
@@ -157,3 +158,16 @@ Physics Changing Flags
 }
 ```
 
+# patched.
+### thanks to fishy again
+``` json
+{
+"DFIntDebugSimForceWorldStepCount": "14"
+"DFIntJumpPowerInstantControllerMultiplierPercent": "1000"
+"DFIntDefaultBalanceD": "-10"
+"DFIntDefaultBalanceP": "-10"
+"DFIntFreeFallFloorSearchDistanceIncreaseVelocity": "1"
+"DFIntSolidFloorPercentForceApplication": "1000"
+"DFIntGeometricStiffnessAlpha": "-100000"
+}
+```
