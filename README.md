@@ -143,6 +143,42 @@ recommended to use a value of `150`. However, it might be difficult to
   "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
+### backwards speedhax 2.0
+###### buggy and uses noclip
+``` json
+{
+  "DFIntDebugSimPrimalToleranceInv": "1",
+  "DFIntDebugSimPrimalPreconditioner": "69",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntMinClientSimulationRadius": "2147000000",
+  "DFIntDebugSimPrimalPreconditionerMinExp": "69",
+  "DFIntDebugSimPrimalNewtonIts": "1",
+  "DFIntMinimalSimRadiusBuffer": "2147000000",
+  "DFIntMaxClientSimulationRadius": "2147000000",
+  "DFIntDebugSimPrimalWarmstartForce": "-2200",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-950",
+  "DFIntMaximumFreefallMoveTimeInTenths": "1000",
+  "DFIntDebugSimPrimalStiffness": "0"
+}
+```
+### backwards speedhax but faster
+###### not buggy but uses noclip bc so fast (not that fast cmon)
+``` json
+{
+  "DFIntDebugSimPrimalToleranceInv": "1",
+  "DFIntDebugSimPrimalPreconditioner": "69",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntMinClientSimulationRadius": "2147000000",
+  "DFIntDebugSimPrimalPreconditionerMinExp": "69",
+  "DFIntDebugSimPrimalNewtonIts": "1",
+  "DFIntMinimalSimRadiusBuffer": "2147000000",
+  "DFIntMaxClientSimulationRadius": "2147000000",
+  "DFIntDebugSimPrimalWarmstartForce": "-1250",
+  "DFIntDebugSimPrimalWarmstartVelocity": "-550",
+  "DFIntMaximumFreefallMoveTimeInTenths": "1000",
+  "DFIntDebugSimPrimalStiffness": "0"
+}
+```
 
 ### Low Gravity 1
 ###### all by luafv between low gravity 1 and low gravity 2
