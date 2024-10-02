@@ -1,6 +1,6 @@
 ### roblox-fflags
 ### freecam
-###### shift + p
+###### shift + p (crashes roblox on most computers)
 ```json
 {
     "DFFlagDebugSimulateHangAtStartup": "True"
