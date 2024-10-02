@@ -1,4 +1,11 @@
 ### roblox-fflags
+### freecam
+###### shift + p
+```json
+{
+    "DFFlagDebugSimulateHangAtStartup": "True"
+}
+```
 
 
 ### Spin 1
