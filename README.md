@@ -877,6 +877,7 @@ Default: Unknown
 }
 ```
 ### BEST OPTIMIZATION FFLAG (CAN CRASH DUE TO VULKAN)
+###### make sure to remove preferdirect3d11 and not disabledirect3d11
 ``` json
 {
   "FLogNetwork": "7",
