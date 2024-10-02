@@ -25,6 +25,15 @@
     "DFIntDebugSimPrimalToleranceInv": "1"
 }
 ```
+### spin 2
+###### depends on walkspeed
+``` json
+{
+ "FFlagSimAdaptiveTimesteppingDefault2": "True",
+ "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999",
+ "DFFlagSimHumanoidTimestepModelUpdate": "True"
+}
+```
 ### Xray
 ###### MAY MAKE FLOOR INVISIBLE SOMETIMES
 ###### by me
