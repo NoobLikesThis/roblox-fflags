@@ -1,4 +1,14 @@
-### roblox-fflags
+# roblox-fflags
+
+## groups
+
+### [Join luafvs group!](https://www.roblox.com/groups/34911020/FIVE55/)
+
+
+### [Join my group1!](https://www.roblox.com/groups/32479917/Hub-of-Dreams#!/)
+
+## Physics
+
 ### freecam
 ###### shift + p (crashes roblox on most computers)
 ```json
