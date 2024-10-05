@@ -6,6 +6,13 @@
     "DFFlagDebugSimulateHangAtStartup": "True"
 }
 ```
+### fling people
+###### worlds buggiest stuff ever
+``` json
+{
+ "DFIntNewRunningBaseGravityReductionFactorHundredth": "1695"
+ }
+```
 
 
 ### Spin 1
