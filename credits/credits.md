@@ -1,4 +1,5 @@
-# THIS IS WHERE ALL CREDITS ARE
+### THIS IS WHERE ALL CREDITS ARE
+###### note: you will not find all fflag lists
 
 
 
