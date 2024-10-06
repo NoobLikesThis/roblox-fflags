@@ -1,4 +1,10 @@
 ### the list
+### https://github.com/moonleaks/roblox-fflag-vulnerabilities
+
+### https://github.com/espresso-soft/rbxflags
+
+### https://github.com/MrMops369/Roblox-Fast-Flags-i-use
+
 ### https://github.com/theletron/bloxflags
 
 ### https://github.com/GiFXED/Roblox-FFlag-Editor
