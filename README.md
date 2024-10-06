@@ -9,13 +9,6 @@
 
 ## Physics
 
-### freecam
-###### shift + p (crashes roblox on most computers)
-```json
-{
-    "DFFlagDebugSimulateHangAtStartup": "True"
-}
-```
 ### fling people
 ###### worlds buggiest stuff ever
 ``` json
@@ -622,6 +615,12 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 ```json
 {
     "DFFlagDebugDrawBvhNodes": "True"
+}
+```
+### blue theme
+``` json
+{
+    "FFlagLuaAppEnableFoundationColors3": "true"
 }
 ```
 ### Buggy ZPlane Camera
