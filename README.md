@@ -582,6 +582,14 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagRemapAnimationR6ToR15Rig": "True"
 }
 ```
+# idk where to put
+### faster preloading
+``` json
+{
+    "DFIntNumAssetsMaxToPreload": "9999999",
+    "DFIntAssetPreloading": "9999999"
+}
+```
 # Visuals ig
 ### dark map
 ``` json
@@ -932,5 +940,7 @@ Default: Unknown
   "FFlagDisablePostFx": "True",
   "DFFlagDisableDPIScale": "True",
   "DFIntMaxMissedWorldStepsRemembered": "1000",
+  "DFIntNumAssetsMaxToPreload": "9999999",
+  "DFIntAssetPreloading": "9999999"
 }
 ```
