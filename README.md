@@ -1,7 +1,5 @@
 # roblox-fflags
 
-##### version v2.5.0
-##### haha yes
 
 ## groups
 
