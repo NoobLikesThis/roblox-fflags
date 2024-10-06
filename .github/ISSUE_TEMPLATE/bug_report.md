@@ -12,9 +12,9 @@ A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Go to 'Issues'
-2. Click on 'Create issue'
-3. Tell us the bug
+1. Go to '[IDK]'
+2. Click on '[idk]'
+3. see bug i think?
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
