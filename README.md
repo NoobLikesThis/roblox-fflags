@@ -788,6 +788,12 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagLuaAppEnableFoundationColors3": "true"
 }
 ```
+### make low quality roblox memes
+``` json
+{
+  "DFIntDebugDynamicRenderKiloPixels":"2"
+}
+```
 ### Buggy ZPlane Camera
 ```json
 {
