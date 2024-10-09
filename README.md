@@ -710,6 +710,40 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagUIBloxUseNewThemeColorPalettes": "True"
 }
 ```
+### Rename "Charts" back to "Discovery"
+``` json
+{
+    "FFlagLuaAppChartsPageRenameIXP": false
+}
+```
+### Disable Ads
+``` json
+{
+    "FFlagAdServiceEnabled": false
+}
+```
+### Stuttery Animation Fix
+``` json
+{
+    "DFIntTimestepArbiterThresholdCFLThou": "300"
+}
+```
+### lower render distance
+###### Only works on games which turned StreamingEnabled on.
+``` json
+{
+    "DFIntDebugRestrictGCDistance": "1"
+}
+```
+### no grass :D
+###### best for gamers
+``` json
+{
+    "FIntFRMMinGrassDistance": "0",
+    "FIntFRMMaxGrassDistance": "0",
+    "FIntRenderGrassDetailStrands": "0"
+}
+```
 ### Enable GPULightCulling
 ###### use with lighting attenuation for better vision
 ``` json
