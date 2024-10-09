@@ -173,6 +173,25 @@ Sets your clients simulation radius ( as far as i know )
     "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
+### weird movement real??
+``` json
+{
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+### weird movement old
+``` json
+{
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100",
+    "DFIntDebugSimPrimalStiffness": "-50",
+    "DFIntDebugSimPrimalStiffnessMax": "-20",
+    "DFIntDebugSimPrimalStiffnessMin": "-10",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
 ### Backwards SpeedHax
 
  \[!WARNING\] **Bugginess and speed depend on the value of
