@@ -45,17 +45,11 @@
  "DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
-### Xray
-###### MAY MAKE FLOOR INVISIBLE SOMETIMES
-###### by me
-
+### godmode fr fr
+###### Disconnect your internet before joining a game and turn it on again
 ``` json
 {
-  "DFIntCullFactorPixelThresholdMainViewHighQuality": "1250",
-  "DFIntCullFactorPixelThresholdMainViewLowQuality": "1250",
-  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "1250",
-  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "1250",
-  "DFIntDebugFRMQualityLevelOverride": "2"
+    "DFIntGameNetOptimizeParallelPhysicsSendAssemblyBatch": "0"
 }
 ```
 
@@ -146,6 +140,36 @@ Sets your clients simulation radius ( as far as i know )
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFIntMaximumFreefallMoveTimeInTenths": "1000",
     "DFIntDebugSimPrimalStiffness": "0"
+}
+```
+### noclip 2
+###### Adjust the value so you don't fall through the ground
+``` json
+{
+    "DFIntSimBroadPhasePairCountMax": "50"
+}
+```
+### noclip 3
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalNewtonIts": "1"
+}
+```
+### noclip 4
+###### Adjust the value so you don't fall through the ground
+``` json
+{
+    "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
+}
+```
+###  Noclip + Low Gravity + Fly (Weird Movement)
+``` json
+{
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "160",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
 ### Backwards SpeedHax
