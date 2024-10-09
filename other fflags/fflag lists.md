@@ -10,6 +10,8 @@
 ### https://github.com/GiFXED/Roblox-FFlag-Editor
 ###### is a fflag editor
 
+### https://v3rm.net/resources/a-pack-of-fflags-bloxstrap.161/
+
 
 ### https://github.com/catb0x/Roblox-Potato-FFlags
 ###### optimization fflag
