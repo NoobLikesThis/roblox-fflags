@@ -729,6 +729,12 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagUIBloxUseNewThemeColorPalettes": "True"
 }
 ```
+### Applies cool colors to stuff
+``` json
+{
+"FFlagDebugDisplayUnthemedInstances": "True"
+}
+```
 ### Rename "Charts" back to "Discovery"
 ``` json
 {
