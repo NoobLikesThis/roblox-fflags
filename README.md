@@ -647,11 +647,25 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagUserHideCharacterParticlesInFirstPerson": "True"
 }
 ```
-### bypass group id gui hiding
+### bypass group id gui hiding (idk)
 ``` json
 {
     "FFlagUserShowGuiHideToggles": "True",
     "GuiHidingApiSupport2": "True"
+}
+```
+### verified badge on u 
+###### client sided
+``` json
+{
+    "FStringWhitelistVerifiedUserId": "UserID"
+}
+```
+### verifed  badge on everyone
+###### client sided aswell
+``` json
+{
+    "FFlagOverridePlayerVerifiedBadge": "True"
 }
 ```
 ### quick game launch
