@@ -700,6 +700,13 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagNewCameraControls": "True"
 }
 ```
+### remove unnecessary kicks
+###### removes being kicked for being afk
+``` json
+{
+    "DFFlagDebugDisableTimeoutDisconnect": "True"
+}
+```
 
 # Visuals ig
 ### semi fullbright
