@@ -114,6 +114,32 @@ Sets your clients simulation radius ( as far as i know )
     "DFIntDebugSimPrimalToleranceInv": "1"
 }
 ```
+### fly
+###### equip  a tool,  kinda controllable, by popbob(kezcn)
+``` json
+{
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+### Upside Down while slowly being sent to heaven
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "1000",
+    "DFIntDebugSimPrimalWarmstartVelocity": "50"
+}
+```
+### slow walk + low gravity
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartVelocity": "50"
+}
+``` 
 ### Backwards Speedhax with noclip
 
 ``` json
@@ -162,6 +188,14 @@ Sets your clients simulation radius ( as far as i know )
 ``` json
 {
     "DFIntAssemblyExtentsExpansionStudHundredth": "-50"
+}
+```
+###  noclip 5
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalPreconditioner": "1",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "10"
 }
 ```
 ###  Noclip + Low Gravity + Fly (Weird Movement)
@@ -433,6 +467,28 @@ poor man's fly mode (not really usable). \
         "FFlagDebugSimDefaultPrimalSolver": "True",
         "DFIntDebugSimPrimalLineSearch": "0"
     }
+```
+### freeze 2
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalNewtonIts": "0"
+}
+```
+### delay animations
+###### client
+``` json
+{
+    "FFlagProcessAnimationLooped": "False"
+}
+```
+### bouncy
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntMaxAltitudePDStickHipHeightPercent": "-200",
+    "DFIntDebugSimPrimalLineSearch": "1"
+}
 ```
 
 ### Drunk
