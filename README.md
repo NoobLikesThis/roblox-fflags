@@ -207,14 +207,6 @@ Sets your clients simulation radius ( as far as i know )
     "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
-### weird movement real??
-``` json
-{
-    "DFIntDebugSimPrimalLineSearch": "1",
-    "DFIntDebugSimPrimalWarmstartVelocity": "100",
-    "FFlagDebugSimDefaultPrimalSolver": "True"
-}
-```
 ### weird movement old
 ``` json
 {
