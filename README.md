@@ -346,17 +346,6 @@ poor man's fly mode (not really usable). \
     "DFIntDebugSimPrimalLineSearch": "1"
 }
 ```
-### omg i cant believe roblox is that dumb to do this...
-###### why do i see this everywhere?
-
-``` json
-{
-    "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
-    "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
-    "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
-    "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
-}
-```
 ### make players a bit shiny
 
 ``` json
@@ -382,46 +371,6 @@ poor man's fly mode (not really usable). \
     {
         "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
     }
-```
-### N/A
-``` json
-    {
-        "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
-        "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
-        "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
-        "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
-    }
-```
-### Crash Roblox
-``` json
-
-    {
-        "DFIntTimestepArbiterThresholdCFLThou": "0"
-    }
-```
-### Stuttery Animation Fix
-``` json
-
-    {
-        "DFIntTimestepArbiterThresholdCFLThou": "300"
-    }
-```
-
-### Remap R6 to R15 Rigs/Weird Movement
-``` json
-
-    {
-        "FFlagRemapAnimationR6ToR15Rig": "True"
-    }
-
-```
-### Weird Leg Movement
-``` json
-
-    {
-        "DFFlagAnimatorPostProcessIK": "True"
-    }
-
 ```
 
 ### Adjust Hip Height Clamps
@@ -755,6 +704,16 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "DFFlagDebugDisableTimeoutDisconnect": "True"
 }
 ```
+### N/A
+###### causes memory leaks
+``` json
+    {
+        "FIntPhysicsGridHierarchyLowestLevelInitBinCount": "199999999",
+        "FIntPhysicsGridHierarchyLowestLevelInitBinCountWorldModel": "100000000",
+        "FIntPhysicsSolverCollisionPoolBucketSize": "2147483647",
+        "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
+    }
+```
 
 # Visuals ig
 ### semi fullbright
@@ -790,6 +749,37 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
   "DFIntCullFactorPixelThresholdShadowMapLowQuality": "1250",
   "DFIntDebugFRMQualityLevelOverride": "2"
 }
+```
+### Crash Roblox
+``` json
+
+    {
+        "DFIntTimestepArbiterThresholdCFLThou": "0"
+    }
+```
+### Stuttery Animation Fix
+``` json
+
+    {
+        "DFIntTimestepArbiterThresholdCFLThou": "300"
+    }
+```
+
+### Remap R6 to R15 Rigs/Weird Movement
+``` json
+
+    {
+        "FFlagRemapAnimationR6ToR15Rig": "True"
+    }
+
+```
+### Weird Leg Movement
+``` json
+
+    {
+        "DFFlagAnimatorPostProcessIK": "True"
+    }
+
 ```
 ### darker dark mode?
 ``` json
