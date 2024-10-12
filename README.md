@@ -745,6 +745,20 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagDisablePostFx": "True"
 }
 ````
+### remove sky/clouds
+``` json
+{
+    "FFlagRenderNoLowFrmBloom": "false",
+    "FFlagFRMRefactor": "false"
+}
+```
+### remove bloom
+``` json
+{
+  "FIntBloomFrmCutoff":"1654515",
+  "FFlagRenderNoLowFrmBloom":"True"
+}
+```
 ### quality level override
 ###### use 1-21
 ``` json
