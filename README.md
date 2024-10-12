@@ -721,6 +721,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FIntRenderShadowmapBias": "-1",
     "DFFlagDebugPauseVoxelizer": "True",
     "DFIntDebugFRMQualityLevelOverride": "1",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
 }
 ```
 ### quality level override
