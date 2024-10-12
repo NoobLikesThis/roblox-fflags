@@ -828,6 +828,13 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FIntRenderGrassDetailStrands": "0"
 }
 ```
+### Remove head roll limit for face tracking
+###### server sided???
+``` json
+{
+    "DFIntAvatarFaceChatHeadRollLimitDegrees": "360"
+}
+```
 ### Enable GPULightCulling
 ###### use with lighting attenuation for better vision
 ``` json
