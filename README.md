@@ -723,6 +723,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "DFIntDebugFRMQualityLevelOverride": "1",
     "DFFlagDebugRenderForceTechnologyVoxel": "True",
     "FFlagRenderFixFog": "True",
+    "FFlagDisablePostFx": "True"
 }
 ```
 ### fullbright 2
@@ -745,6 +746,12 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagDisablePostFx": "True"
 }
 ````
+### disable postfx
+``` json
+{
+    "FFlagDisablePostFx": "True"
+}
+```
 ### remove sky/clouds
 ``` json
 {
