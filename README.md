@@ -710,7 +710,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 
 # Visuals ig
 ### semi fullbright
-###### use FFlagRenderFixFog if you want
+###### only works in maps that use day time
 ```
 {
     "FFlagFastGPULightCulling3": "True",
@@ -722,6 +722,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "DFFlagDebugPauseVoxelizer": "True",
     "DFIntDebugFRMQualityLevelOverride": "1",
     "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FFlagRenderFixFog": "True",
 }
 ```
 ### quality level override
