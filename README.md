@@ -710,6 +710,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 
 # Visuals ig
 ### semi fullbright
+###### use FFlagRenderFixFog if you want
 ```
 {
     "FFlagFastGPULightCulling3": "True",
@@ -1105,7 +1106,7 @@ Default: Unknown
 ```
 ## doors
 ### dark map 
-###### only works in non lighted rooms
+###### only works in non lighted rooms + use voxel + use FFlagRenderFixFog if yk if it works
 ``` json
 {
     "FFlagFastGPULightCulling3": "True",
