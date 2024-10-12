@@ -1,5 +1,5 @@
 # roblox-fflags
-###### if ur from v3rm.net, cool!
+###### if if a fflag says smth abt a path, add a , after the fflag that doesnt work
 
 
 ## groups
@@ -719,7 +719,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
     "FFlagNewLightAttenuation": "True",
     "FIntRenderShadowmapBias": "-1",
-    "DFFlagDebugPauseVoxelizer": "True"
+    "DFFlagDebugPauseVoxelizer": "True",
 }
 ```
 ### dark map
