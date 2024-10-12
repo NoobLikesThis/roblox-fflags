@@ -46,13 +46,6 @@
  "DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
-### godmode fr fr
-###### Disconnect your internet before joining a game and turn it on again
-``` json
-{
-    "DFIntGameNetOptimizeParallelPhysicsSendAssemblyBatch": "0"
-}
-```
 
 ### lil bro tweakin 
 
