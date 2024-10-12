@@ -709,7 +709,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 ```
 
 # Visuals ig
-### semi fullbright
+### fullbright 1
 ###### only works in maps that use day time
 ```
 {
@@ -725,6 +725,26 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagRenderFixFog": "True",
 }
 ```
+### fullbright 2
+###### same stuff needed as fullbright but its better
+``` json
+{
+    "FFlagFastGPULightCulling3": "True",
+    "FIntRenderShadowmapBias": "-1",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "FIntRenderShadowIntensity": "0",
+    "FFlagRenderFixFog": "True",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FFlagRenderNoLowFrmBloom": "false",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "FIntBloomFrmCutoff": "1654515",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "FFlagNewLightAttenuation": "True",
+    "FFlagFRMRefactor": "false",
+    "FFlagDisablePostFx": "True"
+}
+````
 ### quality level override
 ###### use 1-21
 ``` json
