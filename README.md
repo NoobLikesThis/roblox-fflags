@@ -1114,7 +1114,7 @@ Default: Unknown
     "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
     "FFlagNewLightAttenuation": "True",
     "FIntRenderShadowmapBias": "-1",
-    "DFFlagDebugPauseVoxelizer": "True"
+    "DFFlagDebugPauseVoxelizer": "True",
     "DFIntTaskSchedulerTargetFps": "5588562",
     "FFlagDebugSkyGray": "true",
     "DFIntDebugFRMQualityLevelOverride": "2",
