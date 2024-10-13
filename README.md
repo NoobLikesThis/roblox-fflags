@@ -814,6 +814,24 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "DFIntDebugFRMQualityLevelOverride": "2"
 }
 ```
+### frm levels
+```
+Low
+
+1 = 3
+2 = 2
+3 = 6
+
+High
+
+4 = 7
+5 = 11
+6 = 14
+7 = 15 
+8 = 17
+9 = 18
+10 = 21
+```
 ### dark map
 ``` json
 {
