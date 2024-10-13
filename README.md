@@ -750,7 +750,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 ```
 ### fullbright 1
 ###### only works in maps that use day time
-```
+``` json
 {
     "FFlagFastGPULightCulling3": "True",
     "FIntRenderShadowIntensity": "0",
@@ -784,7 +784,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
     "FFlagFRMRefactor": "false",
     "FFlagDisablePostFx": "True"
 }
-````
+```
 ### disable postfx
 ``` json
 {
