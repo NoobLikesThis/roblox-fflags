@@ -18,8 +18,35 @@
  "DFIntNewRunningBaseGravityReductionFactorHundredth": "1695"
  }
 ```
-
-
+### anything you touch goes to heaven
+###### Cameron56378 on github
+``` json
+{
+"FFlagHandleAltEnterFullscreenManually": "False",
+"FLogNetwork": "7",
+"DFIntTaskSchedulerTargetFps": "9999",
+"DFFlagTextureQualityOverrideEnabled": "True",
+"FFlagDebugForceFutureIsBrightPhase3": "True",
+"DFIntTextureQualityOverride": "2",
+"FFlagDisableNewIGMinDUA": "True",
+"FFlagEnableInGameMenuControls": "True",
+"FFlagEnableInGameMenuModernization": "True",
+"FFlagEnableInGameMenuChrome": "True",
+"FFlagEnableMenuControlsABTest": "False",
+"FFlagEnableV3MenuABTest3": "False",
+"FFlagEnableInGameMenuChromeABTest3": "False",
+"DFIntDebugSimPrimalLineSearch": "5000",
+"DFIntBulletContactBreakOrthogonalThresholdPercent": "1000000",
+"DFIntDebugSimPrimalWarmstartVelocity": "10000",
+"FFlagDebugSimDefaultPrimalSolver": "True",
+"FFlagDebugSimPrimalGSLump": "True",
+"FIntDebugSimPrimalGSLumpAlpha": "-1111",
+"DFIntDebugSimPrimalStiffness": "30000",
+"DFIntMinClientSimulationRadius": "2147000000",
+"DFIntMinimalSimRadiusBuffer": "2147000000",
+"DFIntMaxClientSimulationRadius": "2147000000"
+}
+```
 ### Spin 1
 
 ###### @bloodraven
