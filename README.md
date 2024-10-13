@@ -750,6 +750,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 ```
 ### fullbright 1
 ###### only works in maps that use day time
+###### tip: change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.
 ``` json
 {
     "FFlagFastGPULightCulling3": "True",
@@ -767,6 +768,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 ```
 ### fullbright 2
 ###### same stuff needed as fullbright but its better
+###### tip: change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.
 ``` json
 {
     "FFlagFastGPULightCulling3": "True",
