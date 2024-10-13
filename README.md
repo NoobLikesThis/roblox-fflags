@@ -709,6 +709,18 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 ```
 
 # Visuals ig
+### semi fullbright
+``` json
+{
+    "FFlagFastGPULightCulling3": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "FFlagNewLightAttenuation": "True",
+    "FIntRenderShadowmapBias": "-1",
+    "DFFlagDebugPauseVoxelizer": "True"
+}
+```
 ### fullbright 1
 ###### only works in maps that use day time
 ```
