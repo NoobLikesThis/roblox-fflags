@@ -841,6 +841,13 @@ High
 "FStringPartTexturePackTablePre2022": "{\"foil\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://13576561565\"],\"color\":[0,0,0]},\"asphalt\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://13576561565\"],\"color\":[0,0,0]},\"basalt\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://13576561565\"],\"color\":[0,0,0]},\"brick\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"cobblestone\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"concrete\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"crackedlava\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"diamondplate\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"fabric\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"glacier\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"glass\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"granite\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"grass\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"ground\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"ice\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"leafygrass\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"limestone\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"marble\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"metal\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"mud\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"pavement\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"pebble\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"plastic\":{\"ids\":[\"\",\"rbxassetid://13576561565\"],\"color\":[0,0,0]},\"rock\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"corrodedmetal\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9439557520\"],\"color\":[0,0,0]},\"salt\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"sand\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"sandstone\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"slate\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9439613006\"],\"color\":[0,0,0]},\"snow\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]},\"wood\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9439649548\"],\"color\":[0,0,0]},\"woodplanks\":{\"ids\":[\"rbxassetid://13576561565\",\"rbxassetid://9438453972\"],\"color\":[0,0,0]}}"
 }
 ```
+### failsafehumanoid
+###### grey avatars
+``` json
+{
+    "FFlagFailsafeHumanoid_3": "True"
+}
+```
 ### HyperThreading
 ``` json
 {
@@ -1291,7 +1298,7 @@ Default: Unknown
   "FIntRenderGrassDetailStrands": "0"
 }
 ```
-### BEST OPTIMIZATION FFLAG (CAN CRASH DUE TO VULKAN)
+### MY OPTIMIZATION FFLAG (CAN CRASH DUE TO VULKAN)
 ###### make sure to remove preferdirect3d11 and not disabledirect3d11
 ``` json
 {
@@ -1333,5 +1340,133 @@ Default: Unknown
   "DFIntMaxMissedWorldStepsRemembered": "1000",
   "DFIntNumAssetsMaxToPreload": "9999999",
   "DFIntAssetPreloading": "9999999"
+}
+```
+### Improve Animation Speed, Visual Fidelity, and Ping
+``` json
+{
+    "FFlagSimEnableDCD10": "True",
+    "FFlagDebugGraphicsPreferD3D11FL10": "True",
+    "DFIntBufferCompressionLevel": "0",
+    "DFIntBufferCompressionThreshold": "100",
+    "DFIntPerformanceControlFrameTimeMax": "1",
+    "DFIntPerformanceControlFrameTimeMaxUtility": "-1",
+    "FFlagPushFrameTimeToHarmony": "True",
+    "FFlagUISUseLastFrameTimeInUpdateInputSignal": "True",
+    "DFIntAnimatorThrottleMaxFramesToSkip": "1",
+    "DFIntNumFramesAllowedToBeAboveError": "1",
+    "DFIntVisibilityCheckRayCastLimitPerFrame": "10",
+    "DFIntNetworkSchemaCompressionRatio": "100",
+    "DFIntTimeBetweenSendConnectionAttemptsMS": "200"
+}
+```
+### Extreme Latency
+``` json
+{
+    "DFIntLargePacketQueueSizeCutoffMB": "1000",
+    "DFIntMaxProcessPacketsJobScaling": "10000",
+    "DFIntMaxProcessPacketsStepsAccumulated": "0",
+    "DFIntMaxProcessPacketsStepsPerCyclic": "5000",
+    "DFIntMegaReplicatorNetworkQualityProcessorUnit": "10"
+}
+```
+### Network CPU RSS Tweaks
+``` json
+{
+    "DFIntPhysicsReceiveNumParallelTasks": "20",
+    "DFIntPhysicsAnalyticsHighFrequencyIntervalSec": "20",
+    "FFlagSimAdaptiveMinorOptimizations": "True",
+    "FIntSimWorldTaskQueueParallelTasks": "20",
+    "FIntSmoothClusterTaskQueueMaxParallelTasks": "20",
+    "DFIntReplicationDataCacheNumParallelTasks": "20",
+    "DFIntMegaReplicatorNumParallelTasks": "20"
+}
+```
+### RCOOL OPTIMIZATIONS (MAY BE OLD)
+``` json
+{
+    "FFlagHandleAltEnterFullscreenManually": "False",
+    "FLogNetwork": "7",
+    "DFIntTaskSchedulerTargetFps": "9999",
+    "FFlagFixGraphicsQuality": "True",
+    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+    "FFlagDebugDisableTelemetryEphemeralStat": "True",
+    "FIntRenderLocalLightFadeInMs": "0",
+    "FFlagDebugDisableTelemetryEventIngest": "True",
+    "FFlagDebugDisableTelemetryPoint": "True",
+    "FFlagDebugDisableTelemetryV2Counter": "True",
+    "FFlagDebugDisableTelemetryV2Event": "True",
+    "FFlagDebugDisableTelemetryV2Stat": "True",
+    "FStringPartTexturePackTable2022": "{\u0022glass\u0022:{\u0022ids\u0022:[\u0022rbxassetid://9873284556\u0022,\u0022rbxassetid://9438453972\u0022],\u0022color\u0022:[254,254,254,7]}}",
+    "FStringPartTexturePackTablePre2022": "{\u0022glass\u0022:{\u0022ids\u0022:[\u0022rbxassetid://7547304948\u0022,\u0022rbxassetid://7546645118\u0022],\u0022color\u0022:[254,254,254,7]}}",
+    "FStringTerrainMaterialTable2022": "",
+    "FStringTerrainMaterialTablePre2022": "",
+    "FFlagGlobalWindActivated": "False",
+    "FFlagEnableBetaFacialAnimation2": "False",
+    "FFlagFacialAnimationSupport1": "False",
+    "DFIntAnimationLodFacsDistanceMin": "0",
+    "DFIntAnimationLodFacsDistanceMax": "0",
+    "DFIntAnimationLodFacsVisibilityDenominator": "0",
+    "DFFlagEnableDynamicHeadByDefault": "False",
+    "FIntRobloxGuiBlurIntensity": "0",
+    "FFlagDebugRenderingSetDeterministic": "True",
+    "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+    "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
+    "FIntRenderLocalLightUpdatesMax": "1",
+    "FIntRenderLocalLightUpdatesMin": "1",
+    "FFlagAdServiceEnabled": "False",
+    "FFlagFastGPULightCulling3": "True",
+    "FFlagNewLightAttenuation": "True",
+    "FFlagGlobalWindRendering": "False",
+    "FIntRenderShadowIntensity": "0",
+    "FIntRenderShadowmapBias": "1",
+    "FIntDebugForceMSAASamples": "-1",
+    "FIntFRMMinGrassDistance": "0",
+    "FFlagLuaAppUseUIBloxColorPalettes1": "True",
+    "FFlagEnableCommandAutocomplete": "True",
+    "FFlagUIBloxUseNewThemeColorPalettes": "True",
+    "FIntFRMMaxGrassDistance": "0",
+    "FFlagSoundsUsePhysicalVelocity": "True",
+    "FIntRenderGrassDetailStrands": "0",
+    "FFlagChromeBetaFeature": "False",
+    "FFlagEnableInGameMenuChromeABTest2": "False",
+    "FFlagEnableReportAbuseMenuRoactABTest2": "False",
+    "FFlagEnableChromePinnedChat": "False",
+    "FFlagEnableInGameMenuChrome": "False",
+    "FFlagEnableInGameMenuChromeABTest": "False",
+    "FFlagEnableInGameMenuChromeSignalAPI": "False",
+    "FFlagPlayerListChromePushdown": "False",
+    "FStringEnableChromePinnedChatForcedUserIds": "1",
+    "FStringGameMenuChromeForcedUserIds": "1",
+    "FFlagVoiceBetaBadge": "False",
+    "FFlagTopBarUseNewBadge": "False",
+    "FFlagEnableBetaBadgeLearnMore": "False",
+    "FFlagBetaBadgeLearnMoreLinkFormview": "False",
+    "FFlagControlBetaBadgeWithGuac": "False",
+    "FStringVoiceBetaBadgeLearnMoreLink": "null",
+    "FIntRenderGrassHeightScaler": "0",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "DFFlagDisableDPIScale": "True",
+    "DFIntTextureCompositorActiveJobs": "0",
+    "FFlagCoreGuiTypeSelfViewPresent": "False",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "FFlagDisableNewIGMinDUA": "True",
+    "FFlagPreloadAllFonts": "True",
+    "FFlagCommitToGraphicsQualityFix": "True",
+    "FFlagDebugSkyGray": "True",
+    "DFIntMaxFrameBufferSize": "4",
+    "FFlagRenderGpuTextureCompressor": "True",
+    "FFlagGpuGeometryManager7": "True",
+    "DFFlagPredictedOOM": "False",
+    "DFIntPredictedOOMPercent": "0",
+    "FFlagDisablePostFx": "True",
+    "FFlagEnableQuickGameLaunch": "True",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "FIntTerrainArraySliceSize": "4",
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "1",
+    "FFlagEnableAudioOutputDevice": "False"
 }
 ```
