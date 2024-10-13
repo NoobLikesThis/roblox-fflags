@@ -767,7 +767,7 @@ Go into settings  and change your FPS to 240 (if you can reach that amount of FP
 }
 ```
 ### fullbright 2
-###### same stuff needed as fullbright but its better
+###### same stuff needed as fullbright but its better, fullbright 1 and 2 will let you noclip a bit inside a wall, be-aware.
 ###### tip: change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.
 ``` json
 {
