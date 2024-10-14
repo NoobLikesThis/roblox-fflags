@@ -218,6 +218,14 @@ Sets your clients simulation radius ( as far as i know )
     "DFIntDebugSimPrimalPreconditionerMinExp": "10"
 }
 ```
+### noclip 5
+``` json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagDebugSimPrimalGSLump": "True",
+    "FIntDebugSimPrimalGSLumpAlpha": "-1111"
+}
+```
 ###  Noclip + Low Gravity + Fly (Weird Movement)
 ``` json
 {
