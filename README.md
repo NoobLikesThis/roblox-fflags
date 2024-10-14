@@ -334,6 +334,7 @@ poor man's fly mode (not really usable). \
 }
 ```
 
+
 ### Low Gravity 2
 \[!CAUTION\] This is more buggy
 
@@ -967,6 +968,19 @@ High
     "FIntFRMMinGrassDistance": "0",
     "FIntFRMMaxGrassDistance": "0",
     "FIntRenderGrassDetailStrands": "0"
+}
+```
+
+### Increased Grass Motion & No Grass Motion
+###### best for non gamers to touch grass
+```json
+{
+    "FIntGrassMovementReducedMotionFactor": 999
+}
+```
+```json
+{
+    "FIntGrassMovementReducedMotionFactor": 0
 }
 ```
 ### Remove head roll limit for face tracking
