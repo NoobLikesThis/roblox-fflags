@@ -585,22 +585,22 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 }
 ```
 ## Physics Slowdown
-This fast flag sets the current physics "FPS", this slows down all the physics related stuff aka falling, walking
-Default: 16
+#### This fast flag sets the current physics "FPS", this slows down all the physics related stuff aka falling, walking. Change 1, 2, 3 and 4 for an effect, use 3 and with 60 fps for the best effect, use 4 with any fps lower than 45.
+##### Default: 16
 
-```Json
+``` json
 {
-  "DFIntMaxMissedWorldStepsRemembered":1
+  "DFIntMaxMissedWorldStepsRemembered": "1"
 }
 ```
 ## Active Physics FPS Change
-Go into settings  and change your FPS to 240 (if you can reach that amount of FPS) and you will have full Physics speed, at 30 fps its around 7,5/s. Any Part you have network Ownershipship over is also slowed down, as well as shot projectiles.
-
-```Json
+#### Go into settings  and change your FPS to 240 (if you can reach that amount of FPS) and you will have full Physics speed, at 30 fps its around 7,5/s. Any Part you have network Ownershipship over is also slowed down, as well as shot projectiles.
+###### note: these will do the same thing
+``` json
 {
   "FFlagGameBasicSettingsFramerateCap": "True",
-  "DFIntTaskSchedulerTargetFps": 0,
-  "DFIntMaxMissedWorldStepsRemembered":"1"
+  "DFIntTaskSchedulerTargetFps": "0",
+  "DFIntMaxMissedWorldStepsRemembered": "1"
 }
 ```
 
