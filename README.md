@@ -20,21 +20,9 @@
 ```
 ### anything you touch goes to heaven
 ###### Cameron56378 on github
+###### flings you aswell but very high
 ``` json
 {
-"FFlagHandleAltEnterFullscreenManually": "False",
-"FLogNetwork": "7",
-"DFIntTaskSchedulerTargetFps": "9999",
-"DFFlagTextureQualityOverrideEnabled": "True",
-"FFlagDebugForceFutureIsBrightPhase3": "True",
-"DFIntTextureQualityOverride": "2",
-"FFlagDisableNewIGMinDUA": "True",
-"FFlagEnableInGameMenuControls": "True",
-"FFlagEnableInGameMenuModernization": "True",
-"FFlagEnableInGameMenuChrome": "True",
-"FFlagEnableMenuControlsABTest": "False",
-"FFlagEnableV3MenuABTest3": "False",
-"FFlagEnableInGameMenuChromeABTest3": "False",
 "DFIntDebugSimPrimalLineSearch": "5000",
 "DFIntBulletContactBreakOrthogonalThresholdPercent": "1000000",
 "DFIntDebugSimPrimalWarmstartVelocity": "10000",
@@ -333,7 +321,15 @@ poor man's fly mode (not really usable). \
     "DFIntDebugSimPrimalLineSearch": "222"
 }
 ```
-
+### Stick unanchored parts to you
+##### - = up, + = down
+###### flings you a bit
+``` json
+{
+    "DFIntSolidFloorPercentForceApplication": "-1000",
+    "DFIntNonSolidFloorPercentForceApplication": "-5000"
+}
+```
 
 ### Low Gravity 2
 \[!CAUTION\] This is more buggy
