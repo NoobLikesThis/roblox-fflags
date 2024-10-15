@@ -1051,6 +1051,15 @@ High
     "DFFlagVideoCaptureServiceEnabled": "False"
 }
 ```
+### custom accessory positions
+###### found by maxiumadhd, almost lost ages ago, only for people who can't use.
+``` json
+{
+"FFlagAXAccessoryAdjustmentlXPEnabledForAll": "True",
+"DFFlagUseVisBugChecks" "True",
+"DFFlagUseVisBugChecks27": "True",
+}
+```
 ### Increase Ping 
 ```json
 {
