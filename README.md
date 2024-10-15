@@ -774,6 +774,8 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ###### use in games with massive or games with lots of clouds, make sure the game is daytime or has daytime.
 ###### same stuff needed as fullbright but its better, fullbright 1 and 2 will let you noclip a bit inside a wall, be-aware.
 ###### tip: change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.
+###### add "FFlagRenderUnifiedLighting6": "True" for a diffrence ig?
+
 ``` json
 {
     "FFlagFastGPULightCulling3": "True",
@@ -790,6 +792,12 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagNewLightAttenuation": "True",
     "FFlagFRMRefactor": "false",
     "FFlagDisablePostFx": "True"
+}
+```
+### unifed lighing
+``` json
+{
+    "FFlagRenderUnifiedLighting6": "True"
 }
 ```
 ### disable postfx
