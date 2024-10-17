@@ -214,6 +214,15 @@ Sets your clients simulation radius ( as far as i know )
     "FIntDebugSimPrimalGSLumpAlpha": "-1111"
 }
 ```
+### noclip 7
+###### dont climb stairs, dont jump
+``` json
+{
+"DFIntDebugSimPrimalLineSearch": "1",
+"DFIntDebugSimPrimalWarmstartVelocity": "102",
+"DFIntDebugSimPrimalWarmstartForce": "25",
+}
+```
 ###  Noclip + Low Gravity + Fly (Weird Movement)
 ``` json
 {
