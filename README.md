@@ -216,12 +216,21 @@ Sets your clients simulation radius ( as far as i know )
 }
 ```
 ### noclip 7
-###### dont climb stairs, dont jump
+###### dont climb stairs, dont jump, buggy.
 ``` json
 {
 "DFIntDebugSimPrimalLineSearch": "1",
 "DFIntDebugSimPrimalWarmstartVelocity": "102",
 "DFIntDebugSimPrimalWarmstartForce": "25",
+}
+```
+### noclip 8
+###### dont jump and buggy a bit.
+``` json
+{
+"DFIntDebugSimPrimalLineSearch": "1",
+"DFIntDebugSimPrimalWarmstartVelocity": "102",
+"DFIntDebugSimPrimalWarmstartForce": "50",
 }
 ```
 ###  Noclip + Low Gravity + Fly (Weird Movement)
