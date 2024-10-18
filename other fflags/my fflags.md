@@ -1,4 +1,5 @@
 ### my fflags
+###### change preferred escape menu to v4 no new menu.
 ``` json
 {
   "FIntPGSPenetrationMarginMax": "-100000000",
@@ -44,5 +45,62 @@
   "FFlagUserHideCharacterParticlesInFirstPerson": "True",
   "FFlagSimAdaptiveTimesteppingDefault2": "True",
   "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+### testing fflag
+``` json
+{
+  "FFlagDebugDisableTelemetryEphemeralStat": "True",
+  "FFlagSimAdaptiveTimesteppingDefault2": "True",
+  "DFIntReplicationDataCacheNumParallelTasks": "20",
+  "DFIntCSGLevelOfDetailSwitchingDistance": "500",
+  "FLogNetwork": "7",
+  "FFlagEnableInGameMenuModernization": "True",
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+  "DFIntNumAssetsMaxToPreload": "9999999",
+  "FFlagDebugDisableTelemetryPoint": "True",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "DFIntCanHideGuiGroupId": "32380007",
+  "FFlagEnableV3MenuABTest3": "False",
+  "FFlagInGameMenuV1FullScreenTitleBar": "False",
+  "FIntSmoothClusterTaskQueueMaxParallelTasks": "20",
+  "DFIntPhysicsReceiveNumParallelTasks": "20",
+  "FFlagDebugDisableTelemetryEventIngest": "True",
+  "DFIntMegaReplicatorNumParallelTasks": "20",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL23": "2000",
+  "FFlagDebugDisableTelemetryV2Counter": "True",
+  "FIntRenderShadowIntensity": "0",
+  "FFlagDebugDisableTelemetryV2Stat": "True",
+  "FFlagEnableInGameMenuChromeABTest3": "False",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL34": "4000",
+  "DFIntAssetPreloading": "9999999",
+  "FFlagEnableInGameMenuChrome": "False",
+  "FFlagDebugDisableTelemetryV2Event": "True",
+  "DFFlagDebugRenderForceTechnologyVoxel": "True",
+  "FFlagDisablePostFx": "True",
+  "FIntSimWorldTaskQueueParallelTasks": "20",
+  "FFlagDisableNewIGMinDUA": "True",
+  "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+  "FIntPGSPenetrationMarginMin": "-100000000",
+  "FFlagDebugGraphicsPreferD3D11": "True",
+  "DFFlagTextureQualityOverrideEnabled": "True",
+  "FFlagUserHideCharacterParticlesInFirstPerson": "True",
+  "DFIntDebugFRMQualityLevelOverride": "14",
+  "FFlagEnableMenuControlsABTest": "False",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "FFlagFixGraphicsQuality": "True",
+  "FFlagCoreGuiTypeSelfViewPresent": "False",
+  "DFIntMaxMissedWorldStepsRemembered": "1000",
+  "DFIntPhysicsAnalyticsHighFrequencyIntervalSec": "20",
+  "FFlagFixMemoryPriorizationCrash": "True",
+  "DFIntTextureQualityOverride": "3",
+  "DFFlagDisableDPIScale": "True",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL12": "1000",
+  "FFlagSimAdaptiveMinorOptimizations": "True",
+  "FFlagEnableInGameMenuControls": "True",
+  "FFlagLuaAppEnableFoundationColors3": "True",
+  "FIntPGSPenetrationMarginMax": "-100000000",
+  "FIntNewInGameMenuPercentRollout3": "0",
+  "FFlagEnableInGameMenuChromeABTest4": "False"
 }
 ```
