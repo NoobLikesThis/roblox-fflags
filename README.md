@@ -668,12 +668,6 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "DFIntAssetPreloading": "9999999"
 }
 ```
-### remove long recommended section
-``` json
-{
-    "FIntGameGridFlexFeedItemTileNumPerFeed": "0"
-}
-```
 ### reduce avatar item particles in first person
 ``` json
 {
@@ -803,6 +797,59 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
   "FFlagEnableV3MenuABTest3": "False",
   "FFlagFixReportButtonCutOff": "False",
   "FIntNewInGameMenuPercentRollout3": "0"
+}
+```
+### Burger icon
+###### adds the 2015 3 lines icon to chrome ui
+###### Only works for chromeui
+``` json
+{
+    "FFlagEnableHamburgerIcon": "True"
+}
+```
+No opacity to Chrome UI
+##### So when this fflag is set to false when you change the background transparency in the esc menu it won't affect the small 3 buttons of chrome ui and will keep them semi-transparent
+##### the bg transparency set to opaque and the fflag is true and one on the right is bg transparency set to opaque and the fflag is false
+##### found by satlybpro (708463225578192968) in Bloxstrap stuff
+``` json
+{
+    "FFlagChromeUsePreferredTransparency": "False"
+}
+```
+### Extra + left healthbar for chrome ui Topbar
+``` json
+{
+    "FFlagEnableUnibarMaxDefaultOpen": "True",
+    "FFlagUpdateHealthBar": "False",
+    "FFlagUseNewPinIcon": "False"
+}
+```
+#### Revert the new chrome ui to the old one
+``` json
+{
+    "FFlagEnableHamburgerIcon": "False",
+    "FFlagEnableUnibarV4IA": "False",
+    "FFlagEnableAlwaysOpenUnibar2": "False",
+    "FFlagUseNewUnibarIcon": "False",
+    "FFlagUseSelfieViewFlatIcon": "False",
+    "FFlagUnibarRespawn": "False",
+    "FFlagEnableChromePinIntegrations2": "False"
+}
+```
+### cleaner desktop home page
+##### Tho it wont remove the Recommended for you and Sponsored sections but it will remove the Recommended section (the insanely long one)
+``` json
+{
+    "FIntGameGridFlexFeedItemTileNumPerFeed": "0"
+}
+```
+### Preferred text size scale
+##### enables a font scaler in the escape menu
+##### found by Sky (364112742153584640) in Bloxstrap stuff
+``` json
+{
+     "FFlagEnablePreferredTextSizeScale": "True",
+     "FFlagEnablePreferredTextSizeSettingInMenus2": "True"
 }
 ```
 ### Enable Better Haptics
