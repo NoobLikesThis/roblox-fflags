@@ -757,7 +757,60 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
         "FIntPhysicsSolverCollisionPoolBucketSizeWorldModel": "2147483647"
     }
 ```
-
+### Chrome UI First Time User Experience
+``` json
+{
+    "FFlagEnableChromeFTUX": "True"
+}
+```
+### Hide playerlist close button on Chrome UI
+``` json
+{
+    "FFlagDisablePlayerListDisplayCloseBtn": "True"
+}
+```
+### Pin Chat on Chrome UI
+``` json
+{
+    "FFlagEnableChromePinnedChat": "True"
+}
+```
+### Chrome UI TopBar
+``` json
+{
+    "FFlagEnableReportAbuseMenuRoactABTest2": "True",
+    "FFlagEnableInGameMenuChromeABTest2": "True",
+    "FFlagEnableInGameMenuChromeABTest3": "True"
+}
+```
+### Chrome UI Topbar Removal
+``` json
+{
+  "FFlagEnableInGameMenuChromeABTest2": "False",
+  "FFlagChromeBackwardsSignalAPI": "False",
+  "FFlagInGameMenuChrome": "False",
+  "FFlagEnableInGameMenuChrome": "False",
+  "FFlagEnableInGameMenuChromeABTest3": "False",
+  "FFlagEnableReportAbuseMenuRoact2": "False",
+  "FFlagEnableReportAbuseMenuRoactABTest": "False",
+  "FFlagEnableInGameMenuChromeABTest4": "False",
+  "FFlagChromeBetaFeature": "False",
+  "FFlagEnableInGameMenuControls": "False",
+  "FFlagEnableInGameMenuModernization": "False",
+  "FFlagEnableMenuControlsABTest": "False",
+  "FFlagEnableMenuModernizationABTest": "False",
+  "FFlagEnableMenuModernizationABTest2": "False",
+  "FFlagEnableV3MenuABTest3": "False",
+  "FFlagFixReportButtonCutOff": "False",
+  "FIntNewInGameMenuPercentRollout3": "0"
+}
+```
+### Enable Better Haptics
+``` json
+{
+    "FFlagEnableBetterHapticsResultHandling": "True"
+}
+```
 # Visuals ig
 ### semi fullbright
 ``` json
