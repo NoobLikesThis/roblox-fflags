@@ -816,7 +816,7 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagEnableHamburgerIcon": "True"
 }
 ```
-No opacity to Chrome UI
+### No opacity to Chrome UI
 ##### So when this fflag is set to false when you change the background transparency in the esc menu it won't affect the small 3 buttons of chrome ui and will keep them semi-transparent
 ##### the bg transparency set to opaque and the fflag is true and one on the right is bg transparency set to opaque and the fflag is false
 ##### found by satlybpro (708463225578192968) in Bloxstrap stuff
@@ -865,6 +865,37 @@ No opacity to Chrome UI
 ``` json
 {
     "FFlagEnableBetterHapticsResultHandling": "True"
+}
+```
+### Thick healthbar
+###### Disabling it will completly remove the healthbar
+``` json
+{
+    "FFlagUpdateHealthBar": "True"
+}
+```
+### Fix broken health bar
+``` json
+{
+    "FFlagEnableAlwaysOpenUnibar2": "False"
+}
+```
+### Fix the 2015 escape menu
+``` json
+{
+    "FFlagFixReportButtonCutOff": "False"
+}
+```
+### Mini webview
+``` json
+{
+    "FFlagWebViewProtocol": "False"
+}
+```
+### Disable Haptics Option
+``` json
+{
+    "FFlagAddHapticsToggle": "False"
 }
 ```
 # Visuals ig
