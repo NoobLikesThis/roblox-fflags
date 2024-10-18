@@ -476,6 +476,15 @@ poor man's fly mode (not really usable). \
     "DFIntDebugSimPrimalLineSearch": "1"
 }
 ```
+### bouncy v2
+###### by a youtuber called erick yeah. https://www.youtube.com/@erickyeah0
+``` json
+{
+"DFIntDebugSimPrimalLineSearch": "1",
+"DFIntDebugSimPrimalWarmstartVelocity": "100",
+"DFIntDebugSimPrimalWarmstartForce": "500",
+}
+```
 
 ### Drunk
 ``` json
