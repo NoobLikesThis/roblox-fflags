@@ -1556,6 +1556,25 @@ Default: Unknown
     "DFIntTextureQualityOverride": "1"
 }
 ```
+### faster speed fflag (not walkspeed, doesnt increase fps, increases visual speed)
+``` json
+{
+  "FFlagSimAdaptiveMinorOptimizations": "True",
+  "DFIntNumAssetsMaxToPreload": "9999999",
+  "FIntSmoothClusterTaskQueueMaxParallelTasks": "20",
+  "DFIntPhysicsAnalyticsHighFrequencyIntervalSec": "20",
+  "DFIntDebugFRMQualityLevelOverride": "1",
+  "DFIntMegaReplicatorNumParallelTasks": "20",
+  "FIntSimWorldTaskQueueParallelTasks": "20",
+  "DFIntMaxMissedWorldStepsRemembered": "1000",
+  "DFIntAssetPreloading": "9999999",
+  "DFIntReplicationDataCacheNumParallelTasks": "20",
+  "DFIntPhysicsReceiveNumParallelTasks": "20",
+  "DFIntConnectionMTUSize": "900",
+  "DFFlagDebugPauseVoxelizer": "True",
+  "FFlagFRMRefactor": "false"
+}
+```
 ### OPTIMIZATION FFLAG
 ###### low quality mode
 ``` json
