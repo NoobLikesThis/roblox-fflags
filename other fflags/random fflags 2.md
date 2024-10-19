@@ -16,6 +16,7 @@
 
 ### no shaders (NEEDS AN EXTRA FASTFLAG TOGET IT WORKING
 ##### (import this json first below)
+#### tip: remove all renders before using
 ``` json
 {
     "FFlagDebugGraphicsPreferOpenGL": true
