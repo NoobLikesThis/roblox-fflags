@@ -1019,6 +1019,43 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagDisablePostFx": "True"
 }
 ```
+### Low Quallity Terrain Textures
+###### 4 for less quality 16, 32, 64 for higher quality
+```json
+{
+    "FIntTerrainArraySliceSize": "4"
+}
+```
+### High Quality Textures 
+###### *[1-3]*
+```json
+{
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "3"
+}
+```
+### Lower Quality Textures 
+###### *[1-3]*
+```json
+{
+    "DFIntPerformanceControlTextureQualityBestUtility": "-1"
+}
+```
+### No avatar textures
+```json
+{
+    "DFIntTextureCompositorActiveJobs": "0"
+}
+```
+### Texture Manager
+
+###### 1-4 Blurry, 5-7 low quality also removes studs, 8 Removes almost everything, use 8 for "no textures" in any game
+###### [rivals video](https://www.youtube.com/watch?v=nv4jD1sdmWE)
+```json
+{
+    "FIntDebugTextureManagerSkipMips": "-1"
+}
+```
 ### remove sky/clouds
 ``` json
 {
