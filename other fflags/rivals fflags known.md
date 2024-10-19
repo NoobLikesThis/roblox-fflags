@@ -7,7 +7,7 @@
 "DFIntMaxAltitudePDStickHipHeightPercent": "-24"
 }
 ```
-### original
+### original of above
 ##### Very controllable bounce, only works with negative values, 0 allows you to hover
 ``` json
 
@@ -21,7 +21,7 @@
     "DFIntUnstickForceAttackInTenths": "-4",
 }
 ```
-### original
+### original of above
 ##### the exact same.
 ``` json
 {
@@ -34,7 +34,7 @@
     "DFIntNewRunningBaseGravityReductionFactorHundredth": "1425"
 }
 ```
-### original
+### original of above
 ``` json
 {
     "DFIntNewRunningBaseGravityReductionFactorHundredth": "1500"
@@ -47,7 +47,7 @@
     "DFIntNonSolidFloorPercentForceApplication": "-5000"
 }
 ```
-### original
+### original of above
 ##### - = up, + = down
 ###### flings you a bit
 ``` json
