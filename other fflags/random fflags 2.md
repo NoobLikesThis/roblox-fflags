@@ -14,7 +14,7 @@
 }
 ```
 
-### no shaders (NEEDS AN EXTRA FASTFLAG TOGET IT WORKING
+### no shaders (NEEDS AN EXTRA FASTFLAG TO GET IT WORKING)
 ##### (import this json first below)
 #### tip: remove all renders before using
 ``` json
