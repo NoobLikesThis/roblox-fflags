@@ -913,7 +913,7 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ```
 ### fullbright 1
 ###### use in games with massive or games with lots of clouds, make sure the game is daytime or has daytime.
-###### same stuff needed as fullbright but its better, fullbright 1 and 2 will let you noclip a bit inside a wall, be-aware.
+###### fullbright 1 and 2 will let you noclip a bit inside a wall, be-aware.
 ###### tip: change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.
 ``` json
 {
@@ -933,8 +933,9 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ### fullbright 2
 ###### use in games with massive or games with lots of clouds, make sure the game is daytime or has daytime.
 ###### same stuff needed as fullbright but its better, fullbright 1 and 2 will let you noclip a bit inside a wall, be-aware.
-###### tip: change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.
-##### tip: for expirenced people, add opengl and remove ur old rendering mode, remove the shaders for less shadows.
+##### tip: change the DFIntDebugFRMQualityLevelOverride fflag to 0 when you dont want quality 1 and wanna change it in game, best to hide ur fullbright while someone is watching.
+##### tip: for expirenced people, add opengl and remove ur old rendering mode, remove the shaders with a fflag for less shadows.
+##### fflags in fflags folder, random fflags 2.
 
 ``` json
 {
