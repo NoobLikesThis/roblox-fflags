@@ -641,6 +641,18 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "DFIntMaxMissedWorldStepsRemembered": "1000"
 }
 ```
+### Wallglide
+``` json
+{
+    "DFIntUnstickForceAttackInTenths": "-4"
+}
+```
+### wallfling
+``` json
+{
+"DFIntUnstickForceAttackInTenths": "-10000"
+}
+```
 ### real hitbox 🤑
 ``` json
 {
