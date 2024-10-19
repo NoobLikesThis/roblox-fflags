@@ -1463,9 +1463,42 @@ Default: Unknown
     "DFIntTextureQualityOverride": "1"
 }
 ```
-
 ### OPTIMIZATION FFLAG
-
+###### low quality mode
+``` json
+{
+  "FFlagDebugGraphicsPreferD3D11FL10": "True",
+  "FFlagGameBasicSettingsFramerateCap5": "False",
+  "DFIntTaskSchedulerTargetFps": "5588562",
+  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "DFIntMaxFrameBufferSize": "4",
+  "FIntDebugForceMSAASamples": "0",
+  "DFFlagDebugPerfMode": "True",
+  "FFlagDisablePostFx": "True",
+  "FFlagFixGraphicsQuality": "True",
+  "DFFlagDisableDPIScale": "True",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
+  "DFFlagDebugRenderForceTechnologyVoxel": "True",
+  "DFFlagVoxelizerDisableTerrainSIMD": "True",
+  "DFFlagDebugSkipMeshVoxelizer": "True",
+  "FIntRenderShadowIntensity": "0",
+  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+  "FIntRenderLocalLightUpdatesMax": "1",
+  "FIntRenderLocalLightUpdatesMin": "1",
+  "FFlagDebugRenderingSetDeterministic": "True",
+  "FIntTerrainArraySliceSize": "4",
+  "FIntFRMMinGrassDistance": "0",
+  "FIntFRMMaxGrassDistance": "0",
+  "FIntRenderGrassDetailStrands": "0"
+}
+```
+### OPTIMIZATION FFLAG
+###### balanced quality mode.
 ``` json
 {
   "FFlagDebugGraphicsPreferD3D11FL10": "True",
@@ -1493,8 +1526,40 @@ Default: Unknown
   "FIntRenderGrassDetailStrands": "0"
 }
 ```
+### OPTIMIZATION FFLAG
+###### high quality mode optimized.
+``` json
+{
+  "FFlagDebugGraphicsPreferD3D11FL10": "True",
+  "FFlagGameBasicSettingsFramerateCap5": "False",
+  "DFIntTaskSchedulerTargetFps": "5588562",
+  "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+  "DFIntMaxFrameBufferSize": "4",
+  "FIntDebugForceMSAASamples": "0",
+  "DFFlagDebugPerfMode": "True",
+  "FFlagDisablePostFx": "True",
+  "FFlagFixGraphicsQuality": "True",
+  "DFFlagDisableDPIScale": "True",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "DFFlagDebugRenderForceTechnologyVoxel": "True",
+  "DFFlagVoxelizerDisableTerrainSIMD": "True",
+  "DFFlagDebugSkipMeshVoxelizer": "True",
+  "FIntRenderShadowIntensity": "0",
+  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+  "FIntRenderLocalLightUpdatesMax": "1",
+  "FIntRenderLocalLightUpdatesMin": "1",
+  "DFFlagTextureQualityOverrideEnabled": "True",
+  "DFIntTextureQualityOverride": "3",
+  "FFlagDebugRenderingSetDeterministic": "True",
+  "FIntTerrainArraySliceSize": "12",
+  "FIntFRMMinGrassDistance": "0",
+  "FIntFRMMaxGrassDistance": "0",
+  "FIntRenderGrassDetailStrands": "0"
+}
+```
 ### MY OPTIMIZATION FFLAG (CAN CRASH DUE TO VULKAN)
-###### make sure to remove preferdirect3d11 and not disabledirect3d11
+###### make sure to remove preferdirect3d11 and not disabledirect3d11 dont use in fighting games.
 ``` json
 {
   "FLogNetwork": "7",
@@ -1575,6 +1640,103 @@ Default: Unknown
     "FIntSmoothClusterTaskQueueMaxParallelTasks": "20",
     "DFIntReplicationDataCacheNumParallelTasks": "20",
     "DFIntMegaReplicatorNumParallelTasks": "20"
+}
+```
+### V1
+###### very low quality for performance, by espresso-soft
+``` json
+{
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+    "DFIntTaskSchedulerTargetFps": "9999",
+    "FFlagDebugRenderingSetDeterministic": "True",
+    "DFFlagDebugRenderForceTechnologyVoxel": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "DFFlagDisableDPIScale": "True",
+    "DFIntDebugFRMQualityLevelOverride": "1",
+    "FFlagCommitToGraphicsQualityFix": "True",
+    "FFlagFixGraphicsQuality": "True",
+    "FFlagGlobalWindRendering": "False",
+    "FIntRenderLocalLightUpdatesMax": "8",
+    "FIntRenderLocalLightUpdatesMin": "6",
+    "FIntRenderLocalLightFadeInMs": "-1",
+    "FFlagDisablePostFx": "True",
+    "DFFlagDebugPauseVoxelizer": "True",
+    "FFlagDebugSkyGray": "True",
+    "FFlagFastGPULightCulling3": "True",
+    "DFIntMaxFrameBufferSize": "4",
+    "FIntTerrainArraySliceSize": "4",
+    "DFIntTextureCompositorActiveJobs": "0",
+    "FIntDebugTextureManagerSkipMips": "8",
+    "FIntFRMMinGrassDistance": "0",
+    "FIntFRMMaxGrassDistance": "0",
+    "FIntRenderGrassDetailStrands": "0",
+    "FIntRenderGrassHeightScaler": "0",
+    "FIntRenderShadowmapBias": "-1",
+    "FFlagAdServiceEnabled": "False",
+    "DFIntAnimationLodFacsDistanceMin": "0",
+    "DFIntAnimationLodFacsDistanceMax": "0",
+    "DFIntAnimationLodFacsVisibilityDenominator": "0",
+    "FFlagEnableInGameMenuChromeABTest2": "False",
+    "FFlagEnableReportAbuseMenuRoactABTest2": "False",
+    "FFlagEnableInGameMenuChromeABTest3": "False",
+    "FFlagUserShowGuiHideToggles": "True",
+    "GuiHidingApiSupport2": "True",
+    "FIntFullscreenTitleBarTriggerDelayMillis": "3600000"
+}
+```
+### V2
+###### by espresso-soft
+``` json
+{
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+    "DFIntTaskSchedulerTargetFps": "9999",
+    "FFlagRenderFixFog": "True",
+    "FFlagDebugCheckRenderThreading": "True",
+    "FFlagRenderDebugCheckThreading2": "True",
+    "FIntRenderShadowIntensity": "0",
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+    "DFFlagDisableDPIScale": "True",
+    "FFlagCommitToGraphicsQualityFix": "True",
+    "FFlagFixGraphicsQuality": "True",
+    "FIntRenderLocalLightUpdatesMax": "6",
+    "FIntRenderLocalLightUpdatesMin": "4",
+    "FIntRenderLocalLightFadeInMs": "0",
+    "FFlagDisablePostFx": "True",
+    "FFlagNewLightAttenuation": "True",
+    "FFlagDebugForceFSMCPULightCulling": "True",
+    "DFIntMaxFrameBufferSize": "6",
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "3",
+    "FIntFRMMinGrassDistance": "0",
+    "FIntFRMMaxGrassDistance": "0",
+    "FIntRenderGrassDetailStrands": "0",
+    "FIntDebugForceMSAASamples": "0",
+    "FFlagGameBasicSettingsFramerateCap5": "False",
+    "FFlagUserShowGuiHideToggles": "True",
+    "FFlagGuiHidingApiSupport2": "True",
+    "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+    "DFIntTimestepArbiterThresholdCFLThou": "300",
+    "FFlagAdServiceEnabled": "False",
+    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+    "FFlagDebugDisableTelemetryEphemeralStat": "True",
+    "FFlagDebugDisableTelemetryEventIngest": "True",
+    "FFlagDebugDisableTelemetryPoint": "True",
+    "FFlagDebugDisableTelemetryV2Counter": "True",
+    "FFlagDebugDisableTelemetryV2Event": "True",
+    "FFlagDebugDisableTelemetryV2Stat": "True",
+    "DFIntDefaultTimeoutTimeMs": "10000",
+    "FFlagEnableQuickGameLaunch": "True",
+    "DFIntAnimationLodFacsDistanceMin": "0",
+    "DFIntAnimationLodFacsDistanceMax": "0",
+    "DFIntAnimationLodFacsVisibilityDenominator": "0",
+    "FFlagHandleAltEnterFullscreenManually": "False",
+    "FIntRobloxGuiBlurIntensity": "0",
+    "FFlagErrorPromptResizesHeight": "False",
+    "FFlagNewCameraControls": "True",
+    "DFIntS2PhysicsSenderRate": "10000"
 }
 ```
 ### RCOOL OPTIMIZATIONS (MAY BE OLD)
