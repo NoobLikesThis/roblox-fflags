@@ -1670,6 +1670,48 @@ Default: Unknown
   "FIntRenderGrassDetailStrands": "0"
 }
 ```
+### kaids optimization fflags
+``` json
+{
+  "DFIntTaskSchedulerTargetFps": 540,
+  "FFlagHandleAltEnterFullscreenManually": false,
+  "FFlagFastGPULightCulling3": true,
+  "FFlagPreloadAllFonts": true,
+  "DFIntS2PhysicsSenderRate": 100,
+  "FFlagFixGraphicsQuality": true,
+  "FFlagAdServiceEnabled": false,
+  "DFIntClientLightingTechnologyChangedTelemetryHundredthsPercent": 0,
+  "DFStringCrashUploadToBacktraceBaseUrl": "null",
+  "DFStringCrashUploadToBacktraceMacPlayerToken": "null",
+  "DFStringCrashUploadToBacktraceWindowsPlayerToken": "null",
+  "GoogleAnalyticsAccountPropertyID": "null",
+  "GoogleAnalyticsAccountPropertyIDPlayer": "null",
+  "FStringCoreScriptBacktraceErrorUploadToken": "null",
+  "FStringGamesUrlPath": "/games/",
+  "DFFlagClientBaseNetworkMetrics": false,
+  "DFStringRobloxAnalyticsURL": "null",
+  "DFStringTelegrafHTTPTransportUrl": "null",
+  "DFStringAltTelegrafHTTPTransportUrl": "null",
+  "DFStringTelegrafAddress": "127.0.0.1",
+  "DFStringAltTelegrafAddress": "127.0.0.1",
+  "DFStringTelemetryV2Url": "null",
+  "DFFlagEnableLightstepReporting2": false,
+  "DFIntLightstepHTTPTransportHundredthsPercent2": 0,
+  "DFStringLightstepHTTPTransportUrlHost": "null",
+  "DFStringLightstepHTTPTransportUrlPath": "null",
+  "DFStringLightstepToken": "null",
+  "FFlagDebugDisableTelemetryEphemeralCounter": true,
+  "FFlagDebugDisableTelemetryEphemeralStat": true,
+  "FFlagDebugDisableTelemetryEventIngest": true,
+  "FFlagDebugDisableTelemetryPoint": true,
+  "FFlagDebugDisableTelemetryV2Counter": true,
+  "FFlagDebugDisableTelemetryV2Event": true,
+  "FFlagDebugDisableTelemetryV2Stat": true,
+  "DFStringHttpPointsReporterUrl": "null",
+  "DFStringAltHttpPointsReporterUrl": "null",
+  "DFStringAnalyticsEventStreamUrlEndpoint": "null"
+}
+```
 ### MY OPTIMIZATION FFLAG (CAN CRASH DUE TO VULKAN)
 ###### make sure to remove preferdirect3d11 and not disabledirect3d11 dont use in fighting games.
 ``` json
