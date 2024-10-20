@@ -182,5 +182,7 @@
   "FFlagErrorPromptResizesHeight": "False",
   "FFlagNewCameraControls": "True",
   "DFIntS2PhysicsSenderRate": "10000"
+  "FFlagDebugGraphicsDisableDirect3D11": "True",
+  "FFlagDebugGraphicsPreferVulkan": "True"
 }
 ```
