@@ -1906,6 +1906,74 @@ Default: Unknown
     "DFIntS2PhysicsSenderRate": "10000"
 }
 ```
+### youtuber optimizations
+### v1
+###### [video](https://www.youtube.com/watch?v=fj0zVi6UG9A)
+##### Basic FPS Boosting Flaglist
+``` json
+{
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "FLogNetwork": "7",
+  "FIntDebugForceMSAASamples": "0",
+  "FIntRenderShadowIntensity": "0",
+  "FFlagDisablePostFx": "True",
+  "FIntTerrainArraySliceSize": "0",
+  "DFIntTaskSchedulerTargetFps": "160",
+  "FFlagDebugGraphicsPreferD3D11": "True",
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+  "FFlagNewLightAttenuation": "True",
+  "DFIntDebugFRMQualityLevelOverride": "1",
+  "FFlagDebugDisplayFPS": "True",
+  "FFlagGlobalWindRendering": "False",
+  "FFlagGlobalWindActivated": "False",
+  "FIntFRMMinGrassDistance": "0",
+  "FIntFRMMaxGrassDistance": "0",
+  "FIntRenderGrassDetailStrands": "0",
+  "FIntRenderGrassHeightScaler": "0"
+}
+```
+### v2
+##### Will literally disable major load components like textures, lighting, skybox, UI, etc.
+``` json
+{
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "FLogNetwork": "7",
+  "FIntDebugForceMSAASamples": "0",
+  "FIntRenderShadowIntensity": "0",
+  "FFlagDisablePostFx": "True",
+  "FIntTerrainArraySliceSize": "4",
+  "DFIntTaskSchedulerTargetFps": "160",
+  "FFlagDebugGraphicsPreferD3D11": "True",
+  "FIntFullscreenTitleBarTriggerDelayMillis": "3600000",
+  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+  "FFlagNewLightAttenuation": "True",
+  "DFIntDebugFRMQualityLevelOverride": "1",
+  "FFlagDebugDisplayFPS": "True",
+  "FFlagGlobalWindRendering": "False",
+  "FFlagGlobalWindActivated": "False",
+  "FIntFRMMinGrassDistance": "0",
+  "FIntFRMMaxGrassDistance": "0",
+  "FIntRenderGrassDetailStrands": "0",
+  "FIntRenderGrassHeightScaler": "0",
+  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+  "DFFlagDebugPauseVoxelizer": "True",
+  "FFlagDebugSkyGray": "True",
+  "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
+  "FFlagDebugForceFSMCPULightCulling": "True",
+  "DFIntPerformanceControlTextureQualityBestUtility": "-1",
+  "DFIntTextureCompositorActiveJobs": "0",
+  "DFFlagTextureQualityOverrideEnabled": "True",
+  "DFIntTextureQualityOverride": "0",
+  "FFlagUpdateHealthBar": "False"
+}
+```
+### v1
+###### making in a week or so, make an issue if you have one.
+### v2 modified
+###### making in a week or so, make an issue if you have one.
 ### RCOOL OPTIMIZATIONS (MAY BE OLD)
 ``` json
 {
