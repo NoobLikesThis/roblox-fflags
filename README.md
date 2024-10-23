@@ -13,7 +13,7 @@
 ### [custom fflags tutorial](https://github.com/GoingCrazyDude/roblox-custom-textures/)
 
 ### [fflags folder for textures and other](https://www.mediafire.com/folder/7lkiidpn7fui9/Documents)
-##### tip: turn your graphics level to 3 or higher or use quality level orivide fflag and make 6 or higher:
+##### tip: turn your graphics level to 3 or higher or use quality level overide fflag and make 6 or higher:
 ###### max is 21
 ``` json
 {
