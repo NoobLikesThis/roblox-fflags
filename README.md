@@ -1037,7 +1037,8 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ### unifed lighing
 ``` json
 {
-    "FFlagRenderUnifiedLighting6": "True"
+    "FFlagRenderUnifiedLighting9": "True",
+    "FFlagUnifiedLightingBetaFeature": "True"
 }
 ```
 ### grey sky
