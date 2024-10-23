@@ -12,6 +12,9 @@
 
 ### [custom fflags tutorial](https://github.com/GoingCrazyDude/roblox-custom-textures/)
 
+### [fflags folder for textures and other](https://www.mediafire.com/folder/7lkiidpn7fui9/Documents)
+
+
 ## Physics
 
 ### fling people
