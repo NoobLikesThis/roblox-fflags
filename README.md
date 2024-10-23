@@ -13,6 +13,12 @@
 ### [custom fflags tutorial](https://github.com/GoingCrazyDude/roblox-custom-textures/)
 
 ### [fflags folder for textures and other](https://www.mediafire.com/folder/7lkiidpn7fui9/Documents)
+##### tip: turn your graphics level to 3 or higher or use this fflag:
+``` json
+{
+    "DFIntDebugFRMQualityLevelOverride": "6"
+}
+```
 
 
 ## Physics
