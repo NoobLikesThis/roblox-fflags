@@ -15,6 +15,7 @@
 ### [guy who can get random fflags i would need for the weird fflags](https://github.com/d44df016fe28bc8d5974/rbxflags)
 
 ### [fflags folder for textures and other](https://www.mediafire.com/folder/7lkiidpn7fui9/Documents)
+##### reinstall after done or save the old file and put that one in after you are done.
 ##### tip: turn your graphics level to 3 or higher or use quality level overide fflag and make 6 or higher:
 ###### max is 21, I recommend 14, use graphics quality 6 for the same without the fflag.
 ``` json
