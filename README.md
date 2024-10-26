@@ -947,7 +947,7 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ##### note: Taller characters have a slower walking animation.
 ``` json
 {
-    "UserAnimateScaleRun ": "true"
+    "DFFlagUserAnimateScaleRun ": "true"
 }
 ```
 ### 
