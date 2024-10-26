@@ -929,6 +929,28 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagAddHapticsToggle": "False"
 }
 ```
+### Raycast Performance Improvements
+##### tip: Uses workspace:Raycast() instead of worldmodel:FindPartOnRayWithIgnoreList()
+``` json
+{
+    "FFlagUserRaycastPerformanceImprovements": "true"
+}
+```
+### Remove Unrequired Connections
+##### Disconnects unrequired connections, better memory usage
+``` json
+{
+    "FFlagUserUpdateInputConnections": "true"
+}
+```
+### Walk Speed Scale Based
+##### note: Taller characters have a slower walking animation.
+``` json
+{
+    "UserAnimateScaleRun ": "true"
+}
+```
+### 
 # textures
 ### No Textures
 ``` json
