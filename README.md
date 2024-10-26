@@ -1305,7 +1305,7 @@ High
 ### blue theme
 ``` json
 {
-    "FFlagLuaAppEnableFoundationColors3": "true"
+    "FFlagLuaAppEnableFoundationColors5": "True"
 }
 ```
 ### make low quality roblox memes
