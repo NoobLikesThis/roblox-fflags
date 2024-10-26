@@ -1311,6 +1311,21 @@ High
     "FFlagEnableInGameMenuChromeABTest2": "False"
 }
 ```
+### roblox fps unlocker
+``` json
+{
+    "FFlagGameBasicSettingsFramerateCap5": "True",
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+    "DFIntTaskSchedulerTargetFps": "0"
+}
+```
+### unlimited fps
+``` json
+{
+    "FFlagTaskSchedulerLimitTargetFpsTo2402": "False",
+    "DFIntTaskSchedulerTargetFps": "1000000000"
+}
+```
 ### Humanoid Outline
 > [!NOTE]
 > **Draws an outline around every part and every humanoid**
