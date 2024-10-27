@@ -32,7 +32,13 @@
 ### [fflags video (not mine)](https://www.youtube.com/watch?v=fj0zVi6UG9A)
 
 ## Physics
-
+### Slide on Terrain/Meshes
+##### @tyetonix
+``` json
+{
+    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
+}
+```
 ### fling people
 ###### worlds buggiest stuff ever
 ``` json
@@ -1505,6 +1511,20 @@ High
     "DFFlagVideoCaptureServiceEnabled": "False"
 }
 ```
+### Crash roblox 3 
+##### when you try to launch roblox it won't open
+```json
+{
+    "DFFlagDebugSimulateHangAtStartup": "True"
+}
+```
+### Crash roblox 4
+##### the same thing from above but it only crashes when you try to close roblox
+```json
+{
+    "DFFlagDebugSimulateHangAtShutdown": "True"
+}
+```
 ### custom accessory positions
 ###### found by maxiumadhd, almost lost ages ago, only for people who can't use.
 ``` json
@@ -1621,8 +1641,23 @@ High
 }
 ```
 
-#
-
+### Self Explanatory 7
+###### LDL dev console printing
+###### @tyetonix
+```json
+{
+    "DFFlagDebugSimLDLProgramPrintBuildStats": "True",
+    "DFFlagDebugSimLDLProgramPrintExecStats": "True"
+}
+```
+### Self Explanatory 8
+###### prints body allocations counts in dev console
+###### @tyetonix
+```json
+{
+    "FFlagDebugCountSimBodyAllocations": "True"
+}
+```
 ### Abusive Game Specific Presets
 ###### this is stolen from luafv
 
