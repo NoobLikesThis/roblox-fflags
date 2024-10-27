@@ -947,13 +947,128 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 }
 ```
 ### Walk Speed Scale Based
-##### note: Taller characters have a slower walking animation.
+##### Taller characters have a slower walking animation.
 ``` json
 {
     "DFFlagUserAnimateScaleRun ": "true"
 }
 ```
-### 
+### V1 Menu Fix
+``` json
+{
+    "FFlagSettingsHubIndependentBackgroundVisibility": "True",
+    "FFlagFixReportButtonCutOff": "False"
+}
+```
+### V2 Menu
+``` json
+{
+    "FIntNewInGameMenuPercentRollout3": "1000"
+}
+```
+### Disable Profile Picture Customization
+``` json
+{
+     "FFlagAXDefaultAvatarToShopEnabled3": "False"
+}
+```
+### Preferred Text Size Settings (new)
+``` json
+{
+  "FFlagEnablePreferredTextSizeGuiService": true,
+  "FFlagEnablePreferredTextSizeScale": true,
+  "FFlagEnablePreferredTextSizeScalePerLayerCollector": true,
+  "FFlagEnablePreferredTextSizeSettingInMenus2": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInCaptureMenu": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInExperienceMenu": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInPlayerList": true,
+  "FFlagPreferredTextSizeSettingBetaFeature": true,
+  "FIntPreferredTextSizeSettingBetaFeatureRolloutPercent": 100,
+  "FFlagEnablePreferredTextSizeConnection": true,
+  "FFlagEnablePreferredTextSizeStyleFixesAddFriends": true,
+  "FFlagEnablePreferredTextSizeStyleFixesGameTile": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInAppShell3": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInPurchasePrompt": true,
+  "FFlagEnablePreferredTextSizeStyleFixesInReportMenu": true
+}
+```
+### Keyboard Latency
+##### Default value: 500 > > Lower value = more responsive keyboard.
+##### This flag controls the keyboard input latency in milliseconds.By setting this value to 1, it minimizes the delay between key presses and the game's recognition of the input, effectively improving keyboard responsiveness. However, such a low value might cause excessively frequent key registration, which can lead to issues like repeated actions during key holds. The default value is 500 milliseconds, providing a balance between input responsiveness and preventing unintentional key repetition.
+``` json
+{
+  "FIntActivatedCountTimerMSKeyboard": 500
+}
+```
+### Mouse Latency
+##### Default value: 500 > > Lower value = more responsive mouse
+##### This flag determines the mouse input delay in milliseconds. A lower value (such as 1) will reduce the latency between mouse movement or clicks and the game's response, making the mouse feel more responsive. However, setting the value too low could result in excessively sensitive mouse input, potentially leading to issues like unintended multiple clicks or overly sensitive pointer movements. The default value of 500 milliseconds provides a balance between responsiveness and control, reducing the risk of input errors.
+``` json
+{
+  "FIntActivatedCountTimerMSMouse": 500
+}
+```
+### Shoe Skip Render Mesh
+##### skips shoe rendering
+``` json
+{
+  "FFlagShoeSkipRenderMesh": "false"
+}
+```
+### Render Skip Reading Shader Data
+##### Skips reading shader data
+``` json
+{
+  "FFlagRenderSkipReadingShaderData": "false"
+}
+```
+### Render Shadow Skip Huge Culling
+##### Skipping shadows of large objects in the distance
+``` json
+{
+  "FFlagRenderShadowSkipHugeCulling": "true"
+}
+```
+### Smoother/Faster Input
+##### Tip: When enabled the game will use an updated implementation for processing user input, which may lead to smoother and more responsive interactions. This flag controls the refactoring of the legacy input handling system in Roblox.
+##### Recommendation: Test your game thoroughly after enabling this flag to ensure that everything functions as expected.
+``` json
+{
+    "FFlagLuaAppLegacyInputSettingRefactor": true
+}
+```
+### New Version of Render
+##### Enables an updated rendering system to improve performance and manage render calls.
+``` json
+{
+  "FFlagRenderCBRefactor2": true
+}
+```
+### Directional Attenuation Max Points
+##### Tip: Lower values: May improve performance but reduce lighting accuracy. > Higher values: Increase lighting accuracy at the cost of performance, potentially leading to slower rendering, especially in scenes with complex lighting setups.
+##### Explanation:
+##### Limits the maximum number of sample points for calculating directional light attenuation..
+##### Lower values improve performance but may reduce lighting accuracy.
+##### Higher values increase lighting accuracy but may slow rendering in complex lighting setups.
+``` json
+{
+   "FIntDirectionalAttenuationMaxPoints": "400"
+}
+```
+### Simulation Optimization Flag
+##### Be mindful that while optimization can improve performance, it may also require testing to ensure that the behavior of sets remains consistent and that no necessary details are lost during the optimization process. The DFFlagSimOptimizeSetSize flag is used to optimize the size of sets in simulations. Enabling this flag activates optimization techniques that reduce the size of simulation sets, leading to better performance by decreasing memory usage and potentially improving processing speeds during simulations.
+``` json
+{
+  "DFFlagSimOptimizeSetSize": true
+}
+```
+### Old Version of FRM
+##### Graphics quality will use an older approach/method which may help improve FPS for some users.
+``` json
+{   
+   "FFlagFRMRefactor": "false"
+}
+```
 # textures
 ### No Textures
 ``` json
