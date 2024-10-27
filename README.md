@@ -1069,6 +1069,17 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
    "FFlagFRMRefactor": "false"
 }
 ```
+### old luaapp chat button
+``` json
+{
+    "FStringNewChatTabExperimentLayerValue": "2024MUSIC"
+}
+```
+``` json
+{
+    "FFlagEnableNewChatTabExperiment5": "False"
+}
+```
 # textures
 ### No Textures
 ``` json
