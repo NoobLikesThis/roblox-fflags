@@ -657,6 +657,7 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ##### Games: any game (obbys are easier to do with slow Physics)
 
 ### warp
+##### to warp, first walk and continue walking then hold the white window bar and untab.
 ``` json
 {
     "DFIntMaxMissedWorldStepsRemembered": "1000"
