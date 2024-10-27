@@ -2153,8 +2153,9 @@ Default: Unknown
     "DFIntS2PhysicsSenderRate": "10000"
 }
 ```
-### v2 modified (NOT FINISHED)
+### v2 modified
 ###### espresso-soft's v2, not youtuber optimizations.
+##### early fflag optimization, do not use if your using a game with heavy light.
 ``` json
 {
   "DFFlagDisableDPIScale": "True",
