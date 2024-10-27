@@ -1,3 +1,4 @@
+## not finished fflags optimizations, dont recommend.
 ### my fflags
 ###### change preferred escape menu to v4 no new menu.
 ``` json
