@@ -1732,8 +1732,9 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
 }
 ```
 ## Anti Kb 
-This automatically teleports all ragdolled players limbs (except torso) to the games 0,0,0 (very unreliable, only drags your torso to the 0,0,0)
-Default: Unknown
+##### use for anti fall, buggy.
+##### This automatically teleports all ragdolled players limbs (except torso) to the games 0,0,0 (very unreliable, only drags your torso to the 0,0,0)
+##### Default: Unknown
 
 ```Json
 {
