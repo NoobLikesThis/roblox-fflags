@@ -22,6 +22,8 @@
 
 #### If you want to test how much you can glitch out stuff, then just use very high/low numbers for Integer values (the highest/lowest values possible: -2147483648, 2147483648)
 
+### [modified bloxstrap](https://github.com/returnrqt/bloxstrap/)
+
 ### [fflags folder for textures and other](https://www.mediafire.com/folder/7lkiidpn7fui9/Documents)
 ##### reinstall after done or save the old file and put that one in after you are done.
 ##### tip: turn your graphics level to 3 or higher or use quality level overide fflag and make 6 or higher:
