@@ -2222,6 +2222,7 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
 ##### early fflag optimization, do not use if your using a game with heavy light.
 ``` json
 {
+  "FLogNetwork": "7",
   "DFIntAnimationLodFacsVisibilityDenominator": "0",
   "FFlagDebugDisableTelemetryEventIngest": "True",
   "DFFlagDebugRenderForceTechnologyVoxel": "True",
@@ -2249,7 +2250,6 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
   "FFlagDebugDisableTelemetryEphemeralStat": "True",
   "FIntRobloxGuiBlurIntensity": "0",
   "FFlagUserRaycastPerformanceImprovements": "true",
-  "FLogNetwork": "7",
   "FIntDebugForceMSAASamples": "0",
   "FFlagUserShowGuiHideToggles": "True",
   "FFlagEnableInGameMenuChromeABTest4": "False",
@@ -2317,7 +2317,27 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
   "FFlagLuaAppLegacyInputSettingRefactor": "True",
   "FFlagRenderShadowSkipHugeCulling": "true",
   "FFlagShoeSkipRenderMesh": "false",
-  "FFlagEnableNewChatTabExperiment5": "False"
+  "FFlagEnableNewChatTabExperiment5": "False",
+  "FFlagDebugSimDefaultPrimalSolver": "True",
+  "DFIntDebugSimPrimalLineSearch": "1",
+  "DFIntDebugSimPrimalWarmstartForce": "1000",
+  "DFIntDebugSimPrimalWarmstartVelocity": "50",
+  "FIntRakNetResendBufferArrayLength": "128",
+  "FFlagOptimizeNetwork": "True",
+  "FFlagOptimizeNetworkRouting": "True",
+  "FFlagOptimizeNetworkTransport": "True",
+  "FFlagOptimizeServerTickRate": "True",
+  "DFIntServerPhysicsUpdateRate": "60",
+  "DFIntServerTickRate": "60",
+  "DFIntRakNetResendRttMultiple": "1",
+  "DFIntRaknetBandwidthPingSendEveryXSeconds": "1",
+  "DFIntOptimizePingThreshold": "50",
+  "DFIntPlayerNetworkUpdateQueueSize": "20",
+  "DFIntPlayerNetworkUpdateRate": "60",
+  "DFIntNetworkPrediction": "120",
+  "DFIntNetworkLatencyTolerance": "1",
+  "DFIntMinimalNetworkPrediction": "0.1",
+  "FFlagMovePrerender": "True"
 }
 ```
 ### youtuber optimizations
