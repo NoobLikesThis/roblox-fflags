@@ -344,9 +344,10 @@
   "FFlagMovePrerender": "True",
   "FFlagObjectReflectionSupport": "true",
   "FFlagRenderInitShadowmaps": "true",
-  "FIntUnifiedLightingBlendZone": "1200",
+  "FIntUnifiedLightingBlendZone": "3000",
   "FFlagSimEnableDCD16": "true",
   "FFlagRenderUnifiedLighting9": "True",
-  "FFlagUnifiedLightingBetaFeature": "True"
+  "FFlagUnifiedLightingBetaFeature": "True",
+  "FIntVertexSmoothingGroupTolerance": "9000"
 }
 ```
