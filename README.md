@@ -1048,6 +1048,17 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagLuaAppLegacyInputSettingRefactor": true
 }
 ```
+### Move Pre-Render Phase [~25% Performance Boost]
+###### This FastFlag moves the Pre-Render task to an off thread after all other tasks are completed. By default, Pre-Render runs first, forcing the render thread to wait until the Pre-Render process finishes before it can start rendering a frame.
+###### With this FastFlag enabled, Pre-Renderer is executed while the main thread is processing the previous frame. This adjustment allows the main thread to proceed without waiting for Pre-Renderer, leading to increased framerates at the expense of some frame latency.
+###### This flag is most effective in CPU-bound scenarios.
+###### This fflag might cause issues
+###### @blobanium
+```json
+{
+    "FFlagMovePrerender": "True"
+}
+```
 ### New Version of Render
 ##### Enables an updated rendering system to improve performance and manage render calls.
 ``` json
