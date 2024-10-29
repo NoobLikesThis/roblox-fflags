@@ -931,6 +931,120 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagFixReportButtonCutOff": "False"
 }
 ```
+### Disable Avatar Chat
+``` json
+{
+    "FFlagAvatarChatServiceEnabled3": "False"
+}
+```
+### Break Collectible Icon
+``` json
+{
+    "FFlagDisplayCollectiblesIcon": "False"
+}
+```
+### Break Top Bar Menu
+``` json
+{
+    "FStringNewInGameMenuForceds": "UserID",
+    "FFlagEnableInGameMenuChrome": "True"
+}
+```
+### Dont Render Screen GUIs
+``` json
+{
+    "FFlagDebugDontRenderScreenGui": "True"
+}
+```
+### No Transparency V4 Menu (2023)
+``` json
+{
+    "FStringInGameMenuModernizationStickyBarForcedUserIds": "UserID"
+}
+```
+### Overlay that shows what you type
+``` json
+{
+    "FFlagDebugTextBoxServiceShowOverlay": "True"
+}
+```
+### Ammount of lines to show at once for above
+``` json
+{
+    "DFIntTextBoxServiceHistorySize": "1"
+}
+```
+### Hides gui
+``` json
+{
+    "FFlagDebugAdornsDisabled":  "True"
+}
+```
+### Disable Camera & Selfview
+``` json
+{
+    "FFlagSelfieViewEnabled": "True"
+}
+```
+### Disable Bubble Chat
+``` json
+{
+    "FFlagEnableBubbleChatFromChatService": "False"
+}
+```
+### Disable Autocomplete
+``` json
+{
+    "FFlagEnableCommandAutocomplete": "False"
+}
+```
+### ShadowMap Bias
+##### Future & ShadowMap only
+``` json
+{
+    "FIntRenderShadowmapBias": "75"
+}
+```
+### Simulation Optimization Flag
+##### Optimization, latency, delay FFlag
+``` json
+{
+   "FFlagSimEnableDCD16": "true"
+}
+```
+### Unified Lighting Blend Zone
+##### Smaller value = FPS boost > Bigger value = FPS loss
+##### Explanation:
+##### Controls the distance over which light transitions blend.
+##### Lower values create sharper transitions.
+##### Higher values make transitions smoother.
+``` json
+{
+     "FIntUnifiedLightingBlendZone": 400
+}
+```
+### Vertex Smoothing Group Tolerance
+##### The FIntVertexSmoothingGroupTolerance flag controls the tolerance level for vertex smoothing groups in 3D graphics.
+##### Lower values result in lower smoothing quality as more errors are tolerated, making models appear more angular and less smooth.
+##### Higher values increase the smoothing accuracy, leading to smoother, more visually appealing models with fewer artifacts.
+``` json
+{
+    "FIntVertexSmoothingGroupTolerance": "1000"
+}
+```
+### Object Reflection Support!
+``` json
+{
+    "FFlagObjectReflectionSupport": "true"
+}
+```
+### Better shadows
+##### Loading will take longer but the shadows are much better
+``` json
+{
+    "FFlagRenderInitShadowmaps": "true"
+}
+```
 ### Mini webview
 ``` json
 {
