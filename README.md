@@ -1085,6 +1085,14 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagFixReportButtonCutOff": "False"
 }
 ```
+### Removes the new ingame chrome chat button
+###### if you use v1 menu, this reverts the chat icon to the old one
+###### @kezcn
+```json
+{
+    "FFlagAppChatInExperienceEnabledV647new": "False"
+}
+```
 ### V2 Menu
 ``` json
 {
