@@ -17,6 +17,8 @@
 
 ### [guy who can get random fflags i would need for the weird fflags](https://github.com/d44df016fe28bc8d5974/rbxflags)
 
+### [my channel tracker fork](https://github.com/NoobLikesThis/Roblox-DeployHistory-Tracker)
+
 ### [fflag tracker](https://raw.githubusercontent.com/MaximumADHD/Roblox-Client-Tracker/roblox/FVariables.txt)
 #### If you want to find some exploitable fast flags yourself then you can search them yourself here (big thanks to maximum adhd for this, the best things to search for are things like Humanoid, Velocity, HipHeight, PGS, Render, Debug and nearly anything thats a FInt)
 
