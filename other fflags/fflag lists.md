@@ -2,6 +2,7 @@
 ### https://github.com/moonleaks/roblox-fflag-vulnerabilities
 
 ### https://github.com/espresso-soft/rbxflags
+##### paid.
 
 ### https://github.com/MrMops369/Roblox-Fast-Flags-i-use
 
