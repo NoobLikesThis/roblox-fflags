@@ -478,7 +478,6 @@ poor man's fly mode (not really usable). \
         "DFIntMaxClientSimulationRadius": "2147000000"
     }
 ```
-
 ### Freeze
 ``` json
     {
@@ -491,13 +490,6 @@ poor man's fly mode (not really usable). \
 {
     "FFlagDebugSimDefaultPrimalSolver": "True",
     "DFIntDebugSimPrimalNewtonIts": "0"
-}
-```
-### delay animations
-###### client
-``` json
-{
-    "FFlagProcessAnimationLooped": "False"
 }
 ```
 ### bouncy
@@ -712,6 +704,20 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ```json
 {
     "FFlagRemapAnimationR6ToR15Rig": "True"
+}
+```
+### delay animations
+###### client
+``` json
+{
+    "FFlagProcessAnimationLooped": "False"
+}
+```
+### Disable other players animations (Clientsided)
+``` json
+{
+  "FFlagProcessAnimationLooped":"False",
+  "FFlagReplicateAnimationLooped":"False"
 }
 ```
 # idk where to put
@@ -1345,6 +1351,19 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ``` json
 {
     "FFlagDebugSkyGray": "True",
+}
+```
+### Speed up particle emitters
+``` json
+{
+  "FFlagDebugDeterministicParticles":"True"
+}
+```
+### Crash all CoreGui scripts
+###### Won't let the game load your core gui. Resets the seasonal quests in Blade Ball
+```Json
+{
+  "FFlagFFlagLogAllGuacRead":"True"
 }
 ```
 ### disable postfx
