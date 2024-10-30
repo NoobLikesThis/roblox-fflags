@@ -1660,7 +1660,7 @@ High
 ``` json
 {
 "FFlagAXAccessoryAdjustmentlXPEnabledForAll": "True",
-"DFFlagUseVisBugChecks" "True",
+"DFFlagUseVisBugChecks": "True",
 "DFFlagUseVisBugChecks27": "True",
 }
 ```
