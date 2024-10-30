@@ -1660,7 +1660,7 @@ High
 ``` json
 {
 "FFlagAXAccessoryAdjustmentlXPEnabledForAll": "True",
-"DFFlagUseVisBugChecks" "True",
+"DFFlagUseVisBugChecks": "True",
 "DFFlagUseVisBugChecks27": "True",
 }
 ```
@@ -1765,7 +1765,7 @@ High
 ```
 ### Self Explanatory 7
 ###### @thefrenchguy4
-```
+```json
 {
     "FFlagRenamePassesAndGearToSubscriptionsAndPasses": "False"
 }
