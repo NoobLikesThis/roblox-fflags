@@ -2,7 +2,7 @@
 ###### archive: https://github.com/NoobLikesThis/roblox-fflags/blob/65313f1c20988ea5d9aa87ad0ccf10acd456ac7d/new%20noclip%20by%20me
 ##### FFlagDebugSimDefaultPrimalSolver was patched a couple days ago. It may be the new physics engine in a year or so but will probably never happen now.
 ##### if a fflag doesnt work, tell me with an issue.
-###### if if a fflag says smth abt a path, add a , after the fflag that doesnt work
+###### if a fflag says smth abt a path, add a , after the fflag that doesnt work
 
 
 
