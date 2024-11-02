@@ -136,6 +136,13 @@ Sets your clients simulation radius ( as far as i know )
     "DFIntDebugSimPrimalLineSearch": "41"
 }
 ```
+### Drive vehicles slowly
+###### @tyetonix
+```json
+{
+    "DFIntPhysicsImprovedCyclicExecutiveThrottleThresholdTenth": "0"
+}
+```
 ### Tool Fly
 
 ###### by luafv on github
@@ -861,12 +868,12 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
   "FIntNewInGameMenuPercentRollout3": "0"
 }
 ```
-### Burger icon
-###### adds the 2015 3 lines icon to chrome ui
-###### Only works for chromeui
-``` json
+### disable burger icon
+###### removes the 2015 3 lines icon from chrome ui and reverts it to the 9 dots square
+```json
 {
     "FFlagEnableHamburgerIcon": "True"
+    "FFlagEnableHamburgerIcon": "False"
 }
 ```
 ### No opacity to Chrome UI
@@ -920,6 +927,13 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagEnableBetterHapticsResultHandling": "True"
 }
 ```
+### Better Trackpad Scrolling
+``` json
+{
+    "FFlagBetterTrackpadScrolling": "True"
+}
+```
+
 ### Thick healthbar
 ###### Disabling it will completly remove the healthbar
 ``` json
@@ -931,6 +945,16 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ``` json
 {
     "FFlagEnableAlwaysOpenUnibar2": "False"
+}
+```
+### V2 Menu
+###### enables the 2020 sidebar menu
+```json
+{
+    "FIntNewInGameMenuPercentRollout3": "100",
+    "FFlagEnableInGameMenuControls": "False",
+    "FFlagDisableNewIGMinDUA": "True",
+    "FFlagEnableInGameMenuChromeABTest4": "False"
 }
 ```
 ### Fix the 2015 escape menu
@@ -1344,7 +1368,7 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ### unifed lighing
 ``` json
 {
-    "FFlagRenderUnifiedLighting9": "True",
+    "FFlagRenderUnifiedLighting10": "True",
     "FFlagUnifiedLightingBetaFeature": "True"
 }
 ```
@@ -1600,7 +1624,7 @@ High
 ``` json
 {
     "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest2": "False"
+    "FFlagEnableInGameMenuChromeABTest4": "False"
 }
 ```
 ### roblox fps unlocker
@@ -1637,7 +1661,7 @@ High
 ### blue theme
 ``` json
 {
-    "FFlagLuaAppEnableFoundationColors5": "True"
+    "FFlagLuaAppEnableFoundationColors6": "True"
 }
 ```
 ### make low quality roblox memes
@@ -1736,6 +1760,21 @@ High
 {
     "FStringDebugLuaLogLevel": "debug",
     "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
+}
+```
+### Max dev console log count
+###### Control how many developer console logs can be shown at once, for example if you set the limit to be 100, then 100 different log messages will be shown while any older ones will be deleted when the limit is reached
+###### @satlybpro
+```
+{
+    "FIntNewDevConsoleMaxLogCount": "2147483647"
+}
+```
+### Replace all Decals with a Test Image
+###### @.rbx.bloxy
+```json
+{
+    "FFlagDebugTestImageDrawItem": "True"
 }
 ```
 ### Octree Validation
