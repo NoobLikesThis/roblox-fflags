@@ -1055,6 +1055,13 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
      "FIntUnifiedLightingBlendZone": 400
 }
 ```
+### Disable In-Game Purchases
+##### gives an error when you try and buy something.
+``` json
+{
+    "DFFlagOrder66": "True"
+}
+```
 ### Vertex Smoothing Group Tolerance
 ##### The FIntVertexSmoothingGroupTolerance flag controls the tolerance level for vertex smoothing groups in 3D graphics.
 ##### Lower values result in lower smoothing quality as more errors are tolerated, making models appear more angular and less smooth.
