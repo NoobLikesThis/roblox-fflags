@@ -342,7 +342,7 @@
   "FFlagRenderInitShadowmaps": "true",
   "FIntUnifiedLightingBlendZone": "3000",
   "FFlagSimEnableDCD16": "true",
-  "FFlagRenderUnifiedLighting9": "True",
+  "FFlagRenderUnifiedLighting10": "True",
   "FFlagUnifiedLightingBetaFeature": "True",
   "FIntVertexSmoothingGroupTolerance": "9000"
 }
