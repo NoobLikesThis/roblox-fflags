@@ -731,6 +731,13 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
   "FFlagReplicateAnimationLooped":"False"
 }
 ```
+### Limits number of animations being played
+##### 0 removes most player animations, 1-5 removes the walk animation after jumping
+``` json
+{
+    "DFIntMaxActiveAnimationTracks": "0"
+}
+```
 # idk where to put
 ### faster preloading
 ``` json
@@ -1774,7 +1781,7 @@ High
 ### Max dev console log count
 ###### Control how many developer console logs can be shown at once, for example if you set the limit to be 100, then 100 different log messages will be shown while any older ones will be deleted when the limit is reached
 ###### @satlybpro
-```
+``` json
 {
     "FIntNewDevConsoleMaxLogCount": "2147483647"
 }
