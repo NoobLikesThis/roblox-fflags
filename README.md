@@ -1677,7 +1677,7 @@ High
 ### blue theme
 ``` json
 {
-    "FFlagLuaAppEnableFoundationColors6": "True"
+    "FFlagLuaAppEnableFoundationColors7": "True"
 }
 ```
 ### make low quality roblox memes
@@ -1771,7 +1771,9 @@ High
     "DFIntRemoteEventSingleInvocationSizeLimit": "1"
 }
 ```
-### logs stuff in dev console
+### log player joins,leaves,messages
+###### only works with the new chat
+###### @return_request
 ```json
 {
     "FStringDebugLuaLogLevel": "debug",
