@@ -48,6 +48,17 @@
     "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
 }
 ```
+### teleport ragdolled bodies to 0,0,0
+##### use in cart ride games for weird movement, r6 is better than r15.
+##### use for anti fall, buggy.
+##### This automatically teleports all ragdolled players limbs (except torso) to the games 0,0,0 (very unreliable, only drags your torso to the 0,0,0)
+##### Default: Unknown
+
+```Json
+{
+  "DFIntGameNetLocalSpaceMaxSendIndex":100000
+}
+```
 ### fling people
 ###### worlds buggiest stuff ever
 ``` json
