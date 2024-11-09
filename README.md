@@ -68,7 +68,7 @@
 ```
 ### anything you touch goes to heaven
 ###### Cameron56378 on github
-###### flings you aswell but very high
+###### s you aswell but very high
 ``` json
 {
 "DFIntDebugSimPrimalLineSearch": "5000",
@@ -420,6 +420,26 @@ poor man's fly mode (not really usable). \
   "DFIntDebugSimPrimalToleranceInv": "1"
 }
 ```
+### Low Gravity 2 Control on Parts Improvement
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalNewtonIts": "1",
+    "DFIntDebugSimPrimalPreconditioner": "15",
+    "DFIntDebugSimPrimalPreconditionerMinExp": "10",
+    "DFIntDebugSimPrimalToleranceInv": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "-150",
+    "DFIntDebugSimPrimalWarmstartVelocity": "100"
+}
+```
+### Low Gravity 3
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "FFlagDebugSimPrimalGSLump": "True",
+    "FIntDebugSimPrimalGSLumpAlpha": "-1111"
+}
+```
 ### Don't touch walls!!!
 ``` json
     {
@@ -700,6 +720,17 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 "DFIntUnstickForceAttackInTenths": "-10000"
 }
 ```
+### fling yourself
+###### there is a chance that you noclip through the map
+```json
+{
+    "DFIntDebugSimPrimalLineSearch": "1",
+    "DFIntDebugSimPrimalWarmstartForce": "160",
+    "DFIntDebugSimPrimalWarmstartVelocity": "102",
+    "FFlagDebugSimDefaultPrimalSolver": "True"
+}
+```
+
 ### real hitbox 🤑
 ``` json
 {
@@ -1914,7 +1945,14 @@ High
     "DFIntDebugSimPrimalToleranceInv": "2"
 }
 ```
-
+### Bury people alive
+##### everything that you grab will fall through the ground
+```json
+{
+    "FFlagDebugSimDefaultPrimalSolver": "True",
+    "DFIntDebugSimPrimalStiffness": "0"
+}
+```
 ### Send people to hell V2
 
 > \[!TIP\] Modify warmstart to change speed
