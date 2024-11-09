@@ -717,11 +717,25 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagRemapAnimationR6ToR15Rig": "True"
 }
 ```
+### Weird Leg Movement
+``` json
+
+    {
+        "DFFlagAnimatorPostProcessIK": "True"
+    }
+```
 ### delay animations
 ###### client
 ``` json
 {
     "FFlagProcessAnimationLooped": "False"
+}
+```
+### No Animations
+###### Stops the game from trying to replicate your animations in the server. You dont have animations in the server but you do for your client
+``` json
+{
+    "DFIntReplicatorAnimationTrackLimitPerAnimator": "-1"
 }
 ```
 ### Disable other players animations (Clientsided)
@@ -1536,23 +1550,6 @@ High
     {
         "DFIntTimestepArbiterThresholdCFLThou": "300"
     }
-```
-
-### Remap R6 to R15 Rigs/Weird Movement
-``` json
-
-    {
-        "FFlagRemapAnimationR6ToR15Rig": "True"
-    }
-
-```
-### Weird Leg Movement
-``` json
-
-    {
-        "DFFlagAnimatorPostProcessIK": "True"
-    }
-
 ```
 ### darker dark mode?
 ``` json
