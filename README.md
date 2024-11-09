@@ -1771,12 +1771,21 @@ High
     "DFIntRemoteEventSingleInvocationSizeLimit": "1"
 }
 ```
+### log local player deaths/how you die and joins
+###### only works with the new chat it goes in dev console so idk man
+###### @return_request
+```json
+{
+    "FStringDebugLuaLogLevel": "debug",
+    "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
+}
+```
 ### log player joins,leaves,messages
 ###### only works with the new chat
 ###### @return_request
 ```json
 {
-    "FStringDebugLuaLogLevel": "debug",
+    "FStringDebugLuaLogLevel": "trace",
     "FStringDebugLuaLogPattern": "ExpChat/mountClientApp"
 }
 ```
