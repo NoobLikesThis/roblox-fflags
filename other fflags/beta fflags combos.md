@@ -384,6 +384,55 @@
   "DFFlagDebugRenderForceTechnologyVoxel": "True"
 }
 ```
+### new one with weird movement
+``` json
+{
+  "FFlagDebugTestImageDrawItem": "True",
+  "FIntFRMMinGrassDistance": "0",
+  "DFIntGameNetLocalSpaceMaxSendIndex": "100000",
+  "FStringDebugLuaLogLevel": "trace",
+  "DFIntTextureCompositorActiveJobs": "0",
+  "DFFlagDebugEnableStreamingSolverVisualization": "True",
+  "FFlagDebugLightGridShowChunks": "True",
+  "FFlagFailsafeHumanoid_3": "True",
+  "DFIntRemoteEventSingleInvocationSizeLimit": "1",
+  "FStringDebugLuaLogPattern": "ExpChat/mountClientApp",
+  "FFlagRenderFixFog": "True",
+  "FIntDebugForceMSAASamples": "-1",
+  "DFIntDebugDynamicRenderKiloPixels": "2",
+  "DFIntPerformanceControlTextureQualityBestUtility": "-1",
+  "FIntCameraFarZPlane": "1",
+  "FIntRenderShadowIntensity": "0",
+  "FIntBloomFrmCutoff": "1654515",
+  "FFlagDebugDisplayUnthemedInstances": "True",
+  "DFIntTextureQualityOverride": "1",
+  "DFIntDebugFRMQualityLevelOverride": "1",
+  "DFIntDebugRestrictGCDistance": "1",
+  "DFFlagTextureQualityOverrideEnabled": "True",
+  "FIntDebugTextureManagerSkipMips": "-1",
+  "DFFlagDebugPauseVoxelizer": "True",
+  "DFFlagDebugDrawBvhNodes": "True",
+  "FFlagDebugDeterministicParticles": "True",
+  "FFlagEnableInGameMenuChromeABTest4": "False",
+  "FFlagDebugGraphicsPreferOpenGL": "True",
+  "FIntRenderShadowmapBias": "1",
+  "FIntTerrainArraySliceSize": "0",
+  "FFlagDisablePostFx": "True",
+  "FFlagFRMRefactor": "false",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+  "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+  "FFlagGlobalWindRendering": "False",
+  "FFlagDebugHumanoidRendering": "True",
+  "FFlagDebugAvatarChatVisualization": "True",
+  "FFlagFFlagLogAllGuacRead": "True",
+  "FFlagRenderNoLowFrmBloom": "false",
+  "DFFlagDebugRenderForceTechnologyVoxel": "True",
+  "FLogNetwork": "7",
+  "FFlagHandleAltEnterFullscreenManually": "False"
+}
+```
 ### old one with optimizations tho
 ###### use in cart rides for weird movement
 ``` json
