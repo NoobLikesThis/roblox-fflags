@@ -433,6 +433,63 @@
   "FFlagHandleAltEnterFullscreenManually": "False"
 }
 ```
+### newer one
+``` json
+{
+  "FFlagDebugTestImageDrawItem": "True",
+  "DFIntCSGLevelOfDetailSwitchingDistance": "0",
+  "FFlagGlobalWindRendering": "False",
+  "DFIntTextBoxServiceHistorySize": "1000000000",
+  "DFFlagDebugRenderForceTechnologyVoxel": "True",
+  "FIntFRMMinGrassDistance": "0",
+  "DFFlagDebugEnableStreamingSolverVisualization": "True",
+  "FFlagRenderNoLowFrmBloom": "false",
+  "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+  "FFlagFailsafeHumanoid_3": "True",
+  "DFIntGameNetLocalSpaceMaxSendIndex": "100000",
+  "DFIntDebugRestrictGCDistance": "1",
+  "FFlagFastGPULightCulling3": "True",
+  "DFIntDebugDynamicRenderKiloPixels": "2",
+  "DFIntTextureCompositorActiveJobs": "0",
+  "DFIntDebugFRMQualityLevelOverride": "1",
+  "FIntBloomFrmCutoff": "1654515",
+  "DFIntTextureQualityOverride": "1",
+  "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647",
+  "DFIntCullFactorPixelThresholdMainViewHighQuality": "1250",
+  "DFIntPerformanceControlTextureQualityBestUtility": "-1",
+  "FStringDebugLuaLogLevel": "trace",
+  "DFIntDataSenderMaxBandwidthBps": "150",
+  "DFIntCullFactorPixelThresholdMainViewLowQuality": "1250",
+  "DFFlagTextureQualityOverrideEnabled": "True",
+  "FStringDebugLuaLogPattern": "ExpChat/mountClientApp",
+  "FIntDebugForceMSAASamples": "-1",
+  "FFlagDebugHumanoidRendering": "True",
+  "DFFlagDebugDrawBvhNodes": "True",
+  "FFlagFRMRefactor": "false",
+  "FFlagDebugLightGridShowChunks": "True",
+  "FFlagDebugDeterministicParticles": "True",
+  "DFIntRemoteEventSingleInvocationSizeLimit": "1",
+  "FLogNetwork": "7",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL34": "0",
+  "FFlagFFlagLogAllGuacRead": "True",
+  "FIntCameraFarZPlane": "1",
+  "FFlagDebugAvatarChatVisualization": "True",
+  "FFlagNewLightAttenuation": "True",
+  "FFlagDebugDisplayUnthemedInstances": "True",
+  "FIntRenderShadowIntensity": "0",
+  "FFlagEnableInGameMenuChromeABTest4": "False",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL12": "0",
+  "DFFlagDebugPauseVoxelizer": "True",
+  "FIntDebugTextureManagerSkipMips": "-1",
+  "FFlagHandleAltEnterFullscreenManually": "False",
+  "FFlagRenderFixFog": "True",
+  "FFlagDisablePostFx": "True",
+  "FIntTerrainArraySliceSize": "0",
+  "FIntRenderShadowmapBias": "-1",
+  "FFlagDebugGraphicsPreferOpenGL": "True",
+  "DFIntCSGLevelOfDetailSwitchingDistanceL23": "0"
+}
+```
 ### old one with optimizations tho
 ###### use in cart rides for weird movement
 ``` json
