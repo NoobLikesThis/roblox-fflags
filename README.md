@@ -1169,6 +1169,16 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagUserRaycastPerformanceImprovements": "true"
 }
 ```
+### Render Occlusion Culling
+##### [@CloneTrooper1019](https://x.com/MaximumADHD/status/1832331711486865769)
+``` json
+{
+    "DFFlagUseVisBugChecks": "True",
+    "FFlagEnableVisBugChecks27": "True",
+    "FFlagVisBugChecksThreadYield": "True",
+    "FIntEnableVisBugChecksHundredthPercent27": "100"
+}
+```
 ### Remove Unrequired Connections
 ##### Disconnects unrequired connections, better memory usage
 ``` json
