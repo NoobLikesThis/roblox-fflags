@@ -1493,14 +1493,14 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 }
 ```
 ### Dev Console Logging
-Changes how long a Message can be, doesn't give you the ability to exceed the 16k Message Length Limit
+###### Changes how long a Message can be, doesn't give you the ability to exceed the 16k Message Length Limit
 ```Json
 {
   "FIntStandardOutputMaximumCharacterLength":"1"
 }
 ```
 ### No more highlights
-Stops all highlights from rendering.
+###### Stops all highlights from rendering.
 ```Json
 {
   "DFFlagRenderHighlightManagerPrepare":"True"
