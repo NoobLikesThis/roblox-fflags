@@ -1448,6 +1448,15 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagDisablePostFx": "True"
 }
 ```
+### Change the Layered Clothing deform Limit
+###### The changes are only clientsided. When you set it to the (positive) signed 32 bit integer Limit (2147483647), then you can create really large Clothing combinations.  All deformations are disabled when put to a low value. The check dimension flag and check max cage dist are needed for this to work.
+```Json
+{
+  "DFFlagCheckMaxCageDistance":"False",
+  "FFlagLCCheckCageDimensions":"False",
+  "DFIntLCCageDeformLimit":"2147483647"
+}
+```
 ### unifed lighing
 ``` json
 {
