@@ -1492,6 +1492,20 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "DFIntPerformanceControlTextureQualityBestUtility": "-1"
 }
 ```
+### Dev Console Logging
+Changes how long a Message can be, doesn't give you the ability to exceed the 16k Message Length Limit
+```Json
+{
+  "FIntStandardOutputMaximumCharacterLength":"1"
+}
+```
+### No more highlights
+Stops all highlights from rendering.
+```Json
+{
+  "DFFlagRenderHighlightManagerPrepare":"True"
+}
+```
 ### No avatar textures
 ```json
 {
@@ -1578,13 +1592,6 @@ High
   "DFIntCullFactorPixelThresholdShadowMapLowQuality": "1250",
   "DFIntDebugFRMQualityLevelOverride": "2"
 }
-```
-### Crash Roblox
-``` json
-
-    {
-        "DFIntTimestepArbiterThresholdCFLThou": "0"
-    }
 ```
 ### Stuttery Animation Fix
 ``` json
@@ -1763,6 +1770,13 @@ High
     "DFFlagDebugSimulateHangAtShutdown": "True"
 }
 ```
+## crash roblox
+###### The Value must be 26778 for games to load.
+```Json
+{
+  "DFIntWriterInputCheckLength":"1"
+}
+```
 ### custom accessory positions
 ###### found by maxiumadhd, almost lost ages ago, only for people who can't use.
 ``` json
@@ -1810,6 +1824,13 @@ High
     "DFIntRemoteEventSingleInvocationSizeLimit": "1"
 }
 ```
+### Lag remote events periodically
+###### Does what it says, 0 and 2147483647 don't let you load games.
+```Json
+{
+  "FIntRakNetResendBufferArrayLength":"1"
+}
+```
 ### log local player deaths/how you die and joins
 ###### only works with the new chat it goes in dev console so idk man
 ###### @return_request
@@ -1834,6 +1855,13 @@ High
 ``` json
 {
     "FIntNewDevConsoleMaxLogCount": "2147483647"
+}
+```
+### Dev Console Logging
+Changes how long a Message can be, doesn't give you the ability to exceed the 16k Message Length Limit
+```Json
+{
+  "FIntStandardOutputMaximumCharacterLength":"1"
 }
 ```
 ### Replace all Decals with a Test Image
