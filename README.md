@@ -521,6 +521,17 @@ poor man's fly mode (not really usable). \
         "DFIntMaxClientSimulationRadius": "2147000000"
     }
 ```
+### fixed network ownership
+###### better [network ownership](https://create.roblox.com/docs/physics/network-ownership) of parts
+``` json
+{
+    "DFIntMinClientSimulationRadius": "2147000000",
+    "DFIntMinimalSimRadiusBuffer": "2147000000",
+    "DFIntMaxClientSimulationRadius": "2147000000",
+    "DFFlagDebugPhysicsSenderDoesNotShrinkSimRadius": "True",
+    "FFlagDebugUseCustomSimRadius": "True"
+}
+```
 ### Freeze
 ``` json
     {
