@@ -5,6 +5,7 @@
 ##### if a fflag doesnt work, tell me with an issue.
 ###### if a fflag says smth abt a path, add a , after the fflag that doesnt work
 
+![image](https://github.com/user-attachments/assets/7110f208-5ba5-445f-9ce8-6e66fa9850ca)
 
 
 ## links
