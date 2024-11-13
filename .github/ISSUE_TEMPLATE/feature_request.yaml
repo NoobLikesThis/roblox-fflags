@@ -6,7 +6,7 @@ body:
     attributes:
       value: |
         ### **Preliminary instructions**
-        - if the fflag working?
+        - is the fflag working?
   - type: textarea
     id: what-happened
     attributes:
