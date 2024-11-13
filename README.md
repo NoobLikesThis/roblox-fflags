@@ -1024,6 +1024,13 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagEnableAlwaysOpenUnibar2": "False"
 }
 ```
+### red font
+###### You need to use Default Roblox Font to activate this. Also it can be glitchy in the settings menu
+```json
+{
+    "FStringDebugHighlightSpecificFont": "rbxasset://fonts/families/BuilderSans.json"
+}
+```
 ### V2 Menu
 ###### enables the 2020 sidebar menu
 ```json
