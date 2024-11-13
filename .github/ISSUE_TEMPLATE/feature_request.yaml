@@ -1,0 +1,15 @@
+name: Feature Request
+title: "[REQ]"
+description: Suggest a fflag that should be added
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### **Preliminary instructions**
+        - if the fflag working?
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What is the fflag and what does it do?
+    validations:
+      required: true
