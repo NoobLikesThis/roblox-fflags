@@ -1,11 +1,11 @@
 name: Talking to me
 title: "[TalkToMe]"
 body:
-description: Get to talk to me!
+description: "Get to talk to me!"
   - type: textarea
     id: what-happened
     attributes:
       label: What do you want to say to me?
-      description: Provide anything to say to me.
+      description: "Provide anything to say to me."
     validations:
       required: true
