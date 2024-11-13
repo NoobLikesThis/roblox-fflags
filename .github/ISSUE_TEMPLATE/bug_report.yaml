@@ -1,7 +1,7 @@
 name: "Talking to me"
+description: "Get to talk to me!"
 title: "[TalkToMe]"
 body:
-description: "Get to talk to me!"
   - type: textarea
     id: what-happened
     attributes:
