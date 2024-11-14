@@ -814,12 +814,168 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "DFIntAssetPreloading": "9999999"
 }
 ```
+### Limits light updates
+```json
+{
+    "FIntRenderLocalLightUpdatesMax": "8",
+    "FIntRenderLocalLightUpdatesMin": "6"
+}
+```
+### Disables fade in and fade out animation every light update
+```json
+{
+    "FIntRenderLocalLightFadeInMs": "0"
+}
+```
+### Disable In-game Advertisements
+```json
+{
+    "FFlagAdServiceEnabled": "False"
+}
+```
+### Disable Telemetry 
+```json
+{
+    "FFlagDebugDisableTelemetryEphemeralCounter": "True",
+    "FFlagDebugDisableTelemetryEphemeralStat": "True",
+    "FFlagDebugDisableTelemetryEventIngest": "True",
+    "FFlagDebugDisableTelemetryPoint": "True",
+    "FFlagDebugDisableTelemetryV2Counter": "True",
+    "FFlagDebugDisableTelemetryV2Event": "True",
+    "FFlagDebugDisableTelemetryV2Stat": "True",
+    "FStringTencentAuthPath": "null"
+}
+```
+### Surf the web inside of Roblox
+###### Click the Beta badge or the 13+ badge to open the webview browser.
+```json
+{
+    "FFlagTopBarUseNewBadge": "True",
+    "FStringTopBarBadgeLearnMoreLink": "https://google.com/",
+    "FStringVoiceBetaBadgeLearnMoreLink": "https://google.com/"
+}
+```
+### MTU 
+```json
+{
+    "DFIntConnectionMTUSize": "MTU_HERE"
+}
+```
+### Disable Shadows
+###### @Uvoltan 
+```json
+{
+    "DFIntCullFactorPixelThresholdShadowMapHighQuality": "2147483647",
+    "DFIntCullFactorPixelThresholdShadowMapLowQuality": "2147483647"
+}
+```
+### Preserve rendering quality with display setting
+```json
+{
+    "DFFlagDisableDPIScale": "True"
+}
+```
 ### reduce avatar item particles in first person
 ``` json
 {
     "FFlagUserHideCharacterParticlesInFirstPerson": "True"
 }
 ```
+### Maximum Threads
+```json
+{
+    "FIntRuntimeMaxNumOfThreads": "2400"
+}
+```
+### Minimum Threads
+```json
+{
+    "FIntTaskSchedulerThreadMin": "3"
+}
+```
+### Smoother Terrain
+```json
+{
+    "FFlagDebugRenderingSetDeterministic": "True"
+}
+```
+### Force Graphics Quality Level
+```json
+{
+    "FIntRomarkStartWithGraphicQualityLevel": "1"
+}
+```
+### Disable Player Shadows
+```json
+{
+    "FIntRenderShadowIntensity": "0"
+}
+```
+### Frame Buffer
+###### Explnation: 0 makes white screen 1-3 makes other players have laggy movement, 4 is stable has better performance than 10 and less input lag
+```json
+{
+    "DFIntMaxFrameBufferSize": "4"
+}
+```
+### 5 decimal digits limit for camera sensitivity
+###### basically like idk 8 months ago roblox added a 3 decimal digits limit, some people that I know used those extra digits
+```json
+{
+    "FFlagFixSensitivityTextPrecision": "False"
+}
+```
+### Disable voicechat
+###### Setting this to True will not do anything 
+###### [TIP] Use PlaceFilter for specific games
+```json
+{
+    "DFFlagVoiceChat4": "False"
+}
+```
+### Disable Dynamic Heads Animations
+###### https://roblox.fandom.com/wiki/Dynamic_Head
+```json
+{
+    "DFIntAnimationLodFacsDistanceMin": "0",
+    "DFIntAnimationLodFacsDistanceMax": "0",
+    "DFIntAnimationLodFacsVisibilityDenominator": "0"
+}
+```
+### Automatically unmutes your mic on join (VC)
+```json
+{
+    "FFlagDebugDefaultChannelStartMuted": "False"
+}
+```
+### opt-out Experience Language
+###### Removes the Experience Language option in settings
+```json
+{
+    "FIntV1MenuLanguageSelectionFeaturePerMillageRollout": "0"
+}
+```
+### Lets you change the zoom out limit
+###### Only applies to games that haven't changed the default zoom limit
+```json
+{
+    "FIntCameraMaxZoomDistance": "9999"
+}
+```
+### Exclusive Fullscreen
+```json
+{
+    "FFlagHandleAltEnterFullscreenManually": "False"
+}
+```
+### Remove layered clothing related for searching in lua app catalog
+###### From: https://discord.gg/nKjV3mGq6R
+```json
+{
+    "FStringAXCategories": "ClassicShirts.ClassicTShirts.ClassicPants"
+}
+```
+
 ### bypass group id gui hiding (idk)
 ``` json
 {
