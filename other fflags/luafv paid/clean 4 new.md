@@ -1,3 +1,4 @@
+### fun fact: code still exists: https://github.com/fastvariable/nvrmaintain/
 > [!NOTE]
 > If you find our repository useful don't forget to star!
 
