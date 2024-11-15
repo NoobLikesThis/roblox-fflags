@@ -1923,9 +1923,22 @@ High
 }
 ```
 ### blue theme
+###### patched?
 ``` json
 {
     "FFlagLuaAppEnableFoundationColors7": "True"
+}
+```
+### Disable Blue theme
+```json
+{
+    "FFlagLuaAppFoundationColorsABTest": "False"
+}
+```
+### Enable New Settings Layout
+```
+{
+    "FFlagOverrideInExperienceMenuReorderVariant1": "True"
 }
 ```
 ### make low quality roblox memes
