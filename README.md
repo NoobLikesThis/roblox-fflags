@@ -404,7 +404,13 @@ poor man's fly mode (not really usable). \
     "DFIntNonSolidFloorPercentForceApplication": "-5000"
 }
 ```
-
+### slide on wall walks/hops
+###### buggy. only works in a certain angle.
+``` json
+{
+    "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
+}
+```
 ### Low Gravity 2
 \[!CAUTION\] This is more buggy
 
