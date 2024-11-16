@@ -18,7 +18,7 @@
 
 ### [guy who can get random fflags i would need for the weird fflags](https://github.com/d44df016fe28bc8d5974/rbxflags)
 
-### [my channel tracker fork](https://github.com/NoobLikesThis/Roblox-DeployHistory-Tracker)
+### [channel tracker](https://github.com/bluepilledgreat/Roblox-DeployHistory-Tracker)
 
 ### [rlly cool man!?!?](https://github.com/returnrqt)
 
