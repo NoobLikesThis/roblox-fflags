@@ -112,9 +112,8 @@
 ```
 
 ### lil bro tweakin 
-
 ###### BUGGY   
-
+###### how did i find this, the first recording ik is in april, i found this in septemeber. https://www.youtube.com/watch?v=rndx4CG-om8
 ``` json
  { 
     "FFlagDebugSimDefaultPrimalSolver": "True",
