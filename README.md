@@ -406,7 +406,7 @@ poor man's fly mode (not really usable). \
 ```
 ### slide on wall walks/hops
 ###### buggy. only works in a certain angle.
-###### [video](https://streamable.com/3r9a5v)
+###### [video 1](https://streamable.com/3r9a5v) [video 2](https://streamable.com/6w0yv2)
 ``` json
 {
     "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
