@@ -412,6 +412,14 @@ poor man's fly mode (not really usable). \
     "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
 }
 ```
+### unanchored buggy movement
+###### makes unanchored parts do weird things, like moving faster in fps.
+###### [video 1](https://streamable.com/erj8tz) [video 2](https://streamable.com/c4j4sz) [video 3](https://streamable.com/lk6y7m) [video 4](https://streamable.com/i584o3)
+``` json
+{
+    "DFIntBulletContactBreakOrthogonalThresholdPercent": "1000000"
+}
+```
 ### Low Gravity 2
 \[!CAUTION\] This is more buggy
 
