@@ -1721,6 +1721,7 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
   "DFIntRenderClampRoughnessMax": "-640000000",
   "DFIntRenderClampRoughnessMin": "-640000000"
 }
+```
 ### No avatar textures
 ```json
 {
