@@ -1050,6 +1050,19 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagNewCameraControls": "True"
 }
 ```
+### Always display Render Stats
+###### pretty self explanatory fflag, you can't disable them using the hotkey
+```json
+{
+    "FFlagDebugAlwaysDisplayRenderStats": "true"
+}
+```
+### New Report Menu
+```json
+{
+    "FStringSelectInSceneReportMenuOverrideUserIds": "UserID"
+}
+```
 ### remove unnecessary kicks
 ###### removes being kicked for being afk
 ``` json
