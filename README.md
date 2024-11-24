@@ -150,6 +150,7 @@ Sets your clients simulation radius ( as far as i know )
 }
 ```
 ### Drive vehicles slowly
+###### set to -1 for slowest, this fflag changes the physicsreal throttle (see physicsreal by pressing shift + f4
 ###### @tyetonix
 ```json
 {
@@ -1134,6 +1135,12 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 {
     "FFlagEnableHamburgerIcon": "True"
     "FFlagEnableHamburgerIcon": "False"
+}
+```
+Stop the Chinese from spying on you
+``` json
+{
+    "FStringTencentAuthPath": "null"
 }
 ```
 ### No opacity to Chrome UI
