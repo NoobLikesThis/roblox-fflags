@@ -59,7 +59,7 @@
 
 ```Json
 {
-  "DFIntGameNetLocalSpaceMaxSendIndex":100000
+  "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
 }
 ```
 ### fling people
@@ -2293,7 +2293,7 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
 
 ```Json
 {
-  "DFIntGameNetLocalSpaceMaxSendIndex":100000
+  "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
 }
 ```
 ## doors
