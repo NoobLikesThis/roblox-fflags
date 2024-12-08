@@ -30,6 +30,7 @@
 ### [modified bloxstrap](https://github.com/returnrqt/bloxstrap/)
 
 ### [Server for early fflags bc i always late](https://discord.gg/rDR98qVdc6)
+#### my dc acc needs phone verification
 
 ### [fflags folder for textures and other](https://www.mediafire.com/folder/7lkiidpn7fui9/Documents)
 ##### reinstall after done or save the old file and put that one in after you are done.
