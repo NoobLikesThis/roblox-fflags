@@ -31,7 +31,7 @@
 
 ### [fishstrap](https://github.com/returnrqt/bloxstrap/)
 
-### [project urly](https://github.com/NoobLikesThis/project-urly)
+### [project urly](https://github.com/NoobLikesThis/Project-Urly)
 ###### a way to get early versions of bloxstrap + fishstrap
 
 ### [Server for early fflags bc i always late](https://discord.gg/rDR98qVdc6)
