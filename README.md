@@ -29,7 +29,10 @@
 
 #### If you want to test how much you can glitch out stuff, then just use very high/low numbers for Integer values (the highest/lowest values possible: -2147483648, 2147483648)
 
-### [modified bloxstrap](https://github.com/returnrqt/bloxstrap/)
+### [fishstrap](https://github.com/returnrqt/bloxstrap/)
+
+### [project urly](https://github.com/NoobLikesThis/project-urly)
+###### a way to get early versions of bloxstrap + fishstrap
 
 ### [Server for early fflags bc i always late](https://discord.gg/rDR98qVdc6)
 #### my dc acc needs phone verification
