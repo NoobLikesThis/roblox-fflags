@@ -1,4 +1,17 @@
-# roblox-fflags
+# roblox-fflags (CHRISTMAS SPECIAL)
+### roblox shaders
+##### false = old true  = new
+``` json
+{
+    "FFlagShaderLightingRefactor": "true"
+}
+```
+### better ping??
+``` json
+{
+    "DFIntTrackCountryRegionAPIHundredthsPercent": "10000"
+}
+```
 ### HELPING USERS WHO WANT HELP ON THEIR LIST, MAKE AN ISSUE AND ILL HELP.
 ### Christmas special will not  happen due to login issues.
 ### want to help this list? make an issue!
