@@ -1552,6 +1552,7 @@ Stop the Chinese from spying on you
 ```
 ### Old Version of FRM
 ##### Graphics quality will use an older approach/method which may help improve FPS for some users.
+##### true = new
 ``` json
 {   
    "FFlagFRMRefactor": "false"
