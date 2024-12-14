@@ -22,6 +22,8 @@
     "FFlagRenderEnableGlobalInstancingVulkan": "True"
 }
 ```
+### no telemetry
+##### scroll to bottom
 ### HELPING USERS WHO WANT HELP ON THEIR LIST, MAKE AN ISSUE AND ILL HELP.
 ### Christmas special will not  happen as good as i wanted it to be due to login issues.
 ### want to help this list? make an issue!
@@ -3068,3 +3070,48 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
 ### you finished??
 ### heres the code frequency:
  ![image](https://github.com/user-attachments/assets/7110f208-5ba5-445f-9ce8-6e66fa9850ca)
+
+
+ ### no telemetry
+ ```
+{
+"DFStringTelegrafHTTPTransportUrl": "n.google.com",
+"DFStringTelemetryV2Url": "n.google.com",
+"DFStringTelegrafAddress": "0.0.0.0",
+"DFStringRobloxAnalyticsURL": "n.google.com",
+"FFlagEnableBooleanRobloxTelemetry": false,
+"FFlagLuaAppChallengeMoreTelemetryEnabled": false,
+"FFlagLuaAppLogoutTelemetry": false,
+"FFlagReportRenderDistanceTelemetry": false,
+"FFlagSocialAnalyticsSupportTelemetry": false,
+"FFlagSTUDIOPLAT34382ANRMoreTelemetry": false,
+"FFlagTimeAndNewJoinDataTelemetry": false,
+"FFlagVideoCaptureFailureTelemetry": false,
+"FFlagVoiceChatDontSendTelemetryForPubIceTrickle": true,
+"FFlagVoiceChatEnableRobloxTelemetryServiceInitEvent": false,
+"FIntBootstrapperTelemetryReportingHundredthsPercentage": 0,
+"FIntConnectionTelemetryPollIntervalMS": 32700000,
+"FIntHttpWrapperTelemetryHundredthsPercent": 0,
+"FIntUserActionTrackerTelemetryHundredthsPercent": 0,
+"DFFlagAddDynamicHeadTelemetryToSessionTracking2": false,
+"DFFlagAddPlaySessionIdTelemetry": false,
+"DFFlagAudioDeviceTelemetry": false,
+"DFFlagBrowserTrackerIdTelemetryEnabled": false,
+"DFFlagClientLightingTechnologyChangedTelemetryTrackTimeSpent": false,
+"DFFlagClientRolloutPhaseTelemetry": false,
+"DFFlagEnableTelemetryV2FRMStats": false,
+"DFFlagFFlagRolloutDuplicateRobloxTelemetryCountersEnabled": false,
+"DFFlagFFlagRolloutDuplicateTelemetryCountersEnabled": false,
+"DFFlagGraphicsQualityUsageTelemetry": false,
+"DFFlagReportLegacyFRMStatsToTelemetryV2": false,
+"DFFlagSessionTelemetryLayeredClothing": false,
+"DFFlagVoiceReliabilityTelemetryEventIngest": false,
+"FFlagDebugDisableTelemetryEphemeralCounter": "True",
+"FFlagDebugDisableTelemetryEphemeralStat": "True",
+"FFlagDebugDisableTelemetryEventIngest": "True",
+"FFlagDebugDisableTelemetryPoint": "True",
+"FFlagDebugDisableTelemetryV2Counter": "True",
+"FFlagDebugDisableTelemetryV2Event": "True",
+"FFlagDebugDisableTelemetryV2Stat": "True"
+}
+```
