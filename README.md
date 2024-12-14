@@ -3073,7 +3073,7 @@ This combination works with every game that uses Ragdolls (the Anti KB is always
 
 
  ### no telemetry
- ```
+ ``` json
 {
 "DFStringTelegrafHTTPTransportUrl": "n.google.com",
 "DFStringTelemetryV2Url": "n.google.com",
