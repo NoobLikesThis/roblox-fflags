@@ -12,6 +12,16 @@
     "DFIntTrackCountryRegionAPIHundredthsPercent": "10000"
 }
 ```
+### better vulkan
+``` json
+{
+    "FFlagDebugGraphicsDisableVulkan": "False",
+    "FFlagDebugGraphicsDisableVulkan11": "False",
+    "FFlagDebugVulkanDisablePreRotate": "False",
+    "FFlagGraphicsVulkanBonusMemory": "True",
+    "FFlagRenderEnableGlobalInstancingVulkan": "True"
+}
+```
 ### HELPING USERS WHO WANT HELP ON THEIR LIST, MAKE AN ISSUE AND ILL HELP.
 ### Christmas special will not  happen due to login issues.
 ### want to help this list? make an issue!
