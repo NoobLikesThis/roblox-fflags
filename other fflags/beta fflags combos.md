@@ -1,5 +1,13 @@
 ## not finished fflags optimizations, dont recommend.
 ### my fflags
+### remove these fflags for better fps and change rendering api to directx11 for new pcs and directx10 for old.
+```
+FFlagDebugGraphicsDisableVulkan
+FFlagDebugGraphicsDisableVulkan11
+FFlagDebugVulkanDisablePreRotate
+FFlagGraphicsVulkanBonusMemory
+FFlagRenderEnableGlobalInstancingVulkan
+```
 ###### change preferred escape menu to v4 no new menu.
 ``` json
 {
