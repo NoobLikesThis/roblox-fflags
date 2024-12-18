@@ -7,6 +7,7 @@ FFlagDebugGraphicsDisableVulkan11
 FFlagDebugVulkanDisablePreRotate
 FFlagGraphicsVulkanBonusMemory
 FFlagRenderEnableGlobalInstancingVulkan
+FFlagDebugGraphicsPreferVulkan
 ```
 ###### change preferred escape menu to v4 no new menu.
 ``` json
