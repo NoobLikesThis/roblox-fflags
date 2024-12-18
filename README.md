@@ -1726,6 +1726,12 @@ Stop the Chinese from spying on you
   "FFlagFFlagLogAllGuacRead":"True"
 }
 ```
+### Simple coregui settings
+```json
+{
+    "FFlagRefactorInExpGameSettings2": "True"
+}
+```
 ### disable postfx
 ``` json
 {
