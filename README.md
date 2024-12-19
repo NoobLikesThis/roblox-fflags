@@ -1270,6 +1270,36 @@ Stop the Chinese from spying on you
     "FFlagFixReportButtonCutOff": "False"
 }
 ```
+### Reset Character instead of Respawn in Experience Menu
+``` json
+{
+    "FFlagInExperienceMenuResetButtonTextToRespawn": "False"
+}
+```
+### Enable Highlight Outlines on any Rendering API
+``` json
+{
+    "FFlagHighlightOutlinesOnMobile": "True"
+}
+```
+### 00
+``` json
+{
+    "FFlagAppChatAddConnectUnibarForActiveSquad": "False"
+}
+```
+### Reshuffle Party Icons
+``` json
+{
+    "FFlagReshufflePartyIconsInUnibar": "False"
+}
+```
+### Rename Party 2 Roblox Chat
+``` json
+{
+    "FFlagAppChatRebrandStringUpdates": "False"
+}
+```
 ### Disable Avatar Chat
 ``` json
 {
@@ -1973,6 +2003,7 @@ High
     "FFlagEnableInGameMenuChromeABTest4": "False"
 }
 ```
+
 ### roblox fps unlocker
 ``` json
 {
