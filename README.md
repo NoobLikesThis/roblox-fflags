@@ -62,6 +62,8 @@
 ### [Server for early fflags bc i always late](https://discord.gg/rDR98qVdc6)
 #### my dc acc needs phone verification
 
+### [GUILDED USERS! IM A GUILDED USER TOO! IF UR A DC USER, USE GUILDED FOR THE SERVER](https://www.guilded.gg/Noobs-server)
+
 ### [fflags folder for textures and other](https://www.mediafire.com/folder/7lkiidpn7fui9/Documents)
 ##### reinstall after done or save the old file and put that one in after you are done.
 ##### tip: turn your graphics level to 3 or higher or use quality level overide fflag and make 6 or higher:
