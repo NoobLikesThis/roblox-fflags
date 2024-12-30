@@ -41,6 +41,8 @@
 
 ### [roblox scripts](https://github.com/retpirato/Roblox-Scripts)
 
+### [720p roblox](https://github.com/NoobLikesThis/changing-roblox-resolution/)
+
 ### [custom fflags tutorial](https://github.com/GoingCrazyDude/roblox-custom-textures/)
 
 ### [guy who can get random fflags i would need for the weird fflags](https://github.com/d44df016fe28bc8d5974/rbxflags)
