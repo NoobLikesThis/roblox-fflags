@@ -1,4 +1,5 @@
 # roblox-fflags (CHRISTMAS SPECIAL)
+### all of these will stay after.
 ### roblox shaders
 ##### false = old true  = new
 ``` json
@@ -20,6 +21,14 @@
     "FFlagDebugVulkanDisablePreRotate": "False",
     "FFlagGraphicsVulkanBonusMemory": "True",
     "FFlagRenderEnableGlobalInstancingVulkan": "True"
+}
+```
+### Multi Try On
+###### Allows you to try on multiple things in the catalog and buy everything at once
+###### some accessories in the same category cannot be tried on at the same time
+```json
+{
+   "FFlagAXEnableMultiTryOnUI": "True"
 }
 ```
 ### no telemetry
