@@ -3,10 +3,9 @@
 ![image](https://github.com/user-attachments/assets/a0774cbc-7b9b-4ffb-bed0-7484e8707156)
 
 ### HELPING USERS WHO WANT HELP ON THEIR LIST, MAKE AN ISSUE AND ILL HELP.
-### Christmas special will not  happen as good as i wanted it to be due to login issues.
 ### want to help this list? make an issue!
 ###### archive: https://github.com/NoobLikesThis/roblox-fflags/blob/65313f1c20988ea5d9aa87ad0ccf10acd456ac7d/new%20noclip%20by%20me
-##### FFlagDebugSimDefaultPrimalSolver was patched a couple days ago. It may be the new physics engine in a year or so but will probably never happen now.
+##### FFlagDebugSimDefaultPrimalSolver was patched months ago. It may be the new physics engine in a year or so but will probably never happen now.
 ##### if a fflag doesnt work, tell me with an issue.
 ###### if a fflag says smth abt a path, add a , after the fflag that doesnt work
 
