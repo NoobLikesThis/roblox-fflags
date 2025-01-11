@@ -201,6 +201,13 @@ Sets your clients simulation radius ( as far as i know )
     "FFlagDebugSimDefaultPrimalSolver": "True"
 }
 ```
+### mesh noclip (RARE)
+``` json
+{
+    "DFIntMaxMissedWorldStepsRemembered": "1000",
+    "DFIntBulletContactBreakOrthogonalThresholdPercent": "0"
+}
+```
 ### Upside Down while slowly being sent to heaven
 ``` json
 {
