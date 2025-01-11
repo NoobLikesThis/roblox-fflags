@@ -1,38 +1,7 @@
-# roblox-fflags (CHRISTMAS SPECIAL)
-### all of these will stay after.
-### roblox shaders
-##### false = old true  = new
-``` json
-{
-    "FFlagShaderLightingRefactor": "true"
-}
-```
-### better ping??
-``` json
-{
-    "DFIntTrackCountryRegionAPIHundredthsPercent": "10000"
-}
-```
-### better vulkan
-``` json
-{
-    "FFlagDebugGraphicsDisableVulkan": "False",
-    "FFlagDebugGraphicsDisableVulkan11": "False",
-    "FFlagDebugVulkanDisablePreRotate": "False",
-    "FFlagGraphicsVulkanBonusMemory": "True",
-    "FFlagRenderEnableGlobalInstancingVulkan": "True"
-}
-```
-### Multi Try On
-###### Allows you to try on multiple things in the catalog and buy everything at once
-###### some accessories in the same category cannot be tried on at the same time
-```json
-{
-   "FFlagAXEnableMultiTryOnUI": "True"
-}
-```
-### no telemetry
-##### scroll to bottom
+# roblox-fflags
+### when the
+![image](https://github.com/user-attachments/assets/a0774cbc-7b9b-4ffb-bed0-7484e8707156)
+
 ### HELPING USERS WHO WANT HELP ON THEIR LIST, MAKE AN ISSUE AND ILL HELP.
 ### Christmas special will not  happen as good as i wanted it to be due to login issues.
 ### want to help this list? make an issue!
@@ -1183,10 +1152,41 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagEnableHamburgerIcon": "False"
 }
 ```
-Stop the Chinese from spying on you
+### Stop the Chinese from spying on you
 ``` json
 {
     "FStringTencentAuthPath": "null"
+}
+```
+### roblox shaders
+##### false = old true  = new
+``` json
+{
+    "FFlagShaderLightingRefactor": "true"
+}
+```
+### better ping??
+``` json
+{
+    "DFIntTrackCountryRegionAPIHundredthsPercent": "10000"
+}
+```
+### better vulkan
+``` json
+{
+    "FFlagDebugGraphicsDisableVulkan": "False",
+    "FFlagDebugGraphicsDisableVulkan11": "False",
+    "FFlagDebugVulkanDisablePreRotate": "False",
+    "FFlagGraphicsVulkanBonusMemory": "True",
+    "FFlagRenderEnableGlobalInstancingVulkan": "True"
+}
+```
+### Multi Try On
+###### Allows you to try on multiple things in the catalog and buy everything at once
+###### some accessories in the same category cannot be tried on at the same time
+```json
+{
+   "FFlagAXEnableMultiTryOnUI": "True"
 }
 ```
 ### No opacity to Chrome UI
