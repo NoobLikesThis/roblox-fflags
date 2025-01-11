@@ -202,6 +202,7 @@ Sets your clients simulation radius ( as far as i know )
 }
 ```
 ### mesh noclip (RARE)
+##### hold tab and should work (sometimes it stops u from holding fully)
 ``` json
 {
     "DFIntMaxMissedWorldStepsRemembered": "1000",
