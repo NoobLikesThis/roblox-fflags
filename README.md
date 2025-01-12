@@ -1,5 +1,5 @@
 # roblox-fflags
-### when the
+### when the noobie joins dc omgmgmgmgmmg
 ![image](https://github.com/user-attachments/assets/a0774cbc-7b9b-4ffb-bed0-7484e8707156)
 
 ### HELPING USERS WHO WANT HELP ON THEIR LIST, MAKE AN ISSUE AND ILL HELP.
