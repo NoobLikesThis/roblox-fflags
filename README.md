@@ -1453,7 +1453,7 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 }
 ```
 ### Raycast Performance Improvements
-## Also makes you unable to see through things such as glass, and any invisible things. Can lead to game breaking issues.
+Also leads to game breaking issues in some games due to not being able to see through transparent objects.
 ##### tip: Uses workspace:Raycast() instead of worldmodel:FindPartOnRayWithIgnoreList()
 ``` json
 {
