@@ -60,6 +60,14 @@
     "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999"
 }
 ```
+### improved
+##### @tyetonix [@slowvariable](https://github.com/phoubia)
+``` json
+{
+    "DFIntSmoothTerrainPhysicsRayAabbSlop": "-9999",
+    "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
+}
+```
 ### teleport ragdolled bodies to 0,0,0
 ##### use in cart ride games for weird movement, r6 is better than r15.
 ##### use for anti fall, buggy.
