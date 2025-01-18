@@ -1,5 +1,5 @@
 # roblox-fflags
-### [new dc link for fflags, old is still here.](https://discord.gg/kS3nyQPZhU)
+### [new dc link for fflags.](https://discord.gg/kS3nyQPZhU)
 
 ### HELPING USERS WHO WANT HELP ON THEIR LIST, MAKE AN ISSUE AND ILL HELP.
 ### want to help this list? make an issue!
@@ -36,9 +36,6 @@
 
 ### [project urly](https://github.com/NoobLikesThis/Project-Urly)
 ###### a way to get early versions of bloxstrap + fishstrap
-
-### [Server for early fflags bc i always late](https://discord.gg/rDR98qVdc6)
-#### my dc acc needs phone verification
 
 ### [GUILDED USERS! IM A GUILDED USER TOO! IF UR A DC USER, USE GUILDED FOR THE SERVER](https://www.guilded.gg/Noobs-server)
 
