@@ -2,7 +2,7 @@
 ### fv cmon im catching up
 ![roblox-roblox-run](https://github.com/user-attachments/assets/abf178be-4911-4be9-b557-a2f06922fc75)
 
-
+### less updates sometimes, working on diff fflag list.
 
 ### [new dc link for fflags.](https://discord.gg/kS3nyQPZhU)
 ### https://www.youtube.com/@NoobLikesThis
@@ -1764,6 +1764,13 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 {
     "FFlagRenderUnifiedLighting10": "True",
     "FFlagUnifiedLightingBetaFeature": "True"
+}
+```
+### Capture posts
+###### twitter but roblox edition
+```
+{
+    "FFlagCapturesPostEnabledForAll_v4": "true"
 }
 ```
 ### grey sky
