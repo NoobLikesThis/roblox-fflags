@@ -17,7 +17,7 @@
 
 ## links
 
-### [Join luafvs group!](https://www.roblox.com/groups/34911020/FIVE55/)
+### [Dont join luafvs group!](https://www.roblox.com/groups/34911020/FIVE55/)
 
 ### [Join my group1!](https://www.roblox.com/groups/32479917/Hub-of-Dreams#!/)
 
@@ -2037,7 +2037,9 @@ High
 ``` json
 {
     "FFlagDebugAvatarChatVisualization": "True",
-    "FFlagEnableInGameMenuChromeABTest4": "False"
+    "FFlagEnableInGameMenuChromeABTest4": "False",
+    "FFlagEnableInGameMenuChrome": "False",
+    "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
 
