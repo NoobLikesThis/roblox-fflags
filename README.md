@@ -4,9 +4,6 @@
 
 ### less updates sometimes, working on diff fflag list.
 
-### [new dc link for fflags.](https://discord.gg/kS3nyQPZhU)
-### https://www.youtube.com/@NoobLikesThis
-
 ### HELPING USERS WHO WANT HELP ON THEIR LIST, MAKE AN ISSUE AND ILL HELP.
 ### want to help this list? make an issue!
 ###### archive: https://github.com/NoobLikesThis/roblox-fflags/blob/65313f1c20988ea5d9aa87ad0ccf10acd456ac7d/new%20noclip%20by%20me
@@ -42,8 +39,6 @@
 
 ### [project urly](https://github.com/NoobLikesThis/Project-Urly)
 ###### a way to get early versions of bloxstrap + fishstrap
-
-### [GUILDED USERS! IM A GUILDED USER TOO! IF UR A DC USER, USE GUILDED FOR THE SERVER](https://www.guilded.gg/Noobs-server)
 
 ### [fflags folder for textures and other](https://www.mediafire.com/folder/7lkiidpn7fui9/Documents)
 ##### reinstall after done or save the old file and put that one in after you are done.
