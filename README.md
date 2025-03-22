@@ -70,6 +70,13 @@
     "DFIntMaximumFreefallMoveTimeInTenths": "2147483648"
 }
 ```
+### Better serversided character position
+##### 100 makes your serversided character closer to your client
+``` json
+{
+    "DFIntS2PhysicsSenderRate": "100"
+}
+```
 ### teleport ragdolled bodies to 0,0,0
 ##### use in cart ride games for weird movement, r6 is better than r15.
 ##### use for anti fall, buggy.
