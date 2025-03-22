@@ -20,6 +20,8 @@
 
 ### [roblox scripts](https://github.com/retpirato/Roblox-Scripts)
 
+### [new dc link for fflags.](https://discord.gg/kS3nyQPZhU)
+
 ### [720p roblox](https://github.com/NoobLikesThis/changing-roblox-resolution/)
 
 ### [custom fflags tutorial](https://github.com/GoingCrazyDude/roblox-custom-textures/)
