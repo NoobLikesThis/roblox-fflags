@@ -1505,6 +1505,12 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagFixReportButtonCutOff": "False"
 }
 ```
+### stop screaming bro
+``` json
+{
+    "FIntDebugTextElongationFactor": "6785"
+}
+```
 ### Removes the new ingame chrome chat button
 ###### if you use v1 menu, this reverts the chat icon to the old one
 ###### @kezcn
