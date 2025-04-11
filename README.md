@@ -1143,6 +1143,12 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagEnableInGameMenuChromeABTest3": "True"
 }
 ```
+### do not disturb
+``` json
+{
+    "FFlagToastNotificationsProtocolEnabled2": "False"
+}
+```
 ### Chrome UI Topbar Removal
 ``` json
 {
