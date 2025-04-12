@@ -1790,10 +1790,12 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 }
 ```
 ### white everything
+###### by [new guy](https://github.com/Storm99999)
 ``` json
   "FFlagSkyUseRGBEEncoding": "True",
 ```
 ### white sky
+###### by [new guy](https://github.com/Storm99999)
 ``` json
   "FFlagSkyUseRGBEEncoding": "True",
   "FFlagDebugSkyGray": "True",
