@@ -1807,6 +1807,15 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagDebugSkyGray": "True",
 }
 ```
+### black sky
+##### buggy.
+###### i def dont have to put credits
+``` json
+{
+    "FFlagDebugSkyGray": true,
+    "FIntCameraFarZPlane": 600
+}
+```
 ### black wall
 ##### buggy.
 ###### i def dont have to put credits
