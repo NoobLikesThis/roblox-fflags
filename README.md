@@ -88,6 +88,13 @@
   "DFIntGameNetLocalSpaceMaxSendIndex": "100000"
 }
 ```
+### freeze clientsided
+###### ctrl +f7
+``` json
+{
+"DFFlagDebugEnableInterpThrottle": "True"
+}
+```
 ### fling people
 ###### worlds buggiest stuff ever
 ``` json
