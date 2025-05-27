@@ -92,7 +92,7 @@
 ###### ctrl +f7
 ``` json
 {
-"DFFlagDebugEnableInterpThrottle": "True"
+"GETOFFMYDMS": "pls?"
 }
 ```
 ### fling people
