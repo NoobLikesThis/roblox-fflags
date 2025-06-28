@@ -1823,6 +1823,28 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FIntCameraFarZPlane": 600
 }
 ```
+### dark sky v2
+###### Use Vulkan rendering to have the smooth color no texture effect.
+``` json
+{
+"FIntDebugTextureManagerSkipMips": "8",
+"DFIntTextureQualityOverride": "0",
+"FIntVertexSmoothingGroupTolerance": "10000"
+}
+```
+### colorful sky
+``` json
+{
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "0",
+    "FFlagHandleAltEnterFullscreenManually": "False",
+    "FFlagDebugGraphicsPreferVulkan": "True",
+    "FIntDebugFRMOptionalMSAALevelOverride": "0",
+    "FIntVertexSmoothingGroupTolerance": "0",
+    "FIntDebugTextureManagerSkipMips": "8",
+    "FIntDebugForceMSAASamples": "0"
+}
+```
 ### black wall
 ##### buggy.
 ###### i def dont have to put credits
