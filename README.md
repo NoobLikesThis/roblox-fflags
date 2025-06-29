@@ -92,7 +92,7 @@
 ###### ctrl +f7
 ``` json
 {
-"GETOFFMYDMS": "pls?"
+"DFFlagDebugEnableInterpThrottle": true
 }
 ```
 ### fling people
@@ -228,6 +228,12 @@ Sets your clients simulation radius ( as far as i know )
 {
     "DFIntMaxMissedWorldStepsRemembered": "1000",
     "DFIntBulletContactBreakOrthogonalThresholdPercent": "0"
+}
+```
+### mesh noclip
+``` json
+{
+    "DFIntPhysicsDecompForceUpgradeVersion": "1500"
 }
 ```
 ### Upside Down while slowly being sent to heaven
