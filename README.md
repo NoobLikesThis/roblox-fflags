@@ -2121,7 +2121,17 @@ High
     "FFlagEnableInGameMenuSongbirdABTest": "False"
 }
 ```
-
+### Skeleton esp
+###### mess around with values
+``` json
+{
+"DFFlagDebugDrawEnable": "True",
+"DFFlagAnimatorDrawSkeletonAll": "True",
+"DFIntAnimatorDrawSkeletonScalePercent": 1,
+"DFFlagAnimatorDrawSkeletonAttachments": "False",
+"DFFlagAnimatorDrawSkeletonText": "False"
+}
+```
 ### roblox fps unlocker
 ``` json
 {
