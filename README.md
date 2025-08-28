@@ -1,4 +1,5 @@
 # roblox-fflags
+##  [join for fflags.](https://discord.gg/kS3nyQPZhU)
 ### fv cmon im catching up
 ![roblox-roblox-run](https://github.com/user-attachments/assets/abf178be-4911-4be9-b557-a2f06922fc75)
 
