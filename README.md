@@ -791,6 +791,12 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "DFIntUnstickForceAttackInTenths": "-4"
 }
 ```
+### new
+``` json
+{
+"DFIntMaximumUnstickForceInGs": "-4"
+}
+```
 ### wallfling
 ``` json
 {
