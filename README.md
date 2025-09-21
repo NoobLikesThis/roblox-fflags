@@ -2009,6 +2009,12 @@ High
     "FFlagRenderFixFog": "True"
 }
 ```
+### Lighting Attenuation
+``` json
+{
+    "FFlagNewLightAttenuation": "True"
+}
+```
 ### Xray
 ###### MAY MAKE FLOOR INVISIBLE SOMETIMES
 ###### by me
