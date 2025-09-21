@@ -146,7 +146,14 @@
  "DFFlagSimHumanoidTimestepModelUpdate": "True"
 }
 ```
-
+### spinny test
+###### uses debounce instead.
+``` json
+{
+    "DFIntSimTimestepMultiplierDebounceCount": "-1100000",
+    "DFIntSimAdaptiveHumanoidPDControllerSubstepMultiplier": "-999999"
+}
+```
 ### lil bro tweakin 
 ###### BUGGY   
 ###### how did i find this, the first recording ik is in april, i found this in septemeber. https://www.youtube.com/watch?v=rndx4CG-om8
