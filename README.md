@@ -1089,6 +1089,16 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagEnableQuickGameLaunch": "True"
 }
 ```
+### New notifications
+
+
+###### No more ancient 2015 ui
+``` json
+{
+    "FFlagEnableClientToastNotificationsRedirectExperiment": "True",
+    "FFlagClientToastNotificationsRedirect4": "True"
+}
+```
 ### remove fullscreen title bar
 ``` json
 {
