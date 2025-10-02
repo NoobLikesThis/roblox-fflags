@@ -1577,9 +1577,13 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 }
 ```
 ### V2 Menu
+###### lets u reset in all games
 ``` json
 {
-    "FIntNewInGameMenuPercentRollout3": "1000"
+    "FIntNewInGameMenuPercentRollout3": "100",
+    "FFlagEnableInGameMenuControls": "False",
+    "FFlagDisableNewIGMinDUA": "True",
+    "FFlagEnableInGameMenuChromeABTest4": "False"
 }
 ```
 ### Disable Profile Picture Customization
