@@ -1562,6 +1562,19 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FFlagAppChatInExperienceEnabledV647new": "False"
 }
 ```
+### V1 Menu
+``` json
+{
+    "FFlagDisableNewIGMinDUA": "True",
+    "FFlagEnableInGameMenuControls": "False",
+    "FFlagEnableInGameMenuModernization": "False",
+    "FFlagEnableMenuControlsABTest": "False",
+    "FFlagEnableMenuModernizationABTest": "False",
+    "FFlagEnableMenuModernizationABTest2": "False",
+    "FFlagEnableV3MenuABTest3": "False",
+"FFlagSettingsHubIndependentBackgroundVisibility": "True",
+    "FFlagFixReportButtonCutOff": "False"
+}
 ### V2 Menu
 ``` json
 {
