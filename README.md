@@ -1032,6 +1032,50 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
     "FIntRuntimeMaxNumOfThreads": "2400"
 }
 ```
+### Direct3D 11
+```ex
+{
+  // [ Better D3D11 ]
+"FIntRenderDx11LowEndCoreCount": "Set the value to ur CPU cores",
+"FIntGraphicsTextureReductionD3D11": 2147483647,
+"FFlagRenderEnableGlobalInstancingD3D11": true,
+"FFlagDisableHQShadersLowEndDx112": true,
+"FFlagDebugGraphicsPreferD3D11": true
+}
+```
+### Metal
+```ex
+{
+  // [ Better Metal ]
+"FFlagDebugGraphicsPreferMetal": true,
+"FFlagDebugGraphicsDisableDirect3D11": true,
+"FFlagGraphicsMetalShaderCookie": true,
+"FFlagGraphicsMetalShaderCookie16": true,
+"DFFlagCookieStoreEnabledMac": true,
+"FFlagGraphicsMetalTryCatch": true,
+"FFlagCookieStoreMacStickyEnabled": true,
+"FFlagDebugGraphicsDisableVulkan": true,
+"FFlagEnableMacOSHardwareDecode2": true,
+"DFStringCrashUploadToBacktraceMacPlayerToken": "null",
+"FFlagRenderEnableGlobalInstancingMetal": true
+}
+```
+### Vulkan
+```ex
+{
+  // [ Better Vulkan ]
+    "FIntGraphicsVulkanAnalyticsHundredthPercent": 0,
+    "FFlagVulkanAlwaysLogLayersAndExtensions": false,
+    "FFlagDebugGraphicsDisableDirect3D11": true,
+    "FFlagDebugGraphicsPreferVulkan": true,
+    "FFlagGraphicsVulkanBonusMemory": true,
+    "FFlagSupportHeadlessDeviceVulkan": true,
+    "FFlagRenderEnableGlobalInstancingVulkan": true,
+    "FFlagRenderEnableGlobalInstancingD3D11": false,
+    "FIntGraphicsVulkanARMVaryingBufferMb": 1024,
+    "FStringGraphicsVulkanVaryingBufferLimitMiB": "0x13B5:.+:.+=1024;0x5143:.+:.+=1024",
+}
+```
 ### Minimum Threads
 ```json
 {
@@ -1678,6 +1722,12 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
   "FFlagEnablePreferredTextSizeStyleFixesInPurchasePrompt": true,
   "FFlagEnablePreferredTextSizeStyleFixesInReportMenu": true
 }
+### texture override
+```json
+{
+    "DFFlagTextureQualityOverrideEnabled": "True",
+    "DFIntTextureQualityOverride": "3"
+}
 ```
 ### Keyboard Latency
 ##### Default value: 500 > > Lower value = more responsive keyboard.
@@ -1981,6 +2031,40 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
   "FFlagFFlagLogAllGuacRead":"True"
 }
 ```
+### speed up anims
+```json
+{
+  "DFIntAnimatorThrottleMaxFramesToSkip": 0,
+  "DFIntMaxActiveAnimationTracks": 2147483647,
+  "FIntAnimationParallelThreadMax": 2147483647
+}
+```
+### rate limit on anims disabler
+```json
+{
+    "DFIntAnimationRateLimiterAssertAmount": "0",
+    "DFIntAnimationRateLimiterMaxAmount": "2147483647",
+    "DFIntAnimationRateLimiterSeconds": "0"
+}
+```
+
+Should theoretically reduce animation latency. 
+
+I have not tested this yet, so beware of any issues.
+### Configure How Many Physics Simulation Tasks Can Run In Parallel
+##### *FIntSimWorldTaskQueueParallelTasks*
+
+`FIntSimWorldTaskQueueParallelTasks` controls how many physics simulation tasks can run in parallel to improve rendering.  
+Higher values make physics update quicker but reduce FPS due to extra overhead, while lower values ease performance load but slow down physics responsiveness *slightly* (similar to CoordinatorMemory).
+
+- Higher = faster physics, worse FPS  
+- Lower = smoother FPS, *slightly* delayed physics
+
+```{
+"FIntSimWorldTaskQueueParallelTasks": "1"
+}
+```
+
 ### Simple coregui settings
 ```json
 {
@@ -2050,6 +2134,13 @@ makes you go bounce, on 0 you float a little bit above the ground, always needs 
 ```json
 {
     "FIntDebugTextureManagerSkipMips": "-1"
+}
+```
+### fix
+```json
+{
+    "FFlagRenderUseTextureManager224": "false",
+    "FIntDebugTextureManagerSkipMips": "8"
 }
 ```
 ### remove sky/clouds
