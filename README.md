@@ -38,7 +38,6 @@
 
 #### If you want to test how much you can glitch out stuff, then just use very high/low numbers for Integer values (the highest/lowest values possible: -2147483648, 2147483648)
 
-### [fishstrap](https://github.com/returnrqt/bloxstrap/)
 
 ### [project urly](https://github.com/NoobLikesThis/Project-Urly)
 ###### a way to get early versions of bloxstrap + fishstrap
@@ -54,6 +53,15 @@
 ```
 
 ### [fflags video (not mine)](https://www.youtube.com/watch?v=fj0zVi6UG9A)
+## BOOTSTRAPPERS AND SUCH
+### [FLEASION (TOP TIER #1)](https://github.com/fleasion/Fleasion/releases)
+### ------------------------
+### [fishstrap 1](https://fishstrap.app/)
+### [fishstrap 2 (alternative)](https://github.com/returnrqt/bloxstrap/)
+### [bloxstrap 1](https://bloxstraplabs.com/)
+### [bloxstrap 2 (alternative)](https://github.com/bloxstraplabs/bloxstrap)
+### [froststrap 1](https://github.com/Froststrap/Froststrap)
+### [froststrap 2 (alternative)](https://froststrap.github.io/)
 
 ## Physics
 ### Slide on Terrain/Meshes
