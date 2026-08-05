@@ -54,7 +54,8 @@
 
 ### [fflags video (not mine)](https://www.youtube.com/watch?v=fj0zVi6UG9A)
 ## BOOTSTRAPPERS AND SUCH
-### [FLEASION (TOP TIER #1)](https://github.com/fleasion/Fleasion/releases)
+### [FLEASION 1 (TOP TIER #1)](https://fleasion.github.io/)
+### [FLEASION 2 (TOP TIER #1) (alternative)](https://github.com/fleasion/Fleasion/releases)
 ### ------------------------
 ### [fishstrap 1](https://fishstrap.app/)
 ### [fishstrap 2 (alternative)](https://github.com/returnrqt/bloxstrap/)
