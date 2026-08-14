@@ -1,5 +1,4 @@
 # roblox-fflags
-##  [join for fflags.](https://discord.gg/kS3nyQPZhU)
 ### fv cmon im catching up
 ![roblox-roblox-run](https://github.com/user-attachments/assets/abf178be-4911-4be9-b557-a2f06922fc75)
 
@@ -20,8 +19,6 @@
 ### [Join my group1!](https://www.roblox.com/groups/32479917/Hub-of-Dreams#!/)
 
 ### [roblox scripts](https://github.com/retpirato/Roblox-Scripts)
-
-### [new dc link for fflags.](https://discord.gg/kS3nyQPZhU)
 
 ### [720p roblox](https://github.com/NoobLikesThis/changing-roblox-resolution/)
 
@@ -153,7 +150,7 @@ Video: https://www.youtube.com/watch?v=yzDR3ZQ85Uw
 ```
 ### jumpboost
 ```
-https://discord.gg/6xqpUWFzte
+
 ```
 ### It makes things fly when you jump on them, but only objects that can be moved and are cube-shaped. If you lower its value, the flying will be stronger
 
