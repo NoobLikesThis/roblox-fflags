@@ -7,7 +7,7 @@
 ### inf jump
 ```json
 {
-  "ExtraFloorRaycastDistanceHipHeightPercent": "2147483647"
+  "DFIntExtraFloorRaycastDistanceHipHeightPercent": "2147483647"
 }
 ```
 ### mesh noclip
@@ -32,11 +32,11 @@
   "FRMMaxGrassDistance": "0",
   "FRMMinGrassDistance": "0",
   "CSGVoxelizerFadeRadius": "0",
-  "DebugSkipMeshVoxelizer": "True",
-  "DebugDontDeformMaterials": "True",
+  "DFFlagDebugSkipMeshVoxelizer": "True",
+  "DFFlagDebugDontDeformMaterials": "True",
   "DebugRestrictGCDistance": "21",
   "RenderClampRoughnessMax": "0",
-  "RenderUseTextureManager224": "False",
+  "FFlagRenderUseTextureManager224": "False",
   "DebugTextureManagerSkipMips": "8"
 }
 ```
@@ -58,15 +58,15 @@
 ### Xray
 ```json
 {
-  "DebugRenderMeshPauseContentRequests": "True",
-  "UseVisBugChecks": "False"
+  "FFlagDebugRenderMeshPauseContentRequests": "True",
+  "DFFlagUseVisBugChecks": "False"
 }
 ```
 ### ESP
 ```json
 {
-    "DebugDrawEnable": "True",
-    "VoiceMetricsDataEnabled3": "True",
-    "VoiceMetricsDebugDrawEnabled4": "True"
+    "DFFlagDebugDrawEnable": "True",
+    "FFlagVoiceMetricsDataEnabled3": "True",
+    "FFlagVoiceMetricsDebugDrawEnabled4": "True"
 }
 ```
