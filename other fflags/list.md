@@ -70,3 +70,66 @@
     "FFlagVoiceMetricsDebugDrawEnabled4": "True"
 }
 ```
+### No Fall damage
+```json
+{
+  "GameNetPVHeaderTranslationZeroCutoffExponent": "-1",
+  "GameNetPVHeaderRotationalVelocityZeroCutoffExponent": "3",
+  "GameNetPVHeaderLinearVelocityZeroCutoffExponent": "3",
+  "GameNetPVHeaderRotationOrientIdToleranceExponent": "-2147483647"
+}
+```
+### speedhack
+```json
+{
+    "DebugSimAdaptiveEnable60HzHumanoids": "True",
+    "SimAdaptiveEnable60HzParts": "True",
+    "DebugSimForceAdaptiveTimeStepping": "True",
+    "DebugHumanoidNewPhysicsEnabled": "True",
+    "TimestepArbiterBoundingBoxIntersectionThresholdThou1": "900",
+    "TimestepArbiterBoundingBoxIntersectionThresholdThou2": "900",
+    "TimestepArbiterAngAccelerationThresholdThou": "2147483647",
+    "TimestepArbiterAccelerationModelFactorThou": "2147483647",
+    "TimestepArbiterVelocityCriteriaThresholdFourDt": "2147483647",
+    "TimestepArbiterVelocityCriteriaThresholdTwoDt": "2147483647",
+    "TimestepArbiterConditionNumberThresholdThou": "2147483647",
+    "TimestepArbiterHumanoidTurningVelThreshold": "2147483647",
+    "TimestepArbiterHumanoidLinearVelThreshold": "2147483647",
+    "TimestepArbiterCharacteristicLengthThou": "2147483647",
+    "TimestepArbiterThresholdCFLThou": "2147483647",
+    "TimestepArbiterOmegaThou": "2147483647",
+    "SimTimestepMultiplierDebounceCount": "1"
+}
+```
+### Omega Jump
+```json
+{
+"DebugHumanoidNewPhysicsEnabled": "true",
+"DebugSimLevitationNormalPD2": "true",
+"DebugSimLevitationNormalPD100xPeriod": "4"
+}
+```
+### Max ownership
+```json
+{
+  "ClientMaxOwnedAwakeAssemblies": "2147483647",
+  "ClientMaxOwnedAwakeAssembliesBufferHundredth": "2147483647",
+  "ClientMaxOwnedAwakeAssembliesNumFramesBeforeReact": "0",
+  "SimOwnedNOUCountThresholdMillionth": "2147483647",
+  "DebugPhysicsSenderDoesNotShrinkSimRadius": "True",
+  "DebugUseCustomSimRadius": "True",
+  "MaxClientSimulationRadius": "2147483647",
+  "MinClientSimulationRadius": "2147483647",
+  "MinimalSimRadiusBuffer": "0",
+  "ClientOwnershipMs": "2147483647",
+  "ISRImproveReplicationToNetworkOwnerCheck": "False",
+  "JunkFieldNetworkOwnerTime": "False",
+  "ServerAutomaticNetworkOwnershipBufferMs": "0"
+}
+```
+### Amount of remote events that can be called
+```json
+{
+  "DFIntRemoteEventSingleInvocationSizeLimit": "0"
+}
+```
