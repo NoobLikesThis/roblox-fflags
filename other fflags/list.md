@@ -88,17 +88,17 @@
     "FFlagDebugHumanoidNewPhysicsEnabled": "True",
     "TimestepArbiterBoundingBoxIntersectionThresholdThou1": "900",
     "TimestepArbiterBoundingBoxIntersectionThresholdThou2": "900",
-    "TimestepArbiterAngAccelerationThresholdThou": "2147483647",
-    "TimestepArbiterAccelerationModelFactorThou": "2147483647",
+    "DFIntTimestepArbiterAngAccelerationThresholdThou": "2147483647",
+    "DFIntTimestepArbiterAccelerationModelFactorThou": "2147483647",
     "TimestepArbiterVelocityCriteriaThresholdFourDt": "2147483647",
     "TimestepArbiterVelocityCriteriaThresholdTwoDt": "2147483647",
     "TimestepArbiterConditionNumberThresholdThou": "2147483647",
     "TimestepArbiterHumanoidTurningVelThreshold": "2147483647",
     "TimestepArbiterHumanoidLinearVelThreshold": "2147483647",
     "TimestepArbiterCharacteristicLengthThou": "2147483647",
-    "TimestepArbiterThresholdCFLThou": "2147483647",
+    "DFIntTimestepArbiterThresholdCFLThou": "2147483647",
     "TimestepArbiterOmegaThou": "2147483647",
-    "SimTimestepMultiplierDebounceCount": "1"
+    "DFIntSimTimestepMultiplierDebounceCount": "1"
 }
 ```
 debloat
