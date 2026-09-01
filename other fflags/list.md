@@ -82,10 +82,10 @@
 ### speedhack
 ```json
 {
-    "DebugSimAdaptiveEnable60HzHumanoids": "True",
-    "SimAdaptiveEnable60HzParts": "True",
-    "DebugSimForceAdaptiveTimeStepping": "True",
-    "DebugHumanoidNewPhysicsEnabled": "True",
+    "DFFlagDebugSimAdaptiveEnable60HzHumanoids": "True",
+    "DFFlagSimAdaptiveEnable60HzParts": "True",
+    "FFlagDebugSimForceAdaptiveTimeStepping": "True",
+    "FFlagDebugHumanoidNewPhysicsEnabled": "True",
     "TimestepArbiterBoundingBoxIntersectionThresholdThou1": "900",
     "TimestepArbiterBoundingBoxIntersectionThresholdThou2": "900",
     "TimestepArbiterAngAccelerationThresholdThou": "2147483647",
@@ -101,10 +101,18 @@
     "SimTimestepMultiplierDebounceCount": "1"
 }
 ```
+debloat
+```
+{
+    "DFFlagDebugSimAdaptiveEnable60HzHumanoids": "True",
+    "FFlagDebugSimForceAdaptiveTimeStepping": "True",
+    "FFlagDebugHumanoidNewPhysicsEnabled": "True",
+}
+```
 ### Omega Jump
 ```json
 {
-"DebugHumanoidNewPhysicsEnabled": "true",
+"FFlagDebugHumanoidNewPhysicsEnabled": "true",
 "DebugSimLevitationNormalPD2": "true",
 "DebugSimLevitationNormalPD100xPeriod": "4"
 }
@@ -116,8 +124,8 @@
   "ClientMaxOwnedAwakeAssembliesBufferHundredth": "2147483647",
   "ClientMaxOwnedAwakeAssembliesNumFramesBeforeReact": "0",
   "SimOwnedNOUCountThresholdMillionth": "2147483647",
-  "DebugPhysicsSenderDoesNotShrinkSimRadius": "True",
-  "DebugUseCustomSimRadius": "True",
+  "DFFlagDebugPhysicsSenderDoesNotShrinkSimRadius": "True",
+  "FFlagDebugUseCustomSimRadius": "True",
   "MaxClientSimulationRadius": "2147483647",
   "MinClientSimulationRadius": "2147483647",
   "MinimalSimRadiusBuffer": "0",
